@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Jura" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="video" >
+    <video id="video-player" type="video/mp4" class="video-js" controls>
+        <source id="source" src="https://1fgqfvn.oloadcdn.net/dl/l/rKQqAjIpn3vmtkS0/Nj0RkvmMnv0/Inception.2010.1080p.BluRay.H264.AAC+RARBG.E.mp4?mime=false">
+    </video>
+</div>
+
+<div id="nav-bar">
+    <div id="dragger"></div>
+    <div id="title-container">
+        <h1 id="title">VidFlix</h1>
+    </div>
+    <input type="submit" id="back-button" value="back">
+</div>
+
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+<!-- normal script imports etc  -->
+<script src="./js/jquery.js"></script>
+<script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+<script src="./js/movie-player.js"></script>
+<!-- Insert this line after script imports -->
+<script>if (window.module) module = window.module;</script>
+</body>
+</html>
