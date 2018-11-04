@@ -1,0 +1,58 @@
+{
+  "movies": [
+    {
+      "genre" : "Sci-Fi",
+      "name": "Star Wars: The Last Jedi",
+      "img": "https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "mp4": "https://stream-2-2.loadshare.org/stream2/VideoID-6HlrdRLv?p=JJ--7ncy-fgDkeDhVE5wFfCyu1T6AJrhu9O0jWRfJNlrDCqQiDkaOdypP6vKV9Zj9Hosy7PQwfxge5AVAfFYCiXdsOtuWxNxZHIiv2KHARiMrUZW8igYRzKvBSlTI668trxzVJthOMJYefteiGIOtg8HECr9vh2DP_EtUAl9Lj1GmyoX8vphhvMi9G9_PjfA2Ab08WLheqk76gigVeltiNoDJfqQ_dldieQGjx9BsHoMNSge1EmUiTnpQd5Ac_slM2fzwCA2BlOWXkND19ECkp5wllBJ5Q82PRzeudXRmUFRdpUCDIU5PFdJzR6wVzYiAw8V-dBhkUOR-gy-1_Xt_FojiZsmi0rt2bHUcRJg4dx7DiNQGO2v0cQTVeKTg9Kagj6mO5qTLHS5VmbRBy4F8OvYr36ymr0X1VBUWeJMf8_QpnDWOSSIVBkpcDXeYP_sWO2U7G0Eu5jxVJ4ZyaHtL4Y1ksHuNEu5GJKOUEZ6pPvEAVVsVsdd3Ocp3R5wM_VukBbJzPxtXaqpzRU-PkgslOcxa-ObxWUp5rNYJ_7wFC1CLnWKYRSs2kaGllij-aEey_sX_P4iwe23CA--pWc7SzbkqWSWECfxIpQeUTLJnLloYbZ2zG17QQNDTp2RwNt1JKwM1OXA0vmaZAo8OYeedfci5VIhEsMP1HH2ZnDdaLtlj5sZd60A3EAdOGCb8EtAI6TiqBvfd7Rj5q6EqMV4h4PS-kBYVwgIPxIVhvIJX2SCtKKGznNuQL70354-hX0BQnmLYjQCf9Y3QtWqMg2YuCe7GxvXZbS2GKFkSHrMhQdRvIht7MX7pQmcaGOypss5bo_wBi5e2oGLBNpXAffncg8mX5UJjvqXPUMe7LF4BfjsXuBWF8tqp6xGVRm3BAJu2cm7vWOiFD02kpg5WzrfeB5yBBv-Vth-m6mgOi8rEonF45Hq_cvSu2lADN6olnDHBKJmVpAaqKtJlGGYp_WuRXmwYTj97-zmxWX4bnxCfvOzwctgpwAl7FZwkAJthj8d&secure=6dyMZmmRTZ7WRV61Nr0eeA&expires=6156145360"
+    },
+    {
+      "genre" : "Sci-Fi",
+      "name": "Star Wars: The Force Awakens",
+      "img": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SY1000_CR0,0,677,1000_AL_.jpg",
+      "mp4": "https://stream-2-2.loadshare.org/stream2/VideoID-cpv58daZ?p=mtp7t_MulHj7A3laNeAOL6y23zNHORNLZYaxgNampcibk3MGX3rXuQqd7484SLBwUocC1RofMN48lPUhay7p6U6_l-XfEhCJbBzEHI09maVW9HjFY8ybvXB1ND4GtX8jpHk3lxYUj2T5fg5sTP7_yX9IWYSsGxAQX4ODWX2WJxcPxQTEMpA297AYyevBb9mQa_yXcdo96Hsdmt6Iye2xD0KXI4wgZkMfbjrlrpquBA_G1ZI5DFIkkqopueJaIl2y7U4DK_Cz7v3DbzBI_XrAabs7VLjYyKLgJtZr5d12ChEFCOSDBQu_QyO2j3ZiJIOaqbfqxreqR7CdHyUpcVEeoPw9fHRE4zXP36c20fTn6GaZNe2g1MJQlO--LNZf4d38p61UI5GVttMNm_WLq-EVjVKY9AVtptUnNg1u_AGP4Fu8IMuX2PI_ZU7Ik-2Wr34Cfgwu2gf464BU9Ap2UcP1Ro7QVBnQGiVPs9JFILAzc6MK7gsqlOh_2YjtPMhcl5B-61NITqWYJhqiUXgm65nGer_fMe7Jvnb2QFHN5r6XE5Ry8iaEVf6FipCLW5B0KREkoDlvSbiz3QslASFawiJsyb4YwcRQi2ofBmCrA8QZQ1SBWqMnuAYZ7JCtatdc8UFUxcX7gQnyBsVJ5edXb0HoQyutfGnoBrEhPqEJ2tVCAiRNJPSkoG0GfDDKOy-WdmkBX-1Gw2MFRPTGaEiDKggGqCbcOvT7IMsw2d3D9W19jagLqYFHuSE5_C0zHshKtsDH3XysfiAgwLKP2-w8ZR23zhW3taG6yv5OYOuLn0UG60-0e9G9fHM1YUoaUoy5zb0qy0r8JI5UymkgxowJzeWkI1TuvI-RmlXIrZub_dfCRVC6xGl_dn0FV50nOP1pX7jpmd0cZUZtCKTBJu2Rbfjsb8LwO0CC7jJiCMA7eC_nT5wvnITbLXIZQPIIM7FAyz615oEoxv1xxl1cdu-vsmbSu9hqNgKxD2nqE8FtjzwHvvxEDKujuUUnLnvZxQ422u2q&secure=Gmy4ELbqo0T-0LjBO1z9Wg&expires=6156146480"
+    },
+    {
+      "genre" : "Sci-Fi",
+      "name": "Rogue One: A Star Wars Story",
+      "img": "https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SY1000_SX675_AL_.jpg",
+      "mp4": "https://stream-2-2.loadshare.org/stream2/VideoID-K0WvxiCm?p=zIZriYHRxZz0QMG3Jf13GtsYCCo-3YP83q-ez3hfF_uN7Q6uRUrf1lT9QOhiv-EEHRrjPSgreI-cx3zdFIse9QwaV8jXTaHsZJ-znWUM-xv85lke54led5kho3dSkmGs0axbcWMmXSe6D5VCXvumPKIa2lBKu7oq1_NYc9BSt-hm76iOYKwCjfUwnfAGR_nybZmN4D7mx389iDyb7fFo3BKk5cqnZw7Y4CsIsB1FDwl78eKaAzTe1qfWIJyfAJ1if0Vfo2XDnS5aTW-aaIM6TIr-fMagYc4X0QJZjv5A3VWQZxB-aUbZzpip4H08VnyMmd3-MGLjKQJo87VHRWMtHoo1bURQ0-StsJfo-DSdlQ4J16uHefjZ5WCXmuUECunsaxlZ54t3PXzhKAJumk6BcEbcOcjid9dMpx3hr9iDIvBZhZJS7dl49ZTP-pVlMpMgQSIwsRl_XafqEXWmTGkT0ny6tyKd1mwBwqbjUQ1Gu9MMDROWCKvJIISYhDetnaiF-hRwYhIoDQ_RhHdMCIJFM46jZ0Lkocx_9KlUEnL99pG_sWRiGy2JF9rNFRCmFSzRPcVDnq0dMMBJVO6PPHoCGd4xhhRt5t1M3ZqI4qOkCFUWNTEMH8-GwFQXN4f9tnLpfwxXEdov6d-CQZ3CMr7r6sblMiVgxQUKt4quXPePllgkbMQrz3cR4ueQov-NyV-SU1C2ceH_fFszAytR4rJrKg1BGFa5gs2tAwEdg_fhj1pZ_mVIipZbsQ8Z_vOhk-8Ix-Jb9WsV5mCiM94_Nqez0IFnKDdjOaqyiblmlWJuevV3U3twuyq8fJbnszVBb3tiDhWf1V-2fIP2pUUwSpIeJ7QywnD0qirLhV7ceWbxaBDfrfHIScd2KL2O9bLDgyccEPfPRfFoJDWGSrj8S-7Z8Je9hFPJ40TCjaDD6JQ5g9S3PbhLMqJbouO29FwL5rtviZQV3IiaFEsHgA4Ysbu3X43m7OikkOs4dqc3rwSLmXs8qsWc7ESjif8_2B0Kq6xKQV2GWw07OQ9apJR9L8F_xppjrgy03tvQabxy0zyg9CqO70l3eCIae9V0BP2mEip3poPUyEH0RUl48bxNlpAZz04El3XxrCj4fsmsIw-PXN0KY8bfNzLlD8PZeDPN-FMu1nKQq-6Wqw2GonQar0pWTak7KHO3-b8cJJFjZTR5kTk&secure=-KCyKRHKOl6x6NaFXmGIDg&expires=1539036970"
+    },
+    {
+      "genre" : "Sci-Fi",
+      "name": "Rogue One: A New Hope",
+      "img" : "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,643,1000_AL_.jpg",
+      "mp4": "https://1fgqfmh.oloadcdn.net/dl/l/gir-ZX850KD_R5lH/5RoHXtZ4IXA/Star.Wars.Episode.4.A.New.Hope.1977.1080p.BrRip.x264.BOKUTOX.YIFY.mp4?mime=false"
+    },
+    {
+      "genre" : "Fantasy",
+      "name": "Jurrasic World",
+      "img" : "https://m.media-amazon.com/images/M/MV5BNzQ3OTY4NjAtNzM5OS00N2ZhLWJlOWUtYzYwZjNmOWRiMzcyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,631,1000_AL_.jpg",
+      "mp4": "D:\\Movies\\jw1.mp4"
+    },
+    {
+      "genre" : "Fantasy",
+      "name": "Jurrasic World Fallen Kingdom",
+      "img" : "https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_.jpg",
+      "mp4": "D:\\Movies\\jw2.mp4"
+    },
+    {
+      "genre" : "Sci-Fi",
+      "name": "Star Trek Episode 1",
+      "img" : "https://m.media-amazon.com/images/M/MV5BMTg1MzY1MTY3NV5BMl5BanBnXkFtZTgwMjcwNDU0NjM@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "mp4": "D:\\Movies\\star trek\\1.mp4"
+    },
+    {
+      "genre" : "Sci-Fi",
+      "name": "Star Trek Episode 2",
+      "img" : "https://m.media-amazon.com/images/M/MV5BMTg1MzY1MTY3NV5BMl5BanBnXkFtZTgwMjcwNDU0NjM@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "mp4": "D:\\Movies\\star trek\\2.mp4"
+    },
+    {
+      "genre" : "Sci-Fi",
+      "name": "The Martian",
+      "img" : "https://m.media-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "mp4": "https://stream-3-2.loadshare.org/stream2/VideoID-x4rUtk78?p=DD3_KD8kN_A6eJPQKdlq16NjioBo6mPHQgP6Dc1DtBYull6qu5TqBoPHMzvX0py6nnYIr6KF9pr2uiWNqpxes5z_6Zmn-hJ74rvTZ9szOUPgE-zoZl7hIKibFx_nGSTqla6VqTHKjrQW2ah2ih_fYOc429PRl_lWyNKskoHEgrnc7LbfR8R_RHTiNbSr4p-GaOF7bLVMX-sJ-ByXcw1Z-zUSIfe9x-yaS-HgBCnz1AT5gKntTH3YWQrOknsuNXoxzeikklwcsc2AX4rlsrerwMV-uuCpNrt7F2cnThCW_vuD16lMl3-SIvd1553JAY8mv_Z3Y9-r_lrZI8FXpYMbIoqsCdfA4tFX1SBgnE1Bfb6gqFHNXOK9U6I9rOaAxlEqULtnBxKkjyiQ9PWKHR5V9binH7pc3tZKQaLFd_FjbudjLmIKsW-mjVspvEik39sdlnXeRg3VKiUwnH2jvZ_a35p7QR--2NnVhSzzLbMyGzCZhl15px4WwLseSlNCWUIfDoXa0u32PXs-gwp37Rcon9SmFVEXvYVtWplxldSeIv5EZ-xFOWx9qoTYbtyKGYiLjzsHUOs-HJSJSlQ76o9ugFNuOdX8ZEd8DVFu_tcDnHVOTJwQniARhY9ZzV0kvhSFwmcH4Gugp1XpZkyG1YwV77lQ9JsX_HKuLGSqoWWW0k5UnTt-xpYkC69EhifGSj9Ml7oFk5yyr3LDiECTgWQor9yL_PTJZgAqosFmNO05EhmBvoSay-E1qr9yHj-hifKxd1TIL6I5rPtYgy749zcbyUG57AMPTy6DD8zL_buXeTTbcFMKu9mkPOK8I7-2UrhUT0l07hbWJtacmFhBoA-wIpRqbdot__GL-3JGrbIpriQjIBOmmrDtnOgtcZSAhGq0TWlzExCFMtDHF16LsXcr2ApIU-m4CyXTUByicHvTQdBXFawVffAscwhSP1S_vxJLZYKcVftTv0yNXkGTOkUzI01Mi4DniFtF-NVrcNYmH2ZiGZjKyQnEJ7GFT8EAMWDg&secure=g2qsWvd6bf-K8gmUhF0EbQ&expires=3082599370"
+    }
+  ]
+}
