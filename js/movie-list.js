@@ -20,7 +20,6 @@ function enableScroll() {
 $(document).ready(function(){
     startJava();
     storage.setDataPath(os.tmpdir());
-
     parseMovies();
 
     $("#movies-container").on("mouseenter", ".video-item", function(){
@@ -87,10 +86,22 @@ function startJava(){
     console.log(basepath);
     var child = require('child_process').execFile;
     var executablePath = basepath + "\\assets\\adder.jar";
-
+    var gecko = basepath + "\\assets\\geckodriver.exe";
 
     var spawn = require('child_process').spawn;
-    var child = spawn('java', ['-jar', executablePath]);
+    var child = spawn('java', ['-jar', executablePath, gecko]);
+
+    child.stdout.on('data', function (data) {
+        console.log('stdout: ' + data.toString());
+    });
+
+    child.stderr.on('data', function (data) {
+        console.log('stderr: ' + data.toString());
+    });
+
+    child.on('exit', function (code) {
+        console.log('child process exited with code ' + code.toString());
+    });
 
 }
 

@@ -10368,7 +10368,6 @@ $(document).ready(function(){
        e.preventDefault();
        var window = remote.getCurrentWindow();
        window.close();
-       killChildren();
 
    })
 });
