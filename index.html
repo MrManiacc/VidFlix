@@ -9,6 +9,7 @@
   </head>
   <body>
 
+
       <div id="movies-container"></div>
 
       <div id="nav-bar">
@@ -16,10 +17,21 @@
         <div id="title-container">
           <h1 id="title">VidFlix</h1>
         </div>
-        <input type="text" id="search-bar" placeholder="Search for video">
+        <input type="text" id="search-bar" placeholder="Search from library">
+        <input type="submit" id="add" value="add">
         <input type="submit" id="refresh" value="refresh">
         <input type="submit" id="close" value="close">
       </div>
+
+      <div id="overlay"> </div>
+      <div class="lds-facebook"><div></div><div></div><div></div></div>
+      <div class="add-movie">
+        <input type="submit" id="close-add" value="cancel">
+        <input type="submit" id="add-movie" value="add">
+        <h1>Add Movie</h1>
+        <input type="text" id="movie-name" placeholder="Movie Name">
+      </div>
+
      <script>
       require('./renderer.js')
     </script>

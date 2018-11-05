@@ -101,6 +101,136 @@ h1, h2, h3{
     height: 100%;
 }
 
+.add-movie{
+    width: 40%;
+    height: 150px;
+    position: fixed;
+    background-color: var(--color-2);
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.4);
+    display: none;
+}
+
+#overlay{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100%;
+}
+
+
+.lds-facebook {
+    display: inline-block;
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 45%;
+    width: 64px;
+    height: 64px;
+    display: none;
+}
+.lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    width: 13px;
+    background: #fff;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+    left: 6px;
+    animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+    left: 26px;
+    animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+    left: 45px;
+    animation-delay: 0;
+}
+@keyframes lds-facebook {
+    0% {
+        top: 6px;
+        height: 51px;
+    }
+    50%, 100% {
+        top: 19px;
+        height: 26px;
+    }
+}
+
+
+
+#close-add{
+    position:absolute;
+    right: 15px;
+    bottom: 20%;
+    outline: none;
+    border: none;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    padding: 6px;
+    font-size: 32px;
+
+    background-color: var(--color-3);
+    cursor: pointer;
+}
+
+#add-movie{
+    position:absolute;
+    right: 140px;
+    bottom: 20%;
+    outline: none;
+    border: none;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    padding: 6px;
+    font-size: 32px;
+
+    background-color: var(--color-3);
+    cursor: pointer;
+}
+
+.add-movie h1{
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    font-family: 'Jura', sans-serif;
+    font-size: 2.5em;
+    color: white;
+}
+
+
+input#movie-name {
+    font-family: 'Jura', sans-serif;
+    width: calc(100% - 280px);
+    height: 48px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    position: absolute;
+    bottom: 20%;
+    left: 15px;
+    -webkit-app-region: no-drag;
+}
+
+input#movie-name:focus {
+    transition: 0.35s ease;
+    box-shadow: 5px 5px 2px 2px var(--color-5);
+}
+input#movie-name:focus::-webkit-input-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+}
+
 
 /*MOVIE LIST STOP*/
 

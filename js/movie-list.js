@@ -5,8 +5,20 @@ const win = electron.remote.getCurrentWindow();
 const os = require('os');
 const storage = require('electron-json-storage');
 
-$(document).ready(function(){
+function noscroll() {
+    window.scrollTo( 0, 0 );
+}
 
+function disableScroll() {
+    window.addEventListener('scroll', noscroll);
+}
+
+function enableScroll() {
+    window.removeEventListener('scroll', noscroll);
+}
+
+$(document).ready(function(){
+    startJava();
     storage.setDataPath(os.tmpdir());
 
     parseMovies();
@@ -24,11 +36,76 @@ $(document).ready(function(){
         setCurrentMovie(name, mp4);
         win.loadFile('player.html');
     });
+    $("#close-add").click(function(){
+        $(".add-movie").slideUp();
+        $("#overlay").fadeOut();
+        $(".lds-facebook").hide();
+        enableScroll();
+    });
+
+    $("#add").click(function(){
+        $(".add-movie").slideDown();
+        $("#overlay").fadeIn();
+        disableScroll();
+    });
+
+    $("#add-movie").click(function(){
+        var name = $("#movie-name").val();
+        queryMovie(name);
+    });
+
 
     checkSearch();
     checkRefresh();
 
 });
+
+var io = require('socket.io')();
+io.on('connection', function(socket){
+
+
+
+    socket.on('not_found', function(){
+        alert('not found!');
+    });
+
+    socket.on('video', function(data){
+        appendMovie(data);
+        $(".add-movie").slideUp();
+        $("#overlay").fadeOut();
+        $(".lds-facebook").hide();
+        enableScroll();
+    });
+
+
+});
+
+
+function startJava(){
+    const app = electron.remote.app;
+    var basepath = app.getAppPath();
+    console.log(basepath);
+    var child = require('child_process').execFile;
+    var executablePath = basepath + "\\assets\\adder.jar";
+
+
+    var spawn = require('child_process').spawn;
+    var child = spawn('java', ['-jar', executablePath]);
+
+}
+
+
+
+io.listen(3000);
+
+function queryMovie(query){
+    $(".lds-facebook").show();
+    io.sockets.emit('query',  {'query': query})
+}
+
+
+
+
 
 function setCurrentMovie(name, mp4){
     storage.set('current-movie', { name: name, mp4: mp4}, function(error) {
@@ -87,6 +164,26 @@ function parseMovies(){
             if($(obj).children().length === 1) $(obj).hide();
         });
     }, 50);
+}
+
+function appendMovie(video){
+    fs.readFile("./movies.json", "utf8",  (err, data)  => {
+        if (err) {
+            return console.error(err);
+        };
+
+        var file = JSON.parse(data.toString());
+        file['movies'].push(video)
+        var writeData = fs.writeFile("./movies.json", JSON.stringify(file), (err, result) => {  // WRITE
+            if (err) {
+                return console.error(err);
+            } else {
+                console.log(result);
+                console.log("Success");
+            }
+
+        });
+    });
 }
 
 function addMovie(genre, name, img, mp4){
