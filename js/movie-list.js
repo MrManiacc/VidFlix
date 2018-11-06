@@ -1,5 +1,6 @@
-var fs = require('fs');
 
+var fs = require('fs');
+var genre = "";
 const electron = window.require("electron");
 const win = electron.remote.getCurrentWindow();
 const os = require('os');
@@ -18,7 +19,7 @@ function enableScroll() {
 }
 
 $(document).ready(function(){
-    startJava();
+
     storage.setDataPath(os.tmpdir());
     parseMovies();
 
@@ -40,16 +41,23 @@ $(document).ready(function(){
         $("#overlay").fadeOut();
         $(".lds-facebook").hide();
         enableScroll();
+        stopJava();
     });
 
     $("#add").click(function(){
         $(".add-movie").slideDown();
         $("#overlay").fadeIn();
         disableScroll();
+        startJava();
+        shown = false;
+        shown2 = false;
+
     });
 
     $("#add-movie").click(function(){
         var name = $("#movie-name").val();
+        genre = $("#movie-genre").val();
+        console.log(genre);
         queryMovie(name);
     });
 
@@ -79,28 +87,94 @@ io.on('connection', function(socket){
 
 });
 
+function stopJava(){
+    $(".add-movie").slideUp();
+    $("#overlay").fadeOut();
+    $(".lds-facebook").hide();
+    enableScroll();
+
+
+    console.log("stop java");
+    find('name', 'firefox-bin', true)
+        .then(function (list) {
+            console.log(list);
+
+
+            var arrayLength = list.length;
+            for (var i = 0; i < arrayLength; i++) {
+                console.log(list[i]);
+
+                ps.kill( list[i].pid, {
+                    signal: 'SIGKILL',
+                    timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
+                }, function(){});
+            }
+        });
+    find('name', 'java', true)
+        .then(function (list) {
+            console.log(list);
+
+
+            var arrayLength = list.length;
+            for (var i = 0; i < arrayLength; i++) {
+               console.log(list[i]);
+
+                ps.kill( list[i].pid, {
+                    signal: 'SIGKILL',
+                    timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
+                }, function(){});
+            }
+        });
+
+
+}
+
 
 function startJava(){
+    console.log('start java');
     const app = electron.remote.app;
     var basepath = app.getAppPath();
     console.log(basepath);
     var child = require('child_process').execFile;
-    var executablePath = basepath + "\\assets\\adder.jar";
-    var gecko = basepath + "\\assets\\geckodriver.exe";
+    var executablePath;
+    var gecko;
+
+    if(process.platform === "win32"){
+        executablePath = basepath + "\\assets\\adder.jar";
+        gecko = basepath + "\\assets\\geckodriver.exe";
+    }else{
+        executablePath = basepath + "/assets/adder.jar";
+        gecko = basepath + "/assets/geckodriver";
+    }
+
+
 
     var spawn = require('child_process').spawn;
     var child = spawn('java', ['-jar', executablePath, gecko]);
-
+    var shown2 = false;
     child.stdout.on('data', function (data) {
         console.log('stdout: ' + data.toString());
+        if(data.toString().includes('Suc')){
+            stopJava();
+        }
     });
 
     child.stderr.on('data', function (data) {
         console.log('stderr: ' + data.toString());
+        if(data.toString().includes('Suc')){
+            stopJava();
+        }
+        if(data.toString().includes('Exception')){
+            stopJava();
+            if(!shown2){
+                alert("Not found!");
+                shown2 = true;
+            }
+        }
     });
 
     child.on('exit', function (code) {
-        console.log('child process exited with code ' + code.toString());
+        console.log('child process exited');
     });
 
 }
@@ -160,7 +234,9 @@ function checkSearch(){
 
 function parseMovies(){
     $("#movies-container").empty();
-    fs.readFile("./movies.json", "utf8",  (err, data)  => {
+    const app = electron.remote.app;
+    var basepath = app.getAppPath();
+    fs.readFile(basepath + "/movies.json", "utf8",  (err, data)  => {
         if (err)console.log(err);
         const obj = JSON.parse(data);
         $.each(obj.movies, function(index, element) {
@@ -176,24 +252,42 @@ function parseMovies(){
         });
     }, 50);
 }
-
+var shown = false;
 function appendMovie(video){
-    fs.readFile("./movies.json", "utf8",  (err, data)  => {
+    const app = electron.remote.app;
+    var basepath = app.getAppPath();
+    fs.readFile(basepath + "/movies.json", "utf8",  (err, data)  => {
         if (err) {
             return console.error(err);
         };
-
-        var file = JSON.parse(data.toString());
-        file['movies'].push(video)
-        var writeData = fs.writeFile("./movies.json", JSON.stringify(file), (err, result) => {  // WRITE
-            if (err) {
-                return console.error(err);
-            } else {
-                console.log(result);
-                console.log("Success");
+        var videoObject = video;
+        if(genre !== ""){
+            video.genre = genre;
+            var realvideo = {
+                "mp4": video.mp4,
+                "img": video.img,
+                "genre": genre,
+                "name": video.name
             }
-
+            videoObject = realvideo;
+        }
+        var file = JSON.parse(data.toString());
+        var contains = false;
+        $.each(file.movies, function(index, element) {
+           if(element.name === video.name) contains = true;
         });
+        if(!contains){
+            file['movies'].push(videoObject);
+            var writeData = fs.writeFile(basepath + "/movies.json", JSON.stringify(file, null, 2), (err, result) => {  // WRITE
+                if (err) {
+                    return console.error(err);
+                } else {
+                    console.log(result);
+                    console.log("Success");
+                }
+
+            });
+        }
     });
 }
 
@@ -221,7 +315,9 @@ function addGenre(name){
 
 function getGenreObject(name){
     return '<div class="genre" data-genre="' + name + '">' +
-        '<h1 class="genre-label"></h1>' +
+        '<div class="box">' +
+            '<h1 class="genre-label"></h1>' +
+        '</div>' +
         '</div>'
 }
 

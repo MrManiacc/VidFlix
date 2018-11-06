@@ -10362,13 +10362,33 @@
     return jQuery;
 } );
 const remote = require('electron').remote;
+const find = require('find-process');
+const ps = require('ps-node');
 
 $(document).ready(function(){
+
+
+
    $("#close").click(function(e){
        e.preventDefault();
+
+       find('name', 'Electron', true)
+           .then(function (list) {
+               console.log(list);
+
+
+               var arrayLength = list.length;
+               for (var i = 0; i < arrayLength; i++) {
+                   console.log(list[i]);
+
+                   ps.kill( list[i].pid, {
+                       signal: 'SIGKILL',
+                       timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
+                   }, function(){});
+               }
+           });
        var window = remote.getCurrentWindow();
        window.close();
-
    })
 });
 

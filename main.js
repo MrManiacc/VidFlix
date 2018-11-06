@@ -8,7 +8,7 @@ require('electron-reload')(__dirname);
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 1920, height: 1080, frame: false, title: "VideoFlix", icon: path.join(__dirname, 'assets/icons/win/icon.png')})
+  mainWindow = new BrowserWindow({width: 1280, height: 720, title: "VideoFlix", icon: path.join(__dirname, 'assets/icons/win/icon.png')})
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html');
@@ -18,6 +18,7 @@ function createWindow () {
     app.commandLine.appendSwitch('autoplay-policy', 'no-user-gesture-required');
   //mainWindow.setMenu(null);
   // Emitted when the window is closed.
+   mainWindow.webContents.toggleDevTools();
   mainWindow.on('closed', function () {
     // Dereference the window object, usually you would store windows
     // in an array if your app supports multi windows, this is the time

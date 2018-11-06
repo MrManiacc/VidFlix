@@ -32,7 +32,7 @@ h1, h2, h3{
 
 #movies-container{
     position: absolute;
-    width: 95%;
+    width: 85%;
 
     top: 100px;
     left: 50%;
@@ -42,13 +42,14 @@ h1, h2, h3{
 
 .genre{
     /*height: 400px;*/
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     overflow: auto;
     display: block;
-    padding-bottom: 60px;
+    padding-top: 15px;
+    padding-bottom: 70px;
     background-color: var(--color-4);
-    box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 40px 8px rgba(0,0,0,0.2);
 }
 
 
@@ -57,22 +58,30 @@ h1, h2, h3{
     position: absolute;
     left: 60px;
     margin: 0;
-    padding: 0;
+    padding: 3px 6px 3px 6px;
+    background-color: var(--color-2);
     font-size: 40px;
     color: white;
     display: inline-block;
 }
 
+
+
 .video-item{
     position: relative;
-    top: 60px;
+    top: 65px;
     left: 60px;
     height: 350px;
     width: 250px;
     transition: 0.35s ease;
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+}
+
+.video-item:hover{
+    box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.4);
 }
 
 .video-name{
@@ -103,7 +112,7 @@ h1, h2, h3{
 
 .add-movie{
     width: 40%;
-    height: 150px;
+    height: 220px;
     position: fixed;
     background-color: var(--color-2);
     top: 30%;
@@ -129,7 +138,7 @@ h1, h2, h3{
     position: fixed;
     transform: translateX(-50%);
     left: 50%;
-    top: 45%;
+    top: calc(30% + 220px);
     width: 64px;
     height: 64px;
     display: none;
@@ -170,7 +179,7 @@ h1, h2, h3{
 #close-add{
     position:absolute;
     right: 15px;
-    bottom: 20%;
+    bottom: 20px;
     outline: none;
     border: none;
     font-family: 'Jura', sans-serif;
@@ -185,7 +194,7 @@ h1, h2, h3{
 #add-movie{
     position:absolute;
     right: 140px;
-    bottom: 20%;
+    bottom: 20px;
     outline: none;
     border: none;
     font-family: 'Jura', sans-serif;
@@ -210,6 +219,20 @@ h1, h2, h3{
 
 input#movie-name {
     font-family: 'Jura', sans-serif;
+    width: calc(100% - 70px);
+    height: 48px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    position: absolute;
+    bottom: 90px;
+    left: 15px;
+    -webkit-app-region: no-drag;
+}
+
+input#movie-genre {
+    font-family: 'Jura', sans-serif;
     width: calc(100% - 280px);
     height: 48px;
     padding: 0 20px;
@@ -217,10 +240,11 @@ input#movie-name {
     border: 1px solid #D0CFCE;
     outline: none;
     position: absolute;
-    bottom: 20%;
+    bottom: 20px;
     left: 15px;
     -webkit-app-region: no-drag;
 }
+
 
 input#movie-name:focus {
     transition: 0.35s ease;

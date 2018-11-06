@@ -25,7 +25,7 @@
     background-color: var(--color-4);
     width: auto;
     position:absolute;
-    left: 2.5%;
+    left: 7.5%;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -50,7 +50,7 @@ input#search-bar {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: calc(2.5% + 120px);
+    left: calc(7.5% + 120px);
     -webkit-app-region: no-drag;
 }
 input#search-bar:focus {
@@ -75,7 +75,7 @@ input#search-bar:focus::-webkit-input-placeholder {
 
 #back-button{
     position:absolute;
-    left: calc(2.5% + 130px);
+    left: calc(7.5% + 130px);
     top: 50%;
     transform: translateY(-50%);
     outline: none;
@@ -89,13 +89,18 @@ input#search-bar:focus::-webkit-input-placeholder {
     -webkit-app-region: no-drag;
 }
 
+.vjs-default-skin.vjs-paused .vjs-big-play-button
+{
+    display: none;
+}
+
 #back-button:hover{
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
 }
 
 #add{
     position:absolute;
-    right: calc(2.5% + 245px);
+    right: calc(7.5%);
     top: 50%;
     transform: translateY(-50%);
     outline: none;
@@ -111,7 +116,7 @@ input#search-bar:focus::-webkit-input-placeholder {
 
 #refresh{
      position:absolute;
-    right: calc(2.5% + 110px);
+    right: calc(7.5% + 80px);
      top: 50%;
      transform: translateY(-50%);
      outline: none;
@@ -126,8 +131,9 @@ input#search-bar:focus::-webkit-input-placeholder {
  }
 
 #close{
+    display: none;
     position:absolute;
-    right: calc(2.5%);
+    right: calc(7.5%);
     top: 50%;
     transform: translateY(-50%);
     outline: none;
