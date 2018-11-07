@@ -58,7 +58,8 @@ $(document).ready(function(){
         var name = $("#movie-name").val();
         genre = $("#movie-genre").val();
         console.log(genre);
-        queryMovie(name);
+
+        queryMovie(name, genre);
     });
 
 
@@ -84,6 +85,25 @@ io.on('connection', function(socket){
         enableScroll();
     });
 
+    socket.on('bulkvideo', function(data){
+        var waitTime = data.bulk.length;
+        data.bulk.forEach(function(item, index) {
+            setTimeout(function () {
+                const movie = JSON.parse(item);
+                console.log(movie);
+                appendMovie(movie);
+                waitTime = index;
+            }, index * 2000);
+        });
+        setTimeout(function () {
+            parseMovies();
+            $(".add-movie").slideUp();
+            $("#overlay").fadeOut();
+            $(".lds-facebook").hide();
+            enableScroll();
+        }, waitTime * 2200);
+    });
+
 
 });
 
@@ -95,21 +115,37 @@ function stopJava(){
 
 
     console.log("stop java");
-    find('name', 'firefox-bin', true)
-        .then(function (list) {
-            console.log(list);
+    if(process.platform === "win32"){
+        find('name', 'firefox', true)
+            .then(function (list) {
+                console.log(list);
+                var arrayLength = list.length;
+                for (var i = 0; i < arrayLength; i++) {
+                    console.log(list[i]);
+
+                    ps.kill( list[i].pid, {
+                        signal: 'SIGKILL',
+                        timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
+                    }, function(){});
+                }
+            });
+    }else{
+        find('name', 'firefox-bin', true)
+            .then(function (list) {
+                console.log(list);
 
 
-            var arrayLength = list.length;
-            for (var i = 0; i < arrayLength; i++) {
-                console.log(list[i]);
+                var arrayLength = list.length;
+                for (var i = 0; i < arrayLength; i++) {
+                    console.log(list[i]);
 
-                ps.kill( list[i].pid, {
-                    signal: 'SIGKILL',
-                    timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
-                }, function(){});
-            }
-        });
+                    ps.kill( list[i].pid, {
+                        signal: 'SIGKILL',
+                        timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
+                    }, function(){});
+                }
+            });
+    }
     find('name', 'java', true)
         .then(function (list) {
             console.log(list);
@@ -183,9 +219,9 @@ function startJava(){
 
 io.listen(3000);
 
-function queryMovie(query){
+function queryMovie(query, genre){
     $(".lds-facebook").show();
-    io.sockets.emit('query',  {'query': query})
+    io.sockets.emit('query',  {'query': query, genre: genre});
 }
 
 
@@ -253,6 +289,7 @@ function parseMovies(){
     }, 50);
 }
 var shown = false;
+
 function appendMovie(video){
     const app = electron.remote.app;
     var basepath = app.getAppPath();
@@ -268,7 +305,7 @@ function appendMovie(video){
                 "img": video.img,
                 "genre": genre,
                 "name": video.name
-            }
+            };
             videoObject = realvideo;
         }
         var file = JSON.parse(data.toString());
