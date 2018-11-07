@@ -1,9 +1,15 @@
 :root{
-    --color-1: #2E4172;
-    --color-2: #162855;
-    --color-3: #4F618E;
-    --color-4: #7886AB;
+    /*--color-1: #2E4172;*/
+    /*--color-2: #162855;*/
+    /*--color-3: #4F618E;*/
+    /*--color-4: #7886AB;*/
+    /*--color-5: rgba(6, 21, 57, 0.3);*/
+    --color-1: #4E74A6;
+    --color-2: #263F73;
+    --color-3: #95ACBF;
+    --color-4: #95ACBF;
     --color-5: rgba(6, 21, 57, 0.3);
+
 }
 
 body{
@@ -17,23 +23,22 @@ h1, h2, h3{
     margin: 0;
 }
 
-::-webkit-scrollbar {
-    background-color: var(--color-3);
-    width: 1em;
-}
+/*::-webkit-scrollbar {*/
+    /*background-color: var(--color-3);*/
+    /*width: 1em;*/
+/*}*/
 
-::-webkit-scrollbar-thumb:window-inactive,
-::-webkit-scrollbar-thumb {
-    background:  var( --color-2);
-}
+/*::-webkit-scrollbar-thumb:window-inactive,*/
+/*::-webkit-scrollbar-thumb {*/
+    /*background:  var( --color-2);*/
+/*}*/
 
 
 /*MOVIE LIST START*/
 
 #movies-container{
     position: absolute;
-    width: 85%;
-
+    width: calc(100% - 40px);
     top: 100px;
     left: 50%;
     transform: translateX(-50%);
@@ -42,46 +47,62 @@ h1, h2, h3{
 
 .genre{
     /*height: 400px;*/
-    margin-top: 40px;
-    margin-bottom: 20px;
     overflow: auto;
-    display: block;
+    /*float:right;*/
+    margin-right: 20px;
+    display: inline-block;
     padding-top: 15px;
-    padding-bottom: 70px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /*transform: translateX(-50%);*/
+    width: auto;
+    position: relative;
+    height: auto;
+    padding-bottom: 25px;
     background-color: var(--color-4);
-    box-shadow: 0px 0px 40px 8px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+    user-select: none;
 }
 
 
 .genre-label{
     font-family: 'Jura', sans-serif;
-    position: absolute;
-    left: 60px;
-    margin: 0;
+    position: relative;
     padding: 3px 6px 3px 6px;
     background-color: var(--color-2);
     font-size: 40px;
     color: white;
-    display: inline-block;
+    width: calc(100% - 30px);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    box-shadow: 6px 6px 4px 0px rgba(0,0,0,0.4);
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 
 
 .video-item{
     position: relative;
-    top: 65px;
-    left: 60px;
-    height: 350px;
-    width: 250px;
+    top: 20px;
+    left: 0px;
+    height: 308px;
+    width: 220px;
     transition: 0.35s ease;
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.4);
+    -webkit-user-drag: none;
+    user-select: none;
+
 }
 
 .video-item:hover{
-    box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.4);
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.5);
 }
 
 .video-name{
@@ -91,7 +112,7 @@ h1, h2, h3{
     font-family: 'Jura', sans-serif;
     left: 50%;
     transform: translateX(-50%);
-    width: 250px;
+    width: 220px;
     background-color: var(--color-2);
     display: none;
     transition: 0.35s ease;
@@ -108,6 +129,8 @@ h1, h2, h3{
     left: 0;
     width: 100%;
     height: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .add-movie{

@@ -54,6 +54,22 @@ $(document).ready(function(){
 
     });
 
+    $(document).on("mousedown", ".video-item", function(e){
+        switch(e.which){
+            case 2:
+                deleteVideo($(this).data("name"));
+                break;
+            case 3:
+                deleteVideo($(this).data("name"));
+                break;
+        }
+
+
+    });
+    $("#debug").click(function(){
+        win.toggleDevTools();
+    });
+
     $("#add-movie").click(function(){
         var name = $("#movie-name").val();
         genre = $("#movie-genre").val();
@@ -66,8 +82,80 @@ $(document).ready(function(){
     checkSearch();
     checkRefresh();
 
+
+
+    // setTimeout(function(){
+    //     var currentGenre;
+    //     var lastGenre;
+    //
+    //     var largest = 0;
+    //     var lastLargest = 0;
+    //     var reset = false;
+    //     var widthAdd = 0;
+    //     var realLast =
+    //         $( ".video-item" ).each(function( index ) {
+    //             currentGenre = $(this).parent().data("genre");
+    //             if(currentGenre !== lastGenre){
+    //                 reset = false;
+    //                 console.log(currentGenre + ":" + lastGenre + "largest");
+    //                 lastLargest = largest;
+    //                 console.log(lastLargest);
+    //                 largest = 0;
+    //             }
+    //
+    //
+    //             var offset = $(this).position();
+    //             var right = (offset.left + 220);
+    //             if(right > largest){
+    //                 largest = right;
+    //             }
+    //             lastGenre = currentGenre;
+    //             //console.log(right);
+    //
+    //         });
+    // }, 2000);
+
+
+    setTimeout(function () {
+        fixSizing();
+    }, 100);
+
+
 });
 
+function fixSizing() {
+    $(".genre").each(function (index) {
+        var largest = getLargest($(this));
+        $(this).width(largest);
+        console.log("fixing: " + largest);
+    });
+
+}
+
+function getLargest(genre){
+    var largest = 0;
+    var child = genre.children();
+    for (var i = 0; i < child.length; i++) {
+        var item = $(child[i]);
+        var offset = item.position();
+        var right = (offset.left + 240);
+        if(right > largest){
+            largest = right;
+        }
+    }
+    return largest;
+}
+
+jQuery.fn.swap = function(b){
+    // method from: http://blog.pengoworks.com/index.cfm/2008/9/24/A-quick-and-dirty-swap-method-for-jQuery
+    b = jQuery(b)[0];
+    var a = this[0];
+    var t = a.parentNode.insertBefore(document.createTextNode(''), a);
+    b.parentNode.insertBefore(a, b);
+    t.parentNode.insertBefore(b, t);
+    t.parentNode.removeChild(t);
+    return this;
+};
 var io = require('socket.io')();
 io.on('connection', function(socket){
 
@@ -93,7 +181,7 @@ io.on('connection', function(socket){
                 console.log(movie);
                 appendMovie(movie);
                 waitTime = index;
-            }, index * 2000);
+            }, index * 4000);
         });
         setTimeout(function () {
             parseMovies();
@@ -101,7 +189,7 @@ io.on('connection', function(socket){
             $("#overlay").fadeOut();
             $(".lds-facebook").hide();
             enableScroll();
-        }, waitTime * 2200);
+        }, waitTime * 5000);
     });
 
 
@@ -237,10 +325,17 @@ function setCurrentMovie(name, mp4){
 function checkRefresh(){
     $("#refresh").click(function(){
         parseMovies();
+        setTimeout(function () {
+            fixSizing();
+        }, 1000);
+
     });
 }
 
 function checkSearch(){
+
+
+    // genre-label
     $("#search-bar").on('input', function(e){
         var query = $(this).val().toLowerCase();
         $('.video-item').each(function(i, obj) {
@@ -319,8 +414,39 @@ function appendMovie(video){
                 if (err) {
                     return console.error(err);
                 } else {
-                    console.log(result);
-                    console.log("Success");
+                   parseMovies();
+                }
+
+            });
+        }
+    });
+}
+
+function deleteVideo(vidName) {
+    const app = electron.remote.app;
+    var basepath = app.getAppPath();
+    fs.readFile(basepath + "/movies.json", "utf8", (err, data) => {
+        if (err) {
+            return console.error(err);
+        }
+        ;
+        var file = JSON.parse(data.toString());
+        var movies = [];
+        var contains = false;
+
+        $.each(file.movies, function(index, element) {
+            if(element.name !== vidName){
+                movies.push(element);
+            }
+        });
+        var output = "{\"movies\":" + JSON.stringify(movies) + "}";
+        if (!contains) {
+
+            var writeData = fs.writeFile(basepath + "/movies.json",  output, (err, result) => {  // WRITE
+                if (err) {
+                    return console.error(err);
+                } else {
+                    parseMovies();
                 }
 
             });
@@ -361,7 +487,7 @@ function getGenreObject(name){
 
 
 function getMovieObject(name, img, mp4){
-    return '<div class="video-item" data-mp4="' + mp4 + '">' +
+    return '<div class="video-item" data-mp4="' + mp4 + '" + data-name="' + name + '">' +
         '<img class="video-img" src="' + img + '">' +
         '<h2 class="video-name">' + name + '</h2>' +
         '</div>';

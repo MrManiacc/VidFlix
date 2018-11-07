@@ -146,3 +146,19 @@ input#search-bar:focus::-webkit-input-placeholder {
     cursor: pointer;
     -webkit-app-region: no-drag;
 }
+
+#debug{
+    position:absolute;
+    right: calc(7.5% + 212px);
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    padding: 6px;
+    font-size: 32px;
+    background-color: var(--color-3);
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}
