@@ -12,6 +12,7 @@
 
 </head>
 <body>
+
 <div class="video" >
     <video id="video-player" type="video/mp4" class="video-js" controls>
         <source id="source" src="https://1fgqfvn.oloadcdn.net/dl/l/rKQqAjIpn3vmtkS0/Nj0RkvmMnv0/Inception.2010.1080p.BluRay.H264.AAC+RARBG.E.mp4?mime=false">
@@ -25,6 +26,11 @@
     </div>
     <input type="submit" id="back-button" value="back">
 </div>
+<div id="redownload-overlay">
+    <h1 id="redownload-title">Redownloading...</h1>
+    <div class="lds-facebook"><div></div><div></div><div></div></div>
+</div>
+
 
 <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
 

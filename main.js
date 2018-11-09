@@ -72,7 +72,7 @@ function createMenu() {
         edit
     ]
 
-    Menu.setApplicationMenu(Menu.buildFromTemplate(template))
+   // Menu.setApplicationMenu(Menu.buildFromTemplate(template))
 }
 
 function createWindow () {
@@ -85,7 +85,7 @@ function createWindow () {
     // Open the DevTools.
   // mainWindow.webContents.openDevTools()
     app.commandLine.appendSwitch('autoplay-policy', 'no-user-gesture-required');
-  mainWindow.setMenu(null);
+  //mainWindow.setMenu(null);
   // Emitted when the window is closed.
  //  mainWindow.webContents.toggleDevTools();
   mainWindow.on('closed', function () {

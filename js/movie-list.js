@@ -5,7 +5,7 @@ const electron = window.require("electron");
 const win = electron.remote.getCurrentWindow();
 const os = require('os');
 const storage = require('electron-json-storage');
-
+var baseUrl;
 function noscroll() {
     window.scrollTo( 0, 0 );
 }
@@ -17,6 +17,8 @@ function disableScroll() {
 function enableScroll() {
     window.removeEventListener('scroll', noscroll);
 }
+
+
 
 $(document).ready(function(){
 
@@ -33,6 +35,7 @@ $(document).ready(function(){
     $("#movies-container").on("click", ".video-item", function(){
         let name = $(this).find(".video-name").text();
         let mp4 = $(this).data("mp4");
+        baseUrl = $(this).data("baseurl");
         setCurrentMovie(name, mp4);
         win.loadFile('player.html');
     });
@@ -51,7 +54,6 @@ $(document).ready(function(){
         startJava();
         shown = false;
         shown2 = false;
-
     });
 
     $(document).on("mousedown", ".video-item", function(e){
@@ -166,6 +168,7 @@ io.on('connection', function(socket){
     });
 
     socket.on('video', function(data){
+        console.log(data);
         appendMovie(data);
         $(".add-movie").slideUp();
         $("#overlay").fadeOut();
@@ -279,7 +282,7 @@ function startJava(){
     child.stdout.on('data', function (data) {
         console.log('stdout: ' + data.toString());
         if(data.toString().includes('Suc')){
-            stopJava();
+           // stopJava();
         }
     });
 
@@ -319,6 +322,11 @@ function queryMovie(query, genre){
 function setCurrentMovie(name, mp4){
     storage.set('current-movie', { name: name, mp4: mp4}, function(error) {
         if (error) throw error;
+    });
+
+    storage.set('current-baseUrl', { baseUrl: baseUrl }, function(error){
+        if(error) throw error;
+        console.log(baseUrl);
     });
 }
 
@@ -371,7 +379,9 @@ function parseMovies(){
         if (err)console.log(err);
         const obj = JSON.parse(data);
         $.each(obj.movies, function(index, element) {
-            addMovie(element.genre, element.name, element.img, element.mp4);
+            var baseDir = element.baseUrl;
+            console.log(element.baseUrl);
+            addMovie(element.genre, element.name, element.img, element.mp4, element.baseUrl);
         });
         return obj;
     });
@@ -399,11 +409,13 @@ function appendMovie(video){
                 "mp4": video.mp4,
                 "img": video.img,
                 "genre": genre,
-                "name": video.name
+                "name": video.name,
+                "baseUrl": video.baseUrl
             };
             videoObject = realvideo;
         }
         var file = JSON.parse(data.toString());
+        console.log(videoObject);
         var contains = false;
         $.each(file.movies, function(index, element) {
            if(element.name === video.name) contains = true;
@@ -454,13 +466,14 @@ function deleteVideo(vidName) {
     });
 }
 
-function addMovie(genre, name, img, mp4){
+function addMovie(genre, name, img, mp4, baseUrl){
     var added = false;
     $('.genre').each(function(i, obj) {
         var genreName = $(obj).data("genre");
         if(genre === genreName){
             var selectedGenre = $(obj);
-            selectedGenre.append(getMovieObject(name, img, mp4));
+            console.log(baseUrl);
+            selectedGenre.append(getMovieObject(name, img, mp4, baseUrl));
             added = true;
         }
     });
@@ -468,7 +481,7 @@ function addMovie(genre, name, img, mp4){
 
     if(!added){
         addGenre(genre);
-        addMovie(genre, name, img, mp4);
+        addMovie(genre, name, img, mp4, baseUrl);
     }
 }
 
@@ -486,8 +499,8 @@ function getGenreObject(name){
 
 
 
-function getMovieObject(name, img, mp4){
-    return '<div class="video-item" data-mp4="' + mp4 + '" + data-name="' + name + '">' +
+function getMovieObject(name, img, mp4, baseUrl){
+    return '<div class="video-item" data-mp4="' + mp4 + '" + data-name="' + name + '" + data-baseUrl="' + baseUrl + '">' +
         '<img class="video-img" src="' + img + '">' +
         '<h2 class="video-name">' + name + '</h2>' +
         '</div>';

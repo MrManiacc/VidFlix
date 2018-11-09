@@ -20,6 +20,26 @@
     user-select: none;
 }
 
+
+#redownload-overlay{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.97);
+    width: 100%;
+    height: 100%;
+}
+
+#redownload-title{
+    position: fixed;
+    left: 50%;
+    top: calc(30% + 150px);
+    transform: translateX(-50%);
+    font-family: 'Jura', sans-serif;
+    color: white;
+}
+
 .video{
     width: 100%;
     position: absolute;
