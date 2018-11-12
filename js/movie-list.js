@@ -6,6 +6,9 @@ const win = electron.remote.getCurrentWindow();
 const os = require('os');
 const storage = require('electron-json-storage');
 var baseUrl;
+var currentName;
+var isTvShow = false;
+var child;
 function noscroll() {
     window.scrollTo( 0, 0 );
 }
@@ -20,16 +23,40 @@ function enableScroll() {
 
 
 $( window ).resize(function() {
-    parseMovies();
-    setTimeout(function () {
-        fixSizing();
-    }, 50);
+
 });
 
+
+
+var resizeTimer;
+
+$(window).on('resize', function(e) {
+
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+        parseMovies();
+        setTimeout(function () {
+            fixSizing();
+        }, 10);
+    }, 200);
+
+});
+var isDel = false;
 $(document).ready(function(){
 
     storage.setDataPath(os.tmpdir());
     parseMovies();
+
+
+    $(".inp-cbx").click(function(){
+        isTvShow = !isTvShow;
+
+        if(isTvShow){
+            $("#add-title").text("Add Tv Show");
+        }else{
+            $("#add-title").text("Add Movie");
+        }
+    });
 
     $("#movies-container").on("mouseenter", ".video-item", function(){
         $(this).find(".video-name").show();
@@ -38,12 +65,28 @@ $(document).ready(function(){
         $(this).find(".video-name").hide();
     });
 
+    $("#movies-container").on("mouseenter", ".del-btn", function(){
+        isDel = true;
+    });
+    $("#movies-container").on("mouseleave", ".del-btn", function(){
+        isDel = false;
+    });
+
+    $("#movies-container").on("mouseenter", ".genre-btn", function(){
+        isDel = true;
+    });
+    $("#movies-container").on("mouseleave", ".genre-btn", function(){
+        isDel = false;
+    });
+
     $("#movies-container").on("click", ".video-item", function(){
-        let name = $(this).find(".video-name").text();
-        let mp4 = $(this).data("mp4");
-        baseUrl = $(this).data("baseurl");
-        setCurrentMovie(name, mp4);
-        win.loadFile('player.html');
+        if(!isDel){
+            let name = $(this).find(".video-name").text();
+            let mp4 = $(this).data("mp4");
+            baseUrl = $(this).data("baseurl");
+            setCurrentMovie(name, mp4);
+            win.loadFile('player.html');
+        }
     });
     $("#close-add").click(function(){
         $(".add-movie").slideUp();
@@ -62,28 +105,49 @@ $(document).ready(function(){
         shown2 = false;
     });
 
-    $(document).on("mousedown", ".video-item", function(e){
-        switch(e.which){
-            case 2:
-                deleteVideo($(this).data("name"));
-                break;
-            case 3:
-                deleteVideo($(this).data("name"));
-                break;
-        }
-
-
+    $("#set-genre").click(function(){
+        setGenre(currentName, $("#set-genre-text").val());
+        setTimeout(function(){
+            parseMovies();
+            setTimeout(function () {
+                fixSizing();
+                $(".set-genre").slideUp();
+            }, 10);
+        }, 50);
     });
-    $("#debug").click(function(){
-        win.toggleDevTools();
+
+    $("#movies-container").on("click", ".del-btn", function(){
+        var parent = $(this).parent().parent();
+        deleteVideo(parent.data("name"));
+        setTimeout(function(){
+            parseMovies();
+            setTimeout(function () {
+                fixSizing();
+                $(".set-genre").slideUp();
+            }, 10);
+        }, 50);
+    });
+
+    $("#movies-container").on("click", ".genre-btn", function(){
+        var parent = $(this).parent().parent();
+        var name = parent.data("name");
+        console.log(name);
+        currentName = name;
+        $(".set-genre").slideDown();
+    });
+
+    $("#close-genre").click(function(){
+        $(".set-genre").slideUp();
     });
 
     $("#add-movie").click(function(){
         var name = $("#movie-name").val();
         genre = $("#movie-genre").val();
         console.log(genre);
-
-        queryMovie(name, genre);
+        if(!isTvShow)
+            queryMovie(name, genre);
+        else
+            queryTv(name, genre);
     });
 
 
@@ -200,9 +264,10 @@ io.on('connection', function(socket){
             enableScroll();
         }, waitTime * 5000);
     });
-
-
 });
+
+
+
 
 function stopJava(){
     $(".add-movie").slideUp();
@@ -212,54 +277,54 @@ function stopJava(){
 
 
     console.log("stop java");
-    if(process.platform === "win32"){
-        find('name', 'firefox', true)
-            .then(function (list) {
-                console.log(list);
-                var arrayLength = list.length;
-                for (var i = 0; i < arrayLength; i++) {
-                    console.log(list[i]);
+    // if(process.platform === "win32"){
+    //     find('name', 'firefox', true)
+    //         .then(function (list) {
+    //             console.log(list);
+    //             var arrayLength = list.length;
+    //             for (var i = 0; i < arrayLength; i++) {
+    //                 console.log(list[i]);
+    //
+    //                 ps.kill( list[i].pid, {
+    //                     signal: 'SIGKILL',
+    //                     timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
+    //                 }, function(){});
+    //             }
+    //         });
+    // }else{
+    //     find('name', 'firefox-bin', true)
+    //         .then(function (list) {
+    //             console.log(list);
+    //
+    //
+    //             var arrayLength = list.length;
+    //             for (var i = 0; i < arrayLength; i++) {
+    //                 console.log(list[i]);
+    //
+    //                 ps.kill( list[i].pid, {
+    //                     signal: 'SIGKILL',
+    //                     timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
+    //                 }, function(){});
+    //             }
+    //         });
+    // }
+    // find('name', 'java', true)
+    //     .then(function (list) {
+    //         console.log(list);
+    //
+    //
+    //         var arrayLength = list.length;
+    //         for (var i = 0; i < arrayLength; i++) {
+    //            console.log(list[i]);
+    //
+    //             ps.kill( list[i].pid, {
+    //                 signal: 'SIGKILL',
+    //                 timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
+    //             }, function(){});
+    //         }
+    //     });
 
-                    ps.kill( list[i].pid, {
-                        signal: 'SIGKILL',
-                        timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
-                    }, function(){});
-                }
-            });
-    }else{
-        find('name', 'firefox-bin', true)
-            .then(function (list) {
-                console.log(list);
-
-
-                var arrayLength = list.length;
-                for (var i = 0; i < arrayLength; i++) {
-                    console.log(list[i]);
-
-                    ps.kill( list[i].pid, {
-                        signal: 'SIGKILL',
-                        timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
-                    }, function(){});
-                }
-            });
-    }
-    find('name', 'java', true)
-        .then(function (list) {
-            console.log(list);
-
-
-            var arrayLength = list.length;
-            for (var i = 0; i < arrayLength; i++) {
-               console.log(list[i]);
-
-                ps.kill( list[i].pid, {
-                    signal: 'SIGKILL',
-                    timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
-                }, function(){});
-            }
-        });
-
-
+    child.kill();
 }
 
 
@@ -268,7 +333,6 @@ function startJava(){
     const app = electron.remote.app;
     var basepath = app.getAppPath();
     console.log(basepath);
-    var child = require('child_process').execFile;
     var executablePath;
     var gecko;
 
@@ -283,12 +347,12 @@ function startJava(){
 
 
     var spawn = require('child_process').spawn;
-    var child = spawn('java', ['-jar', executablePath, gecko]);
+    child = spawn('java', ['-jar', executablePath, gecko]);
     var shown2 = false;
     child.stdout.on('data', function (data) {
         console.log('stdout: ' + data.toString());
         if(data.toString().includes('Suc')){
-           // stopJava();
+            stopJava();
         }
     });
 
@@ -318,7 +382,12 @@ io.listen(3000);
 
 function queryMovie(query, genre){
     $(".lds-facebook").show();
-    io.sockets.emit('query',  {'query': query, genre: genre});
+    io.sockets.emit('query',  {'query': query, 'genre': genre});
+}
+
+function queryTv(query, genre){
+    $(".lds-facebook").show();
+    io.sockets.emit('series',  {'query': query, 'genre': genre});
 }
 
 
@@ -440,6 +509,49 @@ function appendMovie(video){
     });
 }
 
+
+function setGenre(name, genre){
+    const app = electron.remote.app;
+    var basepath = app.getAppPath();
+    fs.readFile(basepath + "/movies.json", "utf8", (err, data) => {
+        if (err) {
+            return console.error(err);
+        }
+        ;
+        var file = JSON.parse(data.toString());
+        var movies = [];
+        var contains = false;
+        var realVideo;
+        var found = false;
+        $.each(file.movies, function(index, element) {
+            if(element.name === name){
+                found = true;
+                    realVideo = {
+                    "mp4": element.mp4,
+                    "img": element.img,
+                    "genre": genre,
+                    "name": element.name,
+                    "time": element.time,
+                    "baseUrl": element.baseUrl
+                };
+            }else{
+                movies.push(element);
+            }
+        });
+        if(found) movies.push(realVideo);
+        var output = "{\"movies\":" + JSON.stringify(movies, null, 2) + "}";
+        if (!contains) {
+            var writeData = fs.writeFile(basepath + "/movies.json",  output, (err, result) => {  // WRITE
+                if (err) {
+                    return console.error(err);
+                } else {
+                    console.log("success");
+                }
+            });
+        }
+    })
+}
+
 function deleteVideo(vidName) {
     const app = electron.remote.app;
     var basepath = app.getAppPath();
@@ -471,6 +583,10 @@ function deleteVideo(vidName) {
         }
     });
 }
+
+
+
+
 
 function addMovie(genre, name, img, mp4, baseUrl){
     var added = false;
@@ -509,5 +625,6 @@ function getMovieObject(name, img, mp4, baseUrl){
     return '<div class="video-item" data-mp4="' + mp4 + '" + data-name="' + name + '" + data-baseUrl="' + baseUrl + '">' +
         '<img class="video-img" src="' + img + '">' +
         '<h2 class="video-name">' + name + '</h2>' +
+        '<div class="menu-bar"><button class="genre-btn">genre</button><button class="del-btn">delete</button></div>' +
         '</div>';
 }

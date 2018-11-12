@@ -29,9 +29,23 @@
       <div class="add-movie">
         <input type="submit" id="close-add" value="cancel">
         <input type="submit" id="add-movie" value="add">
-        <h1>Add Movie</h1>
-        <input type="text" id="movie-name" placeholder="Movie Name">
-          <input type="text" id="movie-genre" placeholder="Genre (Leave blank for auto)">
+        <h1 id="add-title">Add Movie</h1>
+        <input type="text" id="movie-name" placeholder="Query name">
+        <input type="text" id="movie-genre" placeholder="Genre (Leave blank for auto)">
+
+            <input class="inp-cbx" id="cbx" type="checkbox" style="display: none;"/>
+            <label class="cbx" for="cbx"><span>
+            <svg width="12px" height="10px" viewbox="0 0 12 10">
+            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+            </svg></span><span>Tv Show</span></label>
+
+      </div>
+
+      <div class="set-genre">
+          <input type="submit" id="close-genre" value="cancel">
+          <input type="submit" id="set-genre" value="Set Genre">
+          <h1 id="movie-name-display">Movie Name</h1>
+          <input type="text" id="set-genre-text" placeholder="Genre name">
       </div>
 
      <script>

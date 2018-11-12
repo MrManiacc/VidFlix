@@ -98,8 +98,56 @@ h1, h2, h3{
     box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.4);
     -webkit-user-drag: none;
     user-select: none;
+}
+
+.menu-bar{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: var(--color-2);
+    cursor: default;
+}
+
+.del-btn{
+    position: relative;
+    float:right;
+    background-color: var(--color-1);
+    color: white;
+    top: 0;
+    outline: none;
+    border: none;
+    height: 30px;
+    margin-right: 4px;
+
+    font-family: 'Jura', sans-serif;
+}
+
+.genre-btn {
+    position: relative;
+    float: right;
+    background-color: var(--color-1);
+    color: white;
+    top: 0;
+    outline: none;
+    border: none;
+    height: 30px;
+    font-family: 'Jura', sans-serif;
 
 }
+
+.genre-btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.2);
+}
+
+.del-btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.2);
+}
+
+
 
 .video-item:hover{
     box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.5);
@@ -135,6 +183,18 @@ h1, h2, h3{
 
 .add-movie{
     width: 40%;
+    height: 250px;
+    position: fixed;
+    background-color: var(--color-2);
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.4);
+    display: none;
+}
+
+.set-genre{
+    width: 40%;
     height: 220px;
     position: fixed;
     background-color: var(--color-2);
@@ -144,6 +204,8 @@ h1, h2, h3{
     box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.4);
     display: none;
 }
+
+
 
 #overlay{
     display: none;
@@ -202,7 +264,7 @@ h1, h2, h3{
 #close-add{
     position:absolute;
     right: 15px;
-    bottom: 20px;
+    bottom: 55px;
     outline: none;
     border: none;
     font-family: 'Jura', sans-serif;
@@ -215,6 +277,39 @@ h1, h2, h3{
 }
 
 #add-movie{
+    position:absolute;
+    right: 140px;
+    bottom: 55px;
+    outline: none;
+    border: none;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    padding: 6px;
+    font-size: 32px;
+
+    background-color: var(--color-3);
+    cursor: pointer;
+}
+
+
+
+
+#close-genre{
+    position:absolute;
+    right: 15px;
+    bottom: 20px;
+    outline: none;
+    border: none;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    padding: 6px;
+    font-size: 32px;
+
+    background-color: var(--color-3);
+    cursor: pointer;
+}
+
+#set-genre{
     position:absolute;
     right: 140px;
     bottom: 20px;
@@ -240,7 +335,19 @@ h1, h2, h3{
 }
 
 
-input#movie-name {
+#movie-name-display{
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    font-family: 'Jura', sans-serif;
+    font-size: 2.5em;
+    color: white;
+}
+
+
+
+input#set-genre-text {
     font-family: 'Jura', sans-serif;
     width: calc(100% - 70px);
     height: 48px;
@@ -254,6 +361,20 @@ input#movie-name {
     -webkit-app-region: no-drag;
 }
 
+input#movie-name {
+    font-family: 'Jura', sans-serif;
+    width: calc(100% - 70px);
+    height: 48px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    position: absolute;
+    bottom: 120px;
+    left: 15px;
+    -webkit-app-region: no-drag;
+}
+
 input#movie-genre {
     font-family: 'Jura', sans-serif;
     width: calc(100% - 280px);
@@ -263,7 +384,7 @@ input#movie-genre {
     border: 1px solid #D0CFCE;
     outline: none;
     position: absolute;
-    bottom: 20px;
+    bottom: 55px;
     left: 15px;
     -webkit-app-region: no-drag;
 }
@@ -276,6 +397,93 @@ input#movie-name:focus {
 input#movie-name:focus::-webkit-input-placeholder {
     transition: opacity 0.45s ease;
     opacity: 0;
+}
+
+input#set-genre-text:focus {
+    transition: 0.35s ease;
+    box-shadow: 5px 5px 2px 2px var(--color-5);
+}
+input#set-genre-text:focus::-webkit-input-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+}
+
+
+.cbx {
+    margin: auto;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+.cbx span {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translate3d(0, 0, 0);
+}
+.cbx span:first-child {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    transform: scale(1);
+    vertical-align: middle;
+    border: 1px solid #9098A9;
+    transition: all 0.2s ease;
+}
+.cbx span:first-child svg {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 16px;
+    stroke-dashoffset: 16px;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+    transform: translate3d(0, 0, 0);
+}
+.cbx span:first-child:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--color-3);
+    display: block;
+    transform: scale(0);
+    opacity: 1;
+    border-radius: 50%;
+}
+.cbx span:last-child {
+    padding-left: 8px;
+}
+.cbx:hover span:first-child {
+    border-color: var(--color-1);
+}
+
+.inp-cbx:checked + .cbx span:first-child {
+    background: var(--color-2);
+    border-color: var(--color-1);
+    animation: wave 0.4s ease;
+}
+.inp-cbx:checked + .cbx span:first-child svg {
+    stroke-dashoffset: 0;
+}
+.inp-cbx:checked + .cbx span:first-child:before {
+    transform: scale(3.5);
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+@keyframes wave {
+    50% {
+        transform: scale(0.9);
+    }
 }
 
 
