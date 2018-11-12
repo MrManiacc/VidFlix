@@ -257,7 +257,7 @@ io.on('connection', function(socket){
                 console.log(movie);
                 appendMovie(movie);
                 waitTime = index;
-            }, index * 4000);
+            }, index * 500);
         });
         setTimeout(function () {
             parseMovies();
@@ -265,7 +265,7 @@ io.on('connection', function(socket){
             $("#overlay").fadeOut();
             $(".lds-facebook").hide();
             enableScroll();
-        }, waitTime * 5000);
+        }, waitTime * 1000);
     });
 });
 
