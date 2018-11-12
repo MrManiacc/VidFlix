@@ -47,6 +47,9 @@ $(document).ready(function(){
     storage.setDataPath(os.tmpdir());
     parseMovies();
 
+    $("#debug").click(function(){
+        electron.remote.getCurrentWindow().webContents.toggleDevTools();
+    });
 
     $(".inp-cbx").click(function(){
         isTvShow = !isTvShow;
