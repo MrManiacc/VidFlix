@@ -19,6 +19,12 @@ function enableScroll() {
 }
 
 
+$( window ).resize(function() {
+    parseMovies();
+    setTimeout(function () {
+        fixSizing();
+    }, 50);
+});
 
 $(document).ready(function(){
 
@@ -335,7 +341,7 @@ function checkRefresh(){
         parseMovies();
         setTimeout(function () {
             fixSizing();
-        }, 1000);
+        }, 50);
 
     });
 }
