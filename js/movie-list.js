@@ -41,8 +41,31 @@ $(window).on('resize', function(e) {
     }, 200);
 
 });
+
+
+function registerDebug(){
+    var control = false;
+
+    document.addEventListener('keydown', (event) => {
+       if(event.key === 'Control') control = true;
+       if(control){
+           if(event.key === 'd'){
+               electron.remote.getCurrentWindow().webContents.toggleDevTools();
+           }
+       }
+
+    });
+    document.addEventListener('keyup', (event) => {
+        if(event.key === 'Control') control = false;
+
+    });
+
+}
 var isDel = false;
 $(document).ready(function(){
+
+    registerDebug();
+
 
     storage.setDataPath(os.tmpdir());
     parseMovies();
@@ -62,10 +85,12 @@ $(document).ready(function(){
     });
 
     $("#movies-container").on("mouseenter", ".video-item", function(){
-        $(this).find(".video-name").show();
+        $(this).find(".video-name").addClass("slideName");
+        $(this).find(".menu-bar").addClass("slideMenu");
     });
     $("#movies-container").on("mouseleave", ".video-item", function(){
-        $(this).find(".video-name").hide();
+        $(this).find(".video-name").removeClass("slideName");
+        $(this).find(".menu-bar").removeClass("slideMenu");
     });
 
     $("#movies-container").on("mouseenter", ".del-btn", function(){
@@ -103,7 +128,7 @@ $(document).ready(function(){
         $(".add-movie").slideDown();
         $("#overlay").fadeIn();
         disableScroll();
-        //startJava();
+        startJava();
         shown = false;
         shown2 = false;
     });
@@ -336,12 +361,21 @@ io.on('connection', function(socket){
 
 
 
-    socket.on('not_found', function(){
-        alert('not found!');
+    socket.on('not_found', function(data){
+        stopJava();
+        $(".add-movie").slideUp();
+        $("#overlay").fadeOut();
+        $(".lds-facebook").hide();
+        enableScroll();
+        Alert.info("Not found!", data.name);
     });
 
     socket.on("log", function(data){
-        Alert.info(data.message, data.name);
+        if(data.name !== "NA"){
+            Alert.info(data.message, data.name);
+        }else{
+            Alert.info(data.message);
+        }
     });
 
 
@@ -385,52 +419,6 @@ function stopJava(){
 
 
     console.log("stop java");
-    // if(process.platform === "win32"){
-    //     find('name', 'firefox', true)
-    //         .then(function (list) {
-    //             console.log(list);
-    //             var arrayLength = list.length;
-    //             for (var i = 0; i < arrayLength; i++) {
-    //                 console.log(list[i]);
-    //
-    //                 ps.kill( list[i].pid, {
-    //                     signal: 'SIGKILL',
-    //                     timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
-    //                 }, function(){});
-    //             }
-    //         });
-    // }else{
-    //     find('name', 'firefox-bin', true)
-    //         .then(function (list) {
-    //             console.log(list);
-    //
-    //
-    //             var arrayLength = list.length;
-    //             for (var i = 0; i < arrayLength; i++) {
-    //                 console.log(list[i]);
-    //
-    //                 ps.kill( list[i].pid, {
-    //                     signal: 'SIGKILL',
-    //                     timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
-    //                 }, function(){});
-    //             }
-    //         });
-    // }
-    // find('name', 'java', true)
-    //     .then(function (list) {
-    //         console.log(list);
-    //
-    //
-    //         var arrayLength = list.length;
-    //         for (var i = 0; i < arrayLength; i++) {
-    //            console.log(list[i]);
-    //
-    //             ps.kill( list[i].pid, {
-    //                 signal: 'SIGKILL',
-    //                 timeout: 10,  // will set up a ten seconds timeout if the killing is not successful
-    //             }, function(){});
-    //         }
-    //     });
 
     child.kill();
 }
@@ -529,27 +517,43 @@ function checkSearch(){
     // genre-label
     $("#search-bar").on('input', function(e){
         var query = $(this).val().toLowerCase();
-        $('.video-item').each(function(i, obj) {
-            var name = $(this).find(".video-name").text().toLowerCase();
-            var parent = $(this).parent();
-            if(!name.includes(query)){
-                $(this).hide();
-                var allHidden = true;
-
-                parent.children(".video-item").each(function(){
-                    var videoItem = $(this);
-                    if(videoItem.is(':visible')) allHidden = false;
-                });
-
-                if(allHidden)
-                    parent.hide();
-
-            }else{
+        if(query === ""){
+            $('.video-item').each(function(i, obj) {
                 var parent = $(this).parent();
                 parent.show();
                 $(this).show();
-            }
-        });
+            });
+
+                parseMovies();
+                fixSizing();
+
+        }else{
+            $('.video-item').each(function(i, obj) {
+                var name = $(this).find(".video-name").text().toLowerCase();
+                var parent = $(this).parent();
+                if(!name.includes(query)){
+                    $(this).hide();
+                    var allHidden = true;
+
+                    parent.children(".video-item").each(function(){
+                        var videoItem = $(this);
+                        if(videoItem.is(':visible')) allHidden = false;
+                    });
+
+                    if(allHidden)
+                        parent.hide();
+
+                }else{
+                    var parent = $(this).parent();
+                    parent.show();
+                    $(this).show();
+                }
+            });
+
+        }
+        setTimeout(function(){
+            fixSizing();
+        }, 50);
     });
 }
 

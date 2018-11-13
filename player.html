@@ -12,6 +12,8 @@
 
 </head>
 <body>
+<ul class="list unstyled">
+</ul>
 
 <div class="video" >
     <video id="video-player" type="video/mp4" class="video-js" controls>
@@ -25,6 +27,8 @@
         <h1 id="title">VidFlix</h1>
     </div>
     <input type="submit" id="back-button" value="back">
+
+    <h1 id="video-title"></h1>
 </div>
 <div id="redownload-overlay">
     <h1 id="redownload-title">Redownloading...</h1>
@@ -36,7 +40,7 @@
 
 <!-- normal script imports etc  -->
 <script src="./js/jquery.js"></script>
-<script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+<script src="./js/video.js"></script>
 <script src="./js/movie-player.js"></script>
 <!-- Insert this line after script imports -->
 <script>if (window.module) module = window.module;</script>

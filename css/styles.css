@@ -98,6 +98,7 @@ h1, h2, h3{
     box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.4);
     -webkit-user-drag: none;
     user-select: none;
+    overflow: hidden;
 }
 
 .menu-bar{
@@ -108,7 +109,17 @@ h1, h2, h3{
     height: 30px;
     background-color: var(--color-2);
     cursor: default;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    transform: translateY(-30px);
 }
+
+.slideMenu{
+    transform: translateY(0px);
+}
+
 
 .del-btn{
     position: relative;
@@ -159,13 +170,20 @@ h1, h2, h3{
     color: white;
     font-family: 'Jura', sans-serif;
     left: 50%;
-    transform: translateX(-50%);
     width: 220px;
     background-color: var(--color-2);
-    display: none;
-    transition: 0.35s ease;
     text-align:  center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    transform: translate(-50%, 200px);
 }
+
+.slideName{
+    transform: translate(-50%, 0px);
+}
+
 
 .video-item:hover{
     cursor: pointer;
@@ -223,7 +241,7 @@ h1, h2, h3{
     position: fixed;
     transform: translateX(-50%);
     left: 50%;
-    top: calc(30% + 220px);
+    top: calc(30% + 250px);
     width: 64px;
     height: 64px;
     display: none;
@@ -600,8 +618,8 @@ input#set-genre-text:focus::-webkit-input-placeholder {
 
 .alert-info {
     color: #fff;
-    border-color: #076d91;
-    background-color: #3397db;
+    border-color: var(--color-1);
+    background-color: var(--color-3);
 }
 
 .alert-warning {

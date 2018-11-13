@@ -162,3 +162,16 @@ input#search-bar:focus::-webkit-input-placeholder {
     cursor: pointer;
     -webkit-app-region: no-drag;
 }
+
+#video-title{
+    position: absolute;
+    left: calc(7.5% + 230px);
+    font-family: 'Jura', sans-serif;
+    color: white;
+    padding: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    /*background-color: var(--color-5);*/
+    border: 1px solid var(--color-3);
+    display: none;
+}
