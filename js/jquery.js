@@ -10367,11 +10367,13 @@ const ps = require('ps-node');
 
 $(document).ready(function(){
 
-
+    // $("#debug").click(function(){
+    //     //electron.remote.getCurrentWindow().webContents.toggleDevTools();
+    //     //Alert.success('Message','Success',{displayDuration: 2000, pos: 'top'})
+    // });
 
    $("#close").click(function(e){
        e.preventDefault();
-
        find('name', 'Electron', true)
            .then(function (list) {
                console.log(list);
@@ -10395,3 +10397,5 @@ $(document).ready(function(){
 var cleanExit = function() { process.exit() };
 process.on('SIGINT', cleanExit); // catch ctrl-c
 process.on('SIGTERM', cleanExit); // catch kill
+
+

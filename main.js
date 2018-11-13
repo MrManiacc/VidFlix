@@ -72,7 +72,7 @@ function createMenu() {
         edit
     ]
 
-   // Menu.setApplicationMenu(Menu.buildFromTemplate(template))
+   Menu.setApplicationMenu(Menu.buildFromTemplate(template))
 }
 
 function createWindow () {
@@ -94,7 +94,9 @@ function createWindow () {
     // when you should delete the corresponding element.
     mainWindow = null
   })
-   // createMenu();
+    if (process.platform === 'darwin') {
+        //createMenu();
+    }
 
 }
 

@@ -10,7 +10,11 @@
   <body>
 
 
-      <div id="movies-container"></div>
+  <ul class="list unstyled">
+  </ul>
+
+
+  <div id="movies-container"></div>
 
       <div id="nav-bar">
         <div id="dragger"></div>
@@ -19,9 +23,9 @@
         </div>
         <input type="text" id="search-bar" placeholder="Search from library">
         <input type="submit" id="add" value="add">
-        <input type="submit" id="refresh" value="refresh">
+        <input type="submit" id="refresh" value="Refresh">
         <input type="submit" id="debug" value="Debug">
-        <input type="submit" id="close" value="close">
+        <input type="submit" id="close" value="Close">
       </div>
 
       <div id="overlay"> </div>
@@ -48,7 +52,8 @@
           <input type="text" id="set-genre-text" placeholder="Genre name">
       </div>
 
-     <script>
+
+      <script>
       require('./renderer.js')
     </script>
 
