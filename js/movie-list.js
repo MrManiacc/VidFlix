@@ -42,6 +42,24 @@ $(window).on('resize', function(e) {
 
 });
 
+/**
+ * Step 1: Loop through the json objects of videos
+ * count the number of items in the genre,
+ * assign a count to number of items in the genre
+ * Step 2: Determinene the the max number of items
+ * per row using the screens size (will require trial
+ * and error to come up with the right formula)
+ * Step 3: Begin to try and add the some genres together
+ * using the
+ * */
+function sortAlgorithm(){
+
+
+
+
+}
+
+
 
 function registerDebug(){
     var control = false;
@@ -84,15 +102,6 @@ $(document).ready(function(){
         }
     });
 
-    $("#movies-container").on("mouseenter", ".video-item", function(){
-        $(this).find(".video-name").addClass("slideName");
-        $(this).find(".menu-bar").addClass("slideMenu");
-    });
-    $("#movies-container").on("mouseleave", ".video-item", function(){
-        $(this).find(".video-name").removeClass("slideName");
-        $(this).find(".menu-bar").removeClass("slideMenu");
-    });
-
     $("#movies-container").on("mouseenter", ".del-btn", function(){
         isDel = true;
     });
@@ -105,6 +114,31 @@ $(document).ready(function(){
     });
     $("#movies-container").on("mouseleave", ".genre-btn", function(){
         isDel = false;
+    });
+
+    $("#movies-container").on("mouseenter", ".video-item", function(){
+        $(this).find(".video-name").addClass("slideName");
+        $(this).find(".menu-bar").addClass("slideMenu");
+    });
+    $("#movies-container").on("mouseleave", ".video-item", function(){
+        $(this).find(".video-name").removeClass("slideName");
+        $(this).find(".menu-bar").removeClass("slideMenu");
+    });
+
+    $("#movies-container").on("click", ".genre-label", function(){
+        var genreObj = $(this).parent().parent();
+        var genreName = $(this).text();
+        console.log(name);
+        if(genreObj.hasClass("min")){
+            genreObj.removeClass("min");
+            writeMin(genreName, false);
+        }else{
+            genreObj.addClass("min");
+            writeMin(genreName, true);
+        }
+    });
+
+    $("#movies-container").on("mouseleave", ".del-genre", function(){
     });
 
     $("#movies-container").on("click", ".video-item", function(){
@@ -185,9 +219,80 @@ $(document).ready(function(){
     setTimeout(function () {
         fixSizing();
     }, 100);
-
-
 });
+
+
+
+
+function loadMin(){
+    const app = electron.remote.app;
+    var basepath = app.getAppPath();
+    fs.readFile(basepath + "/movies.json", "utf8", (err, data) => {
+        if (err) {
+            return console.error(err);
+        }
+        ;
+        var file = JSON.parse(data.toString());
+        var movies = [];
+        var contains = false;
+        $.each(file.movies, function(index, element) {
+            var genre = element.genre;
+            var min = element.min;
+
+            if(min){
+                $('.genre').each(function(i, obj) {
+                   if($(obj).data('genre') === genre){
+                       $(obj).addClass('min');
+                   }
+                });
+            }
+
+        });
+    });
+}
+
+
+function writeMin(genre, value){
+    const app = electron.remote.app;
+    var basepath = app.getAppPath();
+    fs.readFile(basepath + "/movies.json", "utf8", (err, data) => {
+        if (err) {
+            return console.error(err);
+        }
+        ;
+        var file = JSON.parse(data.toString());
+        var movies = [];
+        var contains = false;
+        var realVideo;
+        var found = false;
+        $.each(file.movies, function(index, element) {
+            if(element.genre === genre){
+                realVideo = {
+                    "mp4": element.mp4,
+                    "img": element.img,
+                    "genre": element.genre,
+                    "name": element.name,
+                    "time": element.time,
+                    "baseUrl": element.baseUrl,
+                    "min": value
+                };
+                movies.push(realVideo);
+            }else{
+                movies.push(element);
+            }
+        });
+        var output = "{\"movies\":" + JSON.stringify(movies, null, 2) + "}";
+        if (!contains) {
+            var writeData = fs.writeFile(basepath + "/movies.json",  output, (err, result) => {  // WRITE
+                if (err) {
+                    return console.error(err);
+                } else {
+                    console.log("success");
+                }
+            });
+        }
+    });
+}
 
 function fixSizing() {
     $(".genre").each(function (index) {
@@ -544,6 +649,9 @@ function parseMovies(){
             label.text($(obj).data("genre"));
             if($(obj).children().length === 1) $(obj).hide();
         });
+
+
+        loadMin();
     }, 50);
 }
 var shown = false;

@@ -63,6 +63,7 @@ h1, h2, h3{
     background-color: var(--color-4);
     box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
     user-select: none;
+    transition: height 0.5s ease-in;
 }
 
 
@@ -80,6 +81,7 @@ h1, h2, h3{
     box-shadow: 6px 6px 4px 0px rgba(0,0,0,0.4);
     user-select: none;
     -webkit-user-drag: none;
+    transition: height 0.5s ease-in;
 }
 
 
@@ -626,4 +628,10 @@ input#set-genre-text:focus::-webkit-input-placeholder {
     color: #fff;
     border-color: #dd6137;
     background-color: #f7931d;
+}
+
+
+.min{
+    height: 45px;
+    overflow: hidden;
 }
