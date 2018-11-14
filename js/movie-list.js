@@ -128,7 +128,7 @@ $(document).ready(function(){
         $(".add-movie").slideDown();
         $("#overlay").fadeIn();
         disableScroll();
-        //startJava();
+        startJava();
         shown = false;
         shown2 = false;
     });

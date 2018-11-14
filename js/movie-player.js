@@ -231,7 +231,6 @@ io.listen(3000);
 
 $(document).ready(function(){
     registerDebug();
-    //startJava();
     storage.setDataPath(os.tmpdir());
     $("#back-button").click(function(){
 
