@@ -10,6 +10,9 @@ var currertTime;
 var currentBaseUrl;
 var child;
 var timeRead;
+var nextName;
+var nextBaseUrl;
+var nextMp4;
 
 let videoPlayer = $("#video-player");
 var io = require('socket.io')();
@@ -255,8 +258,60 @@ function fixPlayer(){
         myPlayer.on("play", function () {
             console.log('played');
         });
+
+        myPlayer.on('ended', function() {
+
+
+            setNext();
+
+            setTimeout(function(){
+                storage.set('current-movie', { name: nextName, mp4: nextMp4}, function(error) {
+                    if (error) throw error;
+                });
+
+                storage.set('current-baseUrl', { baseUrl: nextBaseUrl }, function(error){
+                    if(error) throw error;
+                });
+            }, 500);
+
+            setTimeout(function(){
+                location.reload();
+            }, 1000);
+        });
+
     });
 }
+
+
+function setNext(){
+    const app = electron.remote.app;
+    var basepath = app.getAppPath();
+    fs.readFile(basepath + "/movies.json", "utf8", (err, data) => {
+        if (err) {
+            return console.error(err);
+        }
+
+        var next = false;
+        var genre = "";
+        var file = JSON.parse(data.toString());
+        $.each(file.movies, function (index, element) {
+            if (element.name === currentName) {
+                next = true;
+                genre = element.genre;
+            }else{
+                if(next){
+                    if(element.genre === genre){
+                        nextMp4 = element.mp4;
+                        nextBaseUrl = element.baseUrl;
+                        nextName = element.name;
+                        next = false;
+                    }
+                }
+            }
+        });
+    });
+}
+
 
 function readTime(name){
     const app = electron.remote.app;
@@ -401,7 +456,8 @@ function registerDebug(){
         if(event.key === 'Control') control = true;
         if(control){
             if(event.key === 'd'){
-                electron.remote.getCurrentWindow().webContents.toggleDevTools();
+                //electron.remote.getCurrentWindow().webContents.toggleDevTools();
+
             }
         }
 

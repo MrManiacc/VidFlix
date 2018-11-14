@@ -128,7 +128,7 @@ $(document).ready(function(){
         $(".add-movie").slideDown();
         $("#overlay").fadeIn();
         disableScroll();
-        startJava();
+        //startJava();
         shown = false;
         shown2 = false;
     });
@@ -181,40 +181,6 @@ $(document).ready(function(){
 
     checkSearch();
     checkRefresh();
-
-
-
-    // setTimeout(function(){
-    //     var currentGenre;
-    //     var lastGenre;
-    //
-    //     var largest = 0;
-    //     var lastLargest = 0;
-    //     var reset = false;
-    //     var widthAdd = 0;
-    //     var realLast =
-    //         $( ".video-item" ).each(function( index ) {
-    //             currentGenre = $(this).parent().data("genre");
-    //             if(currentGenre !== lastGenre){
-    //                 reset = false;
-    //                 console.log(currentGenre + ":" + lastGenre + "largest");
-    //                 lastLargest = largest;
-    //                 console.log(lastLargest);
-    //                 largest = 0;
-    //             }
-    //
-    //
-    //             var offset = $(this).position();
-    //             var right = (offset.left + 220);
-    //             if(right > largest){
-    //                 largest = right;
-    //             }
-    //             lastGenre = currentGenre;
-    //             //console.log(right);
-    //
-    //         });
-    // }, 2000);
-
 
     setTimeout(function () {
         fixSizing();
