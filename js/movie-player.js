@@ -450,8 +450,26 @@ function changeMp4(){
 
 function registerDebug(){
     var control = false;
-
+    var myPlayer = videojs('video-player');
     document.addEventListener('keydown', (event) => {
+
+        console.log(event.key);
+        if(event.key === " "){
+            if(myPlayer.paused()){
+                myPlayer.play();
+            }else{
+                myPlayer.pause();
+            }
+        }
+
+        if(event.key == "ArrowRight"){
+            var newTime = myPlayer.currentTime() + 5;
+            myPlayer.currentTime(newTime);
+        }
+        if(event.key == "ArrowLeft"){
+            var newTime = myPlayer.currentTime() - 5;
+            myPlayer.currentTime(newTime);
+        }
         if(event.key === 'Control') control = true;
         if(control){
             if(event.key === 'd'){
