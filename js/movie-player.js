@@ -439,24 +439,38 @@ function writeMp4(name){
 }
 
 
-
 function changeMp4(){
-    // $("#source").attr("src", currentMp4);
-    var player = videojs('video-player');
-    player.ready(function() {
-        this.src({
-            src: currentMp4,
-            type: 'application/x-mpegURL',
-        });
+    if(currentMp4.includes("stream2")){
+        $("#source").attr("src", currentMp4);
         readTime(currentName);
-        this.currentTime(timeRead);
-        player.play();
-        setTimeout(function(){
-            startTimeWrite();
-            $("#redownload-overlay").hide();
-            $(".lds-facebook").hide();
-        }, 1500);
-    });
+        videojs("video-player", {}, function(){
+            this.currentTime(timeRead);
+            this.load();
+            this.play();
+
+            setTimeout(function(){
+                startTimeWrite();
+                $("#redownload-overlay").hide();
+                $(".lds-facebook").hide();
+            }, 1500);
+        });
+    }else{
+        var player = videojs('video-player');
+        player.ready(function() {
+            this.src({
+                src: currentMp4,
+                type: 'application/x-mpegURL',
+            });
+            readTime(currentName);
+            this.currentTime(timeRead);
+            player.play();
+            setTimeout(function(){
+                startTimeWrite();
+                $("#redownload-overlay").hide();
+                $(".lds-facebook").hide();
+            }, 1500);
+        });
+    }
 }
 
 function registerDebug(){
@@ -513,20 +527,26 @@ function setMovie(){
         $("#video-title").show();
         readTime(data.name);
 
-        // $("#source").attr("src", currentMp4);
-        var player = videojs('video-player');
-        player.ready(function() {
-            this.src({
-                src: currentMp4,
-                type: 'application/x-mpegURL',
+        if(currentMp4.includes("stream2")){
+            $("#source").attr("src", currentMp4);
+            videojs("video-player", {}, function(){
+                this.load();
+                this.play();
             });
-            player.play();
-        });
+        }else{
+            var player = videojs('video-player');
+            player.ready(function() {
+                this.src({
+                    src: currentMp4,
+                    type: 'application/x-mpegURL',
+                });
+                player.play();
+            });
+        }
         setTimeout(function(){
             checkResource(data.mp4);
         }, 50);
     });
 
 }
-
 
