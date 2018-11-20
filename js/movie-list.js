@@ -83,6 +83,8 @@ var isDel = false;
 $(document).ready(function(){
 
     registerDebug();
+    var audioElement = document.createElement('audio');
+    audioElement.setAttribute('src', './assets/sounds/click.mp3');
 
 
     storage.setDataPath(os.tmpdir());
@@ -147,6 +149,8 @@ $(document).ready(function(){
             let mp4 = $(this).data("mp4");
             baseUrl = $(this).data("baseurl");
             setCurrentMovie(name, mp4);
+
+            audioElement.play();
             win.loadFile('player.html');
         }
     });
@@ -162,7 +166,7 @@ $(document).ready(function(){
         $(".add-movie").slideDown();
         $("#overlay").fadeIn();
         disableScroll();
-        startJava();
+        // startJava();
         shown = false;
         shown2 = false;
     });
@@ -502,10 +506,12 @@ function startJava(){
     console.log(basepath);
     var executablePath;
     var gecko;
+    var bin;
 
     if(process.platform === "win32"){
         executablePath = basepath + "\\assets\\adder.jar";
         gecko = basepath + "\\assets\\geckodriver.exe";
+        bin = basepath + "\\assets\\winFox\\firefox.exe";
     }else{
         executablePath = basepath + "/assets/adder.jar";
         gecko = basepath + "/assets/geckodriver";
@@ -514,7 +520,7 @@ function startJava(){
 
 
     var spawn = require('child_process').spawn;
-    child = spawn('java', ['-jar', executablePath, gecko]);
+    child = spawn('java', ['-jar', executablePath, gecko, bin]);
     var shown2 = false;
     child.stdout.on('data', function (data) {
         console.log('stdout: ' + data.toString());

@@ -230,10 +230,13 @@ io.listen(3000);
 
 
 $(document).ready(function(){
+    var audioElement = document.createElement('audio');
+    audioElement.setAttribute('src', './assets/sounds/click2.mp3');
+
     registerDebug();
     storage.setDataPath(os.tmpdir());
     $("#back-button").click(function(){
-
+        audioElement.play();
         setTimeout(function(){
             win.loadFile("index.html");
         }, 300);
@@ -346,6 +349,9 @@ function readTime(name){
             if (element.name === name) {
                 timeRead = element.time;
                 console.log("TIME READ: " + element.time);
+
+                var myPlayer = videojs('video-player');
+                myPlayer.currentTime(element.time);
             }
         });
     })
@@ -502,17 +508,19 @@ function setMovie(){
         $("#video-title").show();
         readTime(data.name);
 
-        $("#source").attr("src", currentMp4);
+        // $("#source").attr("src", currentMp4);
+        var player = videojs('video-player');
+        player.ready(function() {
+            this.src({
+                src: currentMp4,
+                type: 'application/x-mpegURL',
+            });
+            player.play();
+        });
         setTimeout(function(){
             checkResource(data.mp4);
-            videojs("video-player", {}, function(){
-                this.currentTime(timeRead);
-                this.load();
-                this.play();
-            });
         }, 500);
     });
-
 
 }
 
