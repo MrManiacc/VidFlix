@@ -168,12 +168,15 @@ function startJava(){
     console.log('start java');
     const app = electron.remote.app;
     var basepath = app.getAppPath();
+    console.log(basepath);
     var executablePath;
     var gecko;
+    var bin;
 
     if(process.platform === "win32"){
         executablePath = basepath + "\\assets\\adder.jar";
         gecko = basepath + "\\assets\\geckodriver.exe";
+        bin = basepath + "\\assets\\winFox\\firefox.exe";
     }else{
         executablePath = basepath + "/assets/adder.jar";
         gecko = basepath + "/assets/geckodriver";
@@ -182,7 +185,7 @@ function startJava(){
 
 
     var spawn = require('child_process').spawn;
-    child = spawn('java', ['-jar', executablePath, gecko]);
+    child = spawn('java', ['-jar', executablePath, gecko, bin]);
     var shown2 = false;
     child.stdout.on('data', function (data) {
         console.log('stdout: ' + data.toString());
@@ -210,7 +213,6 @@ function startJava(){
     });
 
 }
-
 
 
 
@@ -439,13 +441,16 @@ function writeMp4(name){
 
 
 function changeMp4(){
-    $("#source").attr("src", currentMp4);
-    readTime(currentName);
-    videojs("video-player", {}, function(){
+    // $("#source").attr("src", currentMp4);
+    var player = videojs('video-player');
+    player.ready(function() {
+        this.src({
+            src: currentMp4,
+            type: 'application/x-mpegURL',
+        });
+        readTime(currentName);
         this.currentTime(timeRead);
-        this.load();
-        this.play();
-
+        player.play();
         setTimeout(function(){
             startTimeWrite();
             $("#redownload-overlay").hide();
@@ -519,7 +524,7 @@ function setMovie(){
         });
         setTimeout(function(){
             checkResource(data.mp4);
-        }, 500);
+        }, 50);
     });
 
 }

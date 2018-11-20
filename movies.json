@@ -1,96 +1,94 @@
-{
-  "movies": [
-    {
-      "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-NdSZN8bq/xBdvnv1rEEbv5N4EgdVz4jwuLxdao7730XxDIuNd5V6E6_9U00nesDiJKJ-4Rt-eAyDTGqloE2XRTFgchRRWqFpU7GJ9gQII9ypqZ_txvlxaS0YMGIOrpldSFFe-W1uPPcF1f7eUNgteUDL55QZHyQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542675884~exp=1542690284~acl=/*~hmac=c98ca22d26ec83e56f7135db1d0f7c5709dbe504445e37fb1d1aae457e3c2ae4",
-      "img": "https://solarmovie.id/all/img/movie/b9906ae5a044adfa/cb51078d84ee5135/little.jpg",
-      "genre": "Action",
-      "name": "Solo: A Star Wars Story",
-      "time": 6366.476521,
-      "baseUrl": "https://solarmovie.id/movie/solo-a-star-wars-story/OdGaSB7i",
-      "min": false
-    },
-    {
-      "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-PVwBcNNP/JXPoM14a7i8QkH5Q0BwLU8p1gKniq63aWjHt1g0zKsfcqSxqocBd-e3z32VDomQygNMt_8nKLZAxdDIJ7Mr9XP-tH3P0YCr3e7ZtbJjOeZBTbg0i6s8bSag8t0WGoVBfePdyVooNzBNJSv7BJY0_1Q/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676114~exp=1542690514~acl=/*~hmac=56bbc489e47755647143f37963995e29645195a63fd17790a67fbaf768154df7",
-      "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
-      "genre": "Mr Robot",
-      "name": "Mr Robot - Season 1 Episode 01: eps1.0_hellofriend.mov",
-      "time": 1888.312422,
-      "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/Ou1FO5RY"
-    },
-    {
-      "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-EHvHD22Q/3KDI2i5Qg2j3k8KTMy2WiUwJEtnO_fjQJKQbxz2t0XdiiAmpNYOpHFCoxNDTsm8RroY-Mr_ma5v9tl5nav-hkKnGhAaPz26S2YpJ8Oe4PUh9S7GAh-w3c16DJ5XrC2x4hi-bcULjwal1zvWGz-OlpQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676107~exp=1542690507~acl=/*~hmac=6d773da013761daba3d85c3e3f2a61ae0239b9056634f2165dac222113faaa7f",
-      "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
-      "genre": "Mr Robot",
-      "name": "Mr Robot - Season 1 Episode 02: eps1.1_ones-and-zer0es.mpeg",
-      "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/Xb5V59sw"
-    },
-    {
-      "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-66xz0xP0/MgNfifjAQotm0qP-EtdJkHA6v_bJosyYGa2JxtDOxK53cL1N6byLG1fmKKvquaCeTHvy2DGYKK1pFEmVA-vK70uNtbnnqR_Vi8xVwPitSyZ5_AmQDCQv7lm1VNBYMZzwK8VsvpFhupP5wztLr7kEPg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676100~exp=1542690500~acl=/*~hmac=20d9784ef08f2fd344e6348929e8262cd981e73b2b9f2d57945744b712c94ad7",
-      "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
-      "genre": "Mr Robot",
-      "name": "Mr Robot - Season 1 Episode 03: eps1.2_d3bug.mkv",
-      "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/UfCQeUca"
-    },
-    {
-      "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-fIfjTwvg/ynYVSnYn4lPqirXnlMvv4-7JoLa__LIDns1icfjKJCgMtSmbKJvGoRjIQMqKuVaOetxyDaI0WmP04FlIGhnO5LgTkMaMAw4mSmcKrF8gyhWnLr8ygw-RoW5KlC9JIunwOiGGb47mmNym_HnOxPmdXA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676094~exp=1542690494~acl=/*~hmac=07706530ec97872970d3e6af4915e7d021b7048dd9cd99ce5946889802bb013f",
-      "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
-      "genre": "Mr Robot",
-      "name": "Mr Robot - Season 1 Episode 04: eps1.3_da3m0ns.mp4",
-      "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/PFnH0tem"
-    },
-    {
-      "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-SiLSja2X/eIFIXrexnLQ8ehvxuPVQTPfhLFzAKhUkXi_NKS9LCZ-9lzhcPeRv7_F2Vi4K5_lL02UHWqWd2FIkZa8yyVGQTeyTh3SMWhvxmZBxwJRjfjv5hhzUFVA1nnK31VArnlg4bj71tOsxVJ8humS4HZaFTA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676087~exp=1542690487~acl=/*~hmac=1a0a0addd06b1547ce2947277715115a46743d734bfd23c5bc38cc6e92f80e1b",
-      "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
-      "genre": "Mr Robot",
-      "name": "Mr Robot - Season 1 Episode 05: eps1.4_3xpl0its.wmv",
-      "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/UNwt73eH"
-    },
-    {
-      "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-DgG2kkJ3/pTzZbHYcoa6gEVFIHKw3zBBT6S00u2Ne8vYOuPsk96Z2cok-TGG4KCwVM11WafRAtujKxsXJkS9zkDSSWnpiXjkXd8oLGSK1a4FmKwEHLEzS-KeTcT3F2XdkgBQpZd3MUvjyhfkWBdnUo4Ze77gfJA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676081~exp=1542690481~acl=/*~hmac=767a328e637182e7f45fd3b4942123fa67365da8752f3770cdfb364cae28efc8",
-      "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
-      "genre": "Mr Robot",
-      "name": "Mr Robot - Season 1 Episode 06: eps1.5_br4ve-trave1er.asf",
-      "time": 2679.025463,
-      "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/jroXn6Mp"
-    },
-    {
-      "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-FF85HxfE/DB2yxFsVQyin5EkA4KeDwd2A8tfsbMSg9yYDVuU1MrqKGMI_CZy_ghN06Ey4myjq1y4cJe8U0nCJ422chvVjJ32uLynuiZ7CIqhBIq7G_tJMuR8f2SFX1EOUXSIZDNJmriF2XkOt7tpB5AXn05NfJA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676074~exp=1542690474~acl=/*~hmac=4c6e9f5fc21404f9d69dcb3870267c2b9ed187f0f8598cf6baea6780b2f3b5ff",
-      "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
-      "genre": "Mr Robot",
-      "name": "Mr Robot - Season 1 Episode 07: eps1.6_v1ew-s0urce.flv",
-      "time": 2662.469636,
-      "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/lw7qhar1"
-    },
-    {
-      "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-kxnCVcFF/sET9E-Y9vLD7mjO2ZZlvDmZ4N-bNNF_P9ZAJz85xKRy8zvHPpweJ5Et4SoFG_WoGMlnuKMLpITUv7oCofyrsJtIbb-SbQx77BGswu5HI4cdqsjCdQCfDrZQ0ietcu-MQ_JNFjWiBP5hy1cXWt0iXYw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676069~exp=1542690469~acl=/*~hmac=60b95329eeef05403443ecdc53f8c90cf0fe90a9e9b62611208dc02fddf46c1e",
-      "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
-      "genre": "Mr Robot",
-      "name": "Mr Robot - Season 1 Episode 08: eps1.7_wh1ter0se.m4v",
-      "time": 2669.85272,
-      "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/SmJSJtGU"
-    },
-    {
-      "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-2BABhTYd/kAKPsjbpmynaU-IcVkvsAPqJQ-cJnr6LOmeEqvwQwz59aGmRohoexBm44_FnOcGBT9srkw4R0At7I1694ijDp78H6kQZj1uMkuzGgUVaBVYnm8oQ8KZP6iJ8SsikP6l2iwtuTYxnM7tBY0LhrcVuvQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676059~exp=1542690459~acl=/*~hmac=e582af54d1fdc0ceba758aba5b6ea836d2780159c2f66069802bd1c10e778962",
-      "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
-      "genre": "Mr Robot",
-      "name": "Mr Robot - Season 1 Episode 09: eps1.8_m1rr0r1ng.qt",
-      "time": 478.926143,
-      "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/k9Vx5xNc"
-    },
-    {
-      "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-DzTQt8Bl/p2WB9KKgELFXbKK2Rho7ns47Jyx-Rzq_KeY8Clv1Z1N4tdexGS2m_p3Oz-XlIc2Wubg2iMP-afgeKFLdNH7U4rJXF0ApWJCNnL6bLxJGoE74mAI5BgCac6i3UCDdrWy7vYES-0EQr12LCjhGyWyh-g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676058~exp=1542690458~acl=/*~hmac=d29be179d50c84d145ba9c4e50dc06dcd43612460ed5fe8a751ad87ced751d4a",
-      "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
-      "genre": "Mr Robot",
-      "name": "Mr Robot - Season 1 Episode 10: eps1.9_zer0-day.avi",
-      "time": 1830.960575,
-      "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/Wr7SPKUx"
-    },
-    {
-      "mp4": "https://stream-2-2.loadshare.org/stream2/VideoID-b27IMztK?p=G6T9YmGJ5rksGoHldr0I5ZQfY28UFU2z3FLVk70KyhzFlhSWV-0wyXSCFuUVU7fLOD6RTpVYkx3hHctUDu7X3yHPhxy3pC6x8IXE81Q6WooMkUWHHih6w6dxNnpHOArA_bsBVDITRAqw_W1Giz5VAmI5KZLj4R9S07QvgTWBpz7B77DPxc0uLsIFZ-7DzCyAlzK0vGG2B8EygXGkVigzVtTq4_d4qlGzo6W2I47ChZd2IGXOoKVsolU19x17UbA-_S593JTqbwMq9q2d6oTzUqG7Ij-pXxpvJxjrKew4Ptirj9FWSU11cF-3RluOHAFBy-3aZI6UkLpRbN-mJt3TNNIuQ-89l4XbhketluNiYzif9YtMrP8jqN-GvAjR05o5PHgzzTANSvgnWZzYTKx6hI-FFEs3JGgQGuLNi0JQyZvKTDCy3XBpX3mqIgKzXAzt6d8NHPkxkTSshRxCpW4dPZix8t_1d-03j6gsSi8KAOHplTuTBVjzvCdQ_cAQd6AHAsWqFqpRu7zSLuu5_cYOlhcxeVsK1mZyAnX5BcwnWkcXWuH2Lf1XkUuSqRn9bjFZEHSCR1wZ6TVcQgCnkQG7a7FXc4cWEsKveGXn_vdDONgf7Pkz2eXcJ2cVyDwMdd4dtA6Iu4xRn5ek_LghFa-S9RlKw_ZzfVPrHaMRP1W7bpHiIw8UDZQ-jSb_wtW6XJH6memxwqjPr1UBQn2ZMLkwUz-R_6r-SmahBFG4Wec6S0dwG6mOeLfRtV0XBZ9ch4xdZhB5syqqyyK0E8IwOS-Xgxzz4KLTaKcY7egjkw0uXOZdr8w13b02x9cqIwsS_1kNr8HLLB9zrM58-X7GMjexFvpvQcv3pUX6shdv1yTjqm2E1jctR390tzphjLHqoYhMrHaGH2MvUL8zroAMAJnf5Qmn-ALMmXFeworvaQHle1oyaQsdKNdCiD_bfgR9kgh-mW_UqrjWJStGcYe8fPYmcsPIP2zL_Re-P4yk3rgCMkUvejBPVGoYototmctesd06&secure=lCYrc0dv4FvZ4CqBAV-6OA&expires=3085369346",
-      "img": "https://solarmovie.id/all/img/movie/cfd7d6a562ea3bc5/a64967efd7dea6fb/little.jpg",
-      "baseUrl": "https://solarmovie.id/movie/the-sweetest-heart/psv2GNwe",
-      "genre": "Romance",
-      "name": "The Sweetest Heart"
-    }
-  ]
-}
+{"movies":[
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-NdSZN8bq/xBdvnv1rEEbv5N4EgdVz4jwuLxdao7730XxDIuNd5V6E6_9U00nesDiJKJ-4Rt-eAyDTGqloE2XRTFgchRRWqFpU7GJ9gQII9ypqZ_txvlxaS0YMGIOrpldSFFe-W1uPPcF1f7eUNgteUDL55QZHyQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542675884~exp=1542690284~acl=/*~hmac=c98ca22d26ec83e56f7135db1d0f7c5709dbe504445e37fb1d1aae457e3c2ae4",
+    "img": "https://solarmovie.id/all/img/movie/b9906ae5a044adfa/cb51078d84ee5135/little.jpg",
+    "genre": "Action",
+    "name": "Solo: A Star Wars Story",
+    "time": 6366.476521,
+    "baseUrl": "https://solarmovie.id/movie/solo-a-star-wars-story/OdGaSB7i",
+    "min": false
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-PVwBcNNP/JXPoM14a7i8QkH5Q0BwLU8p1gKniq63aWjHt1g0zKsfcqSxqocBd-e3z32VDomQygNMt_8nKLZAxdDIJ7Mr9XP-tH3P0YCr3e7ZtbJjOeZBTbg0i6s8bSag8t0WGoVBfePdyVooNzBNJSv7BJY0_1Q/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676114~exp=1542690514~acl=/*~hmac=56bbc489e47755647143f37963995e29645195a63fd17790a67fbaf768154df7",
+    "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
+    "genre": "Mr Robot",
+    "name": "Mr Robot - Season 1 Episode 01: eps1.0_hellofriend.mov",
+    "time": 1888.312422,
+    "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/Ou1FO5RY"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-EHvHD22Q/3KDI2i5Qg2j3k8KTMy2WiUwJEtnO_fjQJKQbxz2t0XdiiAmpNYOpHFCoxNDTsm8RroY-Mr_ma5v9tl5nav-hkKnGhAaPz26S2YpJ8Oe4PUh9S7GAh-w3c16DJ5XrC2x4hi-bcULjwal1zvWGz-OlpQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676107~exp=1542690507~acl=/*~hmac=6d773da013761daba3d85c3e3f2a61ae0239b9056634f2165dac222113faaa7f",
+    "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
+    "genre": "Mr Robot",
+    "name": "Mr Robot - Season 1 Episode 02: eps1.1_ones-and-zer0es.mpeg",
+    "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/Xb5V59sw"
+  },
+  {
+    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-66xz0xP0/MgNfifjAQotm0qP-EtdJkHA6v_bJosyYGa2JxtDOxK53cL1N6byLG1fmKKvquaCeTHvy2DGYKK1pFEmVA-vK70uNtbnnqR_Vi8xVwPitSyZ5_AmQDCQv7lm1VNBYMZzwK8VsvpFhupP5wztLr7kEPg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676100~exp=1542690500~acl=/*~hmac=20d9784ef08f2fd344e6348929e8262cd981e73b2b9f2d57945744b712c94ad7",
+    "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
+    "genre": "Mr Robot",
+    "name": "Mr Robot - Season 1 Episode 03: eps1.2_d3bug.mkv",
+    "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/UfCQeUca"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-fIfjTwvg/ynYVSnYn4lPqirXnlMvv4-7JoLa__LIDns1icfjKJCgMtSmbKJvGoRjIQMqKuVaOetxyDaI0WmP04FlIGhnO5LgTkMaMAw4mSmcKrF8gyhWnLr8ygw-RoW5KlC9JIunwOiGGb47mmNym_HnOxPmdXA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676094~exp=1542690494~acl=/*~hmac=07706530ec97872970d3e6af4915e7d021b7048dd9cd99ce5946889802bb013f",
+    "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
+    "genre": "Mr Robot",
+    "name": "Mr Robot - Season 1 Episode 04: eps1.3_da3m0ns.mp4",
+    "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/PFnH0tem"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-SiLSja2X/eIFIXrexnLQ8ehvxuPVQTPfhLFzAKhUkXi_NKS9LCZ-9lzhcPeRv7_F2Vi4K5_lL02UHWqWd2FIkZa8yyVGQTeyTh3SMWhvxmZBxwJRjfjv5hhzUFVA1nnK31VArnlg4bj71tOsxVJ8humS4HZaFTA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676087~exp=1542690487~acl=/*~hmac=1a0a0addd06b1547ce2947277715115a46743d734bfd23c5bc38cc6e92f80e1b",
+    "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
+    "genre": "Mr Robot",
+    "name": "Mr Robot - Season 1 Episode 05: eps1.4_3xpl0its.wmv",
+    "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/UNwt73eH"
+  },
+  {
+    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-DgG2kkJ3/pTzZbHYcoa6gEVFIHKw3zBBT6S00u2Ne8vYOuPsk96Z2cok-TGG4KCwVM11WafRAtujKxsXJkS9zkDSSWnpiXjkXd8oLGSK1a4FmKwEHLEzS-KeTcT3F2XdkgBQpZd3MUvjyhfkWBdnUo4Ze77gfJA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676081~exp=1542690481~acl=/*~hmac=767a328e637182e7f45fd3b4942123fa67365da8752f3770cdfb364cae28efc8",
+    "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
+    "genre": "Mr Robot",
+    "name": "Mr Robot - Season 1 Episode 06: eps1.5_br4ve-trave1er.asf",
+    "time": 2679.025463,
+    "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/jroXn6Mp"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-FF85HxfE/DB2yxFsVQyin5EkA4KeDwd2A8tfsbMSg9yYDVuU1MrqKGMI_CZy_ghN06Ey4myjq1y4cJe8U0nCJ422chvVjJ32uLynuiZ7CIqhBIq7G_tJMuR8f2SFX1EOUXSIZDNJmriF2XkOt7tpB5AXn05NfJA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676074~exp=1542690474~acl=/*~hmac=4c6e9f5fc21404f9d69dcb3870267c2b9ed187f0f8598cf6baea6780b2f3b5ff",
+    "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
+    "genre": "Mr Robot",
+    "name": "Mr Robot - Season 1 Episode 07: eps1.6_v1ew-s0urce.flv",
+    "time": 2662.469636,
+    "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/lw7qhar1"
+  },
+  {
+    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-kxnCVcFF/sET9E-Y9vLD7mjO2ZZlvDmZ4N-bNNF_P9ZAJz85xKRy8zvHPpweJ5Et4SoFG_WoGMlnuKMLpITUv7oCofyrsJtIbb-SbQx77BGswu5HI4cdqsjCdQCfDrZQ0ietcu-MQ_JNFjWiBP5hy1cXWt0iXYw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542678316~exp=1542692716~acl=/*~hmac=3442edb083ddf448f909cbf971b7aa30b675f9aefe8218de37c8fc17ac976193",
+    "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
+    "genre": "Mr Robot",
+    "name": "Mr Robot - Season 1 Episode 08: eps1.7_wh1ter0se.m4v",
+    "time": 2669.847731,
+    "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/SmJSJtGU"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-2BABhTYd/kAKPsjbpmynaU-IcVkvsAPqJQ-cJnr6LOmeEqvwQwz59aGmRohoexBm44_FnOcGBT9srkw4R0At7I1694ijDp78H6kQZj1uMkuzGgUVaBVYnm8oQ8KZP6iJ8SsikP6l2iwtuTYxnM7tBY0LhrcVuvQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676059~exp=1542690459~acl=/*~hmac=e582af54d1fdc0ceba758aba5b6ea836d2780159c2f66069802bd1c10e778962",
+    "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
+    "genre": "Mr Robot",
+    "name": "Mr Robot - Season 1 Episode 09: eps1.8_m1rr0r1ng.qt",
+    "time": 487.31635,
+    "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/k9Vx5xNc"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-DzTQt8Bl/p2WB9KKgELFXbKK2Rho7ns47Jyx-Rzq_KeY8Clv1Z1N4tdexGS2m_p3Oz-XlIc2Wubg2iMP-afgeKFLdNH7U4rJXF0ApWJCNnL6bLxJGoE74mAI5BgCac6i3UCDdrWy7vYES-0EQr12LCjhGyWyh-g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676058~exp=1542690458~acl=/*~hmac=d29be179d50c84d145ba9c4e50dc06dcd43612460ed5fe8a751ad87ced751d4a",
+    "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
+    "genre": "Mr Robot",
+    "name": "Mr Robot - Season 1 Episode 10: eps1.9_zer0-day.avi",
+    "time": 1830.960575,
+    "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/Wr7SPKUx"
+  },
+  {
+    "mp4": "https://stream-2-2.loadshare.org/stream2/VideoID-b27IMztK?p=G6T9YmGJ5rksGoHldr0I5ZQfY28UFU2z3FLVk70KyhzFlhSWV-0wyXSCFuUVU7fLOD6RTpVYkx3hHctUDu7X3yHPhxy3pC6x8IXE81Q6WooMkUWHHih6w6dxNnpHOArA_bsBVDITRAqw_W1Giz5VAmI5KZLj4R9S07QvgTWBpz7B77DPxc0uLsIFZ-7DzCyAlzK0vGG2B8EygXGkVigzVtTq4_d4qlGzo6W2I47ChZd2IGXOoKVsolU19x17UbA-_S593JTqbwMq9q2d6oTzUqG7Ij-pXxpvJxjrKew4Ptirj9FWSU11cF-3RluOHAFBy-3aZI6UkLpRbN-mJt3TNNIuQ-89l4XbhketluNiYzif9YtMrP8jqN-GvAjR05o5PHgzzTANSvgnWZzYTKx6hI-FFEs3JGgQGuLNi0JQyZvKTDCy3XBpX3mqIgKzXAzt6d8NHPkxkTSshRxCpW4dPZix8t_1d-03j6gsSi8KAOHplTuTBVjzvCdQ_cAQd6AHAsWqFqpRu7zSLuu5_cYOlhcxeVsK1mZyAnX5BcwnWkcXWuH2Lf1XkUuSqRn9bjFZEHSCR1wZ6TVcQgCnkQG7a7FXc4cWEsKveGXn_vdDONgf7Pkz2eXcJ2cVyDwMdd4dtA6Iu4xRn5ek_LghFa-S9RlKw_ZzfVPrHaMRP1W7bpHiIw8UDZQ-jSb_wtW6XJH6memxwqjPr1UBQn2ZMLkwUz-R_6r-SmahBFG4Wec6S0dwG6mOeLfRtV0XBZ9ch4xdZhB5syqqyyK0E8IwOS-Xgxzz4KLTaKcY7egjkw0uXOZdr8w13b02x9cqIwsS_1kNr8HLLB9zrM58-X7GMjexFvpvQcv3pUX6shdv1yTjqm2E1jctR390tzphjLHqoYhMrHaGH2MvUL8zroAMAJnf5Qmn-ALMmXFeworvaQHle1oyaQsdKNdCiD_bfgR9kgh-mW_UqrjWJStGcYe8fPYmcsPIP2zL_Re-P4yk3rgCMkUvejBPVGoYototmctesd06&secure=lCYrc0dv4FvZ4CqBAV-6OA&expires=3085369346",
+    "img": "https://solarmovie.id/all/img/movie/cfd7d6a562ea3bc5/a64967efd7dea6fb/little.jpg",
+    "baseUrl": "https://solarmovie.id/movie/the-sweetest-heart/psv2GNwe",
+    "genre": "Romance",
+    "name": "The Sweetest Heart"
+  }
+]}
