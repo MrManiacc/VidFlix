@@ -1,14 +1,5 @@
 {"movies":[
   {
-    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-NdSZN8bq/xBdvnv1rEEbv5N4EgdVz4jwuLxdao7730XxDIuNd5V6E6_9U00nesDiJKJ-4Rt-eAyDTGqloE2XRTFgchRRWqFpU7GJ9gQII9ypqZ_txvlxaS0YMGIOrpldSFFe-W1uPPcF1f7eUNgteUDL55QZHyQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542675884~exp=1542690284~acl=/*~hmac=c98ca22d26ec83e56f7135db1d0f7c5709dbe504445e37fb1d1aae457e3c2ae4",
-    "img": "https://solarmovie.id/all/img/movie/b9906ae5a044adfa/cb51078d84ee5135/little.jpg",
-    "genre": "Action",
-    "name": "Solo: A Star Wars Story",
-    "time": 6366.476521,
-    "baseUrl": "https://solarmovie.id/movie/solo-a-star-wars-story/OdGaSB7i",
-    "min": false
-  },
-  {
     "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-PVwBcNNP/JXPoM14a7i8QkH5Q0BwLU8p1gKniq63aWjHt1g0zKsfcqSxqocBd-e3z32VDomQygNMt_8nKLZAxdDIJ7Mr9XP-tH3P0YCr3e7ZtbJjOeZBTbg0i6s8bSag8t0WGoVBfePdyVooNzBNJSv7BJY0_1Q/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542676114~exp=1542690514~acl=/*~hmac=56bbc489e47755647143f37963995e29645195a63fd17790a67fbaf768154df7",
     "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
     "genre": "Mr Robot",
@@ -28,6 +19,7 @@
     "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
     "genre": "Mr Robot",
     "name": "Mr Robot - Season 1 Episode 03: eps1.2_d3bug.mkv",
+    "time": 1286.92446,
     "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/UfCQeUca"
   },
   {
@@ -81,11 +73,18 @@
     "img": "https://solarmovie.id/all/img/series/6d79b436fb1b594f/f2336eedcbd1a52e/little.png",
     "genre": "Mr Robot",
     "name": "Mr Robot - Season 1 Episode 10: eps1.9_zer0-day.avi",
-    "time": 1830.960575,
+    "time": 1832.748121,
     "baseUrl": "https://solarmovie.id/tv-series/mr-robot-season-1/WvKFlrfI/Wr7SPKUx"
   },
   {
-    "mp4": "https://stream-2-2.loadshare.org/stream2/VideoID-b27IMztK?p=G6T9YmGJ5rksGoHldr0I5ZQfY28UFU2z3FLVk70KyhzFlhSWV-0wyXSCFuUVU7fLOD6RTpVYkx3hHctUDu7X3yHPhxy3pC6x8IXE81Q6WooMkUWHHih6w6dxNnpHOArA_bsBVDITRAqw_W1Giz5VAmI5KZLj4R9S07QvgTWBpz7B77DPxc0uLsIFZ-7DzCyAlzK0vGG2B8EygXGkVigzVtTq4_d4qlGzo6W2I47ChZd2IGXOoKVsolU19x17UbA-_S593JTqbwMq9q2d6oTzUqG7Ij-pXxpvJxjrKew4Ptirj9FWSU11cF-3RluOHAFBy-3aZI6UkLpRbN-mJt3TNNIuQ-89l4XbhketluNiYzif9YtMrP8jqN-GvAjR05o5PHgzzTANSvgnWZzYTKx6hI-FFEs3JGgQGuLNi0JQyZvKTDCy3XBpX3mqIgKzXAzt6d8NHPkxkTSshRxCpW4dPZix8t_1d-03j6gsSi8KAOHplTuTBVjzvCdQ_cAQd6AHAsWqFqpRu7zSLuu5_cYOlhcxeVsK1mZyAnX5BcwnWkcXWuH2Lf1XkUuSqRn9bjFZEHSCR1wZ6TVcQgCnkQG7a7FXc4cWEsKveGXn_vdDONgf7Pkz2eXcJ2cVyDwMdd4dtA6Iu4xRn5ek_LghFa-S9RlKw_ZzfVPrHaMRP1W7bpHiIw8UDZQ-jSb_wtW6XJH6memxwqjPr1UBQn2ZMLkwUz-R_6r-SmahBFG4Wec6S0dwG6mOeLfRtV0XBZ9ch4xdZhB5syqqyyK0E8IwOS-Xgxzz4KLTaKcY7egjkw0uXOZdr8w13b02x9cqIwsS_1kNr8HLLB9zrM58-X7GMjexFvpvQcv3pUX6shdv1yTjqm2E1jctR390tzphjLHqoYhMrHaGH2MvUL8zroAMAJnf5Qmn-ALMmXFeworvaQHle1oyaQsdKNdCiD_bfgR9kgh-mW_UqrjWJStGcYe8fPYmcsPIP2zL_Re-P4yk3rgCMkUvejBPVGoYototmctesd06&secure=lCYrc0dv4FvZ4CqBAV-6OA&expires=3085369346",
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-NdSZN8bq/xBdvnv1rEEbv5N4EgdVz4jwuLxdao7730XxDIuNd5V6E6_9U00nesDiJKJ-4Rt-eAyDTGqloE2XRTFgchRRWqFpU7GJ9gQII9ypqZ_txvlxaS0YMGIOrpldSFFe-W1uPPcF1f7eUNgteUDL55QZHyQ/index-f1-v1-a1.m3u8?token=ip=174.226.20.89~st=1542678761~exp=1542693161~acl=/*~hmac=39b5761978cca5682a632ecd999ef23ecc1f375ca366698e167f3163a533a5f7",
+    "img": "https://solarmovie.id/all/img/movie/b9906ae5a044adfa/cb51078d84ee5135/little.jpg",
+    "baseUrl": "https://solarmovie.id/movie/solo-a-star-wars-story/OdGaSB7i",
+    "genre": "Action",
+    "name": "Solo: A Star Wars Story"
+  },
+  {
+    "mp4": "https://stream-2-2.loadshare.org/stream2/VideoID-b27IMztK?p=G6T9YmGJ5rksGoHldr0I5ZQfY28UFU2z3FLVk70KyhzFlhSWV-0wyXSCFuUVU7fLOD6RTpVYkx3hHctUDu7X3yHPhxy3pC6x8IXE81Q6WooMkUWHHih6w6dxNnpHOArA_bsBVDITRAqw_W1Giz5VAmI5KZLj4R9S07QvgTWBpz7B77DPxc0uLsIFZ-7DzCyAlzK0vGG2B8EygXGkVigzVtTq4_d4qlGzo6W2I47ChZd2IGXOoKVsolU19x17UbA-_S593JTqbwMq9q2d6oTzUqG7Ij-pXxpvJxjrKew4Ptirj9FWSU11cF-3RluOHAFBy-3aZI6UkLpRbN-mJt3TNNIuQ-89l4XbhketluNiYzif9YtMrP8jqN-GvAjR05o5PHgzzTANSvgnWZzYTKx6hI-FFEs3JGgQGuLNi0JQyZvKTDCy3XBpX3mqIgKzXAzt6d8NHPkxkTSshRxCpW4dPZix8t_1d-03j6gsSi8KAOHplTuTBVjzvCdQ_cAQd6AHAsWqFqpRu7zSLuu5_cYOlhcxeVsK1mZyAnX5BcwnWkcXWuH2Lf1XkUuSqRn9bjFZEHSCR1wZ6TVcQgCnkQG7a7FXc4cWEsKveGXn_vdDONgf7Pkz2eXcJ2cVyDwMdd4dtA6Iu4xRn5ek_LghFa-S9RlKw_ZzfVPrHaMRP1W7bpHiIw8UDZQ-jSb_wtW6XJH6memxwqjPr1UBQn2ZMLkwUz-R_6r-SmahBFG4Wec6S0dwG6mOeLfRtV0XBZ9ch4xdZhB5syqqyyK0E8IwOS-Xgxzz4KLTaKcY7egjkw0uXOZdr8w13b02x9cqIwsS_1kNr8HLLB9zrM58-X7GMjexFvpvQcv3pUX6shdv1yTjqm2E1jctR390tzphjLHqoYhMrHaGH2MvUL8zroAMAJnf5Qmn-ALMmXFeworvaQHle1oyaQsdKNdCiD_bfgR9kgh-mW_UqrjWJStGcYe8fPYmcsPIP2zL_Re-P4yk3rgCMkUvejBPVGoYototmctesd06&secure=gJy23qw1hLe_ITcnMZmKkA&expires=3085372850",
     "img": "https://solarmovie.id/all/img/movie/cfd7d6a562ea3bc5/a64967efd7dea6fb/little.jpg",
     "baseUrl": "https://solarmovie.id/movie/the-sweetest-heart/psv2GNwe",
     "genre": "Romance",

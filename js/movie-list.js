@@ -515,6 +515,7 @@ function startJava(){
     }else{
         executablePath = basepath + "/assets/adder.jar";
         gecko = basepath + "/assets/geckodriver";
+        bin = basepath + "/assets/macFox/Firefox.app/Contents/MacOS/firefox";
     }
 
 
