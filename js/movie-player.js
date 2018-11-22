@@ -128,7 +128,7 @@ function checkResource (url) {
         else if(req.status === 200 || req.status === 206){
             startTimeWrite();
         }
-    }, 5000);
+    }, 2500);
 
 }
 
@@ -180,6 +180,7 @@ function startJava(){
     }else{
         executablePath = basepath + "/assets/adder.jar";
         gecko = basepath + "/assets/geckodriver";
+        bin = basepath + "/assets/macFox/Firefox.app/Contents/MacOS/firefox";
     }
 
 
@@ -518,6 +519,8 @@ function setMovie(){
 
     storage.get('current-movie', function(error, data) {
         if (error) throw error;
+        checkResource(data.mp4);
+
 
         currentName = data.name;
         currentMp4 = data.mp4;
@@ -543,9 +546,7 @@ function setMovie(){
                 player.play();
             });
         }
-        setTimeout(function(){
-            checkResource(data.mp4);
-        }, 500);
+
     });
 
 }

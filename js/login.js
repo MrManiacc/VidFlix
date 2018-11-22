@@ -12,6 +12,10 @@ $(document).ready(function(){
         password = $("#password").val();
         checkAccount();
     });
+
+    $(".btn2").click(function(){
+        win.loadFile("register.html");
+    });
 });
 
 
@@ -57,7 +61,7 @@ function pullLibrary(library){
     let info = {"Username": username, "Password": password, "Library": library};
     $.post('http://162.208.8.88/pull.php', {library: library},
         function (data) {
-        console.log();
+        console.log(data);
             fs.writeFile(basepath + "/movies.json",  data.toString(), (err, result) => {  // WRITE
                 if (err) {
                     return console.error(err);

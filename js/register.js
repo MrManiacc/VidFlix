@@ -46,7 +46,8 @@ function checkUserInfo(){
             $.get( "http://162.208.8.88/log.php", { Username: user.Username, Password: user.Password } )
                 .done(function( data ) {
                     if(data.logged){
-                        win.loadFile("index.html");
+                        console.log("logged in");
+
                     }
                 });
         }, 500)
@@ -61,9 +62,14 @@ function writeUserInfo(info){
         if (err) {
             return console.error(err);
         } else {
-            setTimeout(function(){
-                win.loadFile("index.html");
-            }, 1000);
+            fs.writeFile(base + "/movies.json",  "{\"movies\":[]}", (err, result) => {  // WRITE
+                if (err) {
+                    return console.error(err);
+                } else {
+                    win.loadFile("index.html");
+                }
+            });
+
         }
     });
 }

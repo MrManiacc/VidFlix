@@ -757,7 +757,7 @@ function uploadMovie(){
                 let text = data.toString();
                 $.post('http://162.208.8.88/push.php', {data: text, library: info.Library},
                     function (returnedData) {
-                        Alert.success("Success!", "Saved your library!")
+                        Alert.info("Success!", "Saved your library!")
                     });
             }, 300);
         }

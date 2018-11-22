@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: "Roboto";
+
     background-size: 200% 100% !important;
     -webkit-animation: move 10s ease infinite;
     animation: move 10s ease infinite;
@@ -52,10 +52,11 @@ body {
 }
 
 .user__title {
-    font-size: 14px;
     margin-bottom: -10px;
     font-weight: 500;
     color: white;
+    font-family: "Jura";
+    font-size: 20px;
 }
 
 .form {
@@ -81,7 +82,8 @@ body {
     display: block;
     width: 100%;
     padding: 20px;
-    font-family: "Roboto";
+    font-family: "Jura";
+    font-size: 20px;
     -webkit-appearance: none;
     border: 0;
     outline: 0;
@@ -95,7 +97,8 @@ body {
     display: block;
     width: 100%;
     padding: 20px;
-    font-family: "Roboto";
+    font-family: "Jura";
+    font-size: 20px;
     -webkit-appearance: none;
     outline: 0;
     border: 0;
@@ -104,9 +107,29 @@ body {
     transition: 0.3s;
 }
 .btn:hover {
-    background: var(--color-1);
+    background: var(--color-2);
     cursor: pointer;
 }
+
+.btn2{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: "Jura";
+    font-size: 20px;
+    -webkit-appearance: none;
+    outline: 0;
+    border: 0;
+    color: white;
+    background: var(--color-1);
+    transition: 0.3s;
+}
+
+.btn2:hover {
+    background: var(--color-2);
+    cursor: pointer;
+}
+
 
 #ico{
     width: 200px;

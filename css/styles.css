@@ -656,7 +656,7 @@ input#set-genre-text:focus::-webkit-input-placeholder {
 }
 
 #signout{
-    color: var(--color-1);
+    color: var(--color-3);
     transition: color 500ms;
  }
 
@@ -689,7 +689,7 @@ input#set-genre-text:focus::-webkit-input-placeholder {
 
 .menu-wrapper {
     position: fixed;
-    right: 20px;
+    right: 15px;
     top: 32px;
 
     width: 200px;
@@ -784,8 +784,11 @@ input#set-genre-text:focus::-webkit-input-placeholder {
     text-transform: uppercase;
     transition: all 0.25s ease-in-out;
     border-left: 2px solid #7482A5;
+    background-color: var(--color-2);
 }
 .menu ul.nav-links li:hover, .menu ul.nav-links li.active {
     color: white;
     border-left: 2px solid white;
+    background-color: var(--color-1);
 }
+
