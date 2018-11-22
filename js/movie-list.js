@@ -102,6 +102,8 @@ var isDel = false;
 $(document).ready(function(){
 
 
+
+
     setTimeout(function(){
             $("#username").html("Welcome, " + info.Username + ". <a id='signout' href='login.html'>Sign out?</a>");
             $("#username").slideDown();
@@ -188,7 +190,7 @@ $(document).ready(function(){
         stopJava();
     });
 
-    $("#add").click(function(){
+    $("#addItem").click(function(){
         $(".add-movie").slideDown();
         $("#overlay").fadeIn();
         disableScroll();
@@ -197,12 +199,12 @@ $(document).ready(function(){
         shown2 = false;
     });
 
-    $("#push").click(function(){
+    $("#pushItem").click(function(){
         uploadMovie();
     });
 
 
-    $("#pull").click(function(){
+    $("#pullItem").click(function(){
         pullLibrary();
     })
 
@@ -621,7 +623,7 @@ function setCurrentMovie(name, mp4){
 }
 
 function checkRefresh(){
-    $("#refresh").click(function(){
+    $("#refreshItem").click(function(){
         parseMovies();
         setTimeout(function () {
             fixSizing();

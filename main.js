@@ -95,7 +95,7 @@ function createWindow () {
     mainWindow = null
   })
     if (process.platform === 'darwin') {
-        createMenu();
+        //createMenu();
     }
 
 }

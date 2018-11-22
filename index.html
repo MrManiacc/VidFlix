@@ -22,13 +22,27 @@
             <h1 id="title">VidFlix</h1>
         </div>
         <input type="text" id="search-bar" placeholder="Search from library">
+          <div class="menu-wrapper">
+              <div class="menu">
+                  <label>MENU</label>
+                  <ul class="nav-links">
+                      <li id="pushItem">Push Cloud</li>
+                      <li id="pullItem">Pull cloud</li>
+                      <li id="refreshItem">Refresh</li>
+                      <li id="addItem">Add</li>
+                  </ul>
+              </div>
+          </div>
+
           <h1 id="username" style="display: none;"></h1>
-        <input type="submit" id="add" value="add">
-        <input type="submit" id="refresh" value="Refresh">
-          <input type="submit" id="push" value="Push to cloud">
-          <input type="submit" id="pull" value="Pull from cloud">
-        <!--<input type="submit" id="debug" value="Debug">-->
-        <input type="submit" id="close" value="Close">
+          <div class="hover">
+              <!--<input type="submit" id="add" value="add">-->
+              <!--<input type="submit" id="refresh" value="Refresh">-->
+              <!--<input type="submit" id="push" value="Push to cloud">-->
+              <!--<input type="submit" id="pull" value="Pull from cloud">-->
+              <!--&lt;!&ndash;<input type="submit" id="debug" value="Debug">&ndash;&gt;-->
+              <!--<input type="submit" id="close" value="Close">-->
+          </div>
       </div>
 
       <div id="overlay"> </div>

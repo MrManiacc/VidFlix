@@ -110,10 +110,11 @@ input#search-bar:focus::-webkit-input-placeholder {
 }
 
 #add{
-    position:absolute;
-    right: calc(7.5%);
-    top: 50%;
-    transform: translateY(-50%);
+    /*position:absolute;*/
+    /*right: calc(7.5%);*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+    position: relative;
     outline: none;
     border: none;
     font-family: 'Jura', sans-serif;
