@@ -37,6 +37,17 @@
     border-radius: 50%;
 }
 
+#username{
+    font-family: 'Jura', sans-serif;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(15% + 7.5% + 170px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 input#search-bar {
     font-family: 'Jura', sans-serif;
     margin: 0 auto;
@@ -129,6 +140,41 @@ input#search-bar:focus::-webkit-input-placeholder {
      cursor: pointer;
      -webkit-app-region: no-drag;
  }
+
+#push{
+    position:absolute;
+    right: calc(7.5% + 220px);
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    padding: 6px;
+    font-size: 32px;
+    background-color: var(--color-3);
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+
+}
+
+
+#pull{
+    position:absolute;
+    right: calc(7.5% + 450px);
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    padding: 6px;
+    font-size: 32px;
+    background-color: var(--color-3);
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+
+}
 
 #close{
     display: none;

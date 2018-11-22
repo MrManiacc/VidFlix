@@ -80,7 +80,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 1280, height: 720, title: "VideoFlix", icon: path.join(__dirname, 'assets/icons/win/icon.png')})
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html');
+  mainWindow.loadFile('login.html');
 
     // Open the DevTools.
   // mainWindow.webContents.openDevTools()

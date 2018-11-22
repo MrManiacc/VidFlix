@@ -635,3 +635,32 @@ input#set-genre-text:focus::-webkit-input-placeholder {
     height: 45px;
     overflow: hidden;
 }
+
+#reg{
+    background-color: var(--color-3);
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: calc(80% - 200px);
+    box-shadow: 2px 2px 9px 3px rgba(0,0,0,0.3);
+}
+
+
+.inner{
+    background-color: var(--color-2);
+    width: 50%;
+    height: 50%;
+    transform: translate(50%, 50%);
+}
+
+#signout{
+    color: var(--color-1);
+    transition: color 500ms;
+ }
+
+#signout:hover{
+    color: var(--color-3);
+
+}

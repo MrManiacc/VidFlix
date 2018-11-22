@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>VidFlix</title>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Jura" rel="stylesheet">
+    <link rel="stylesheet" href="./css/login.css">
+    <!--<link rel="stylesheet" href="./css/navbar.css">-->
+</head>
+<body>
+
+
+
+
+
+<div class="user">
+    <header class="user__header">
+        <img id="ico" src="./assets/icon.png" alt="" />
+        <h1 class="user__title">A lightweight movie/tv show grabber</h1>
+    </header>
+    <form class="form" id ="register">
+        <div class="form__group">
+            <input type="text" placeholder="Username" class="form__input" id="username" />
+        </div>
+
+        <div class="form__group">
+            <input type="email" placeholder="Email" class="form__input" />
+        </div>
+
+        <div class="form__group">
+            <input type="password" placeholder="Password" class="form__input" id="password"/>
+        </div>
+        <button class="btn" type="button">Register</button>
+    </form>
+</div>
+
+<ul class="list unstyled">
+</ul>
+<script>
+    require('./renderer.js')
+</script>
+
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+<!-- normal script imports etc  -->
+<script src="./js/jquery.js"></script>
+<script src="./js/jquery-ui.min.js"></script>
+<script src="./js/register.js"></script>
+
+<!-- Insert this line after script imports -->
+<script>if (window.module) module = window.module;</script>
+</body>
+</html>

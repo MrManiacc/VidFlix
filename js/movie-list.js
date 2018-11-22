@@ -9,6 +9,27 @@ var baseUrl;
 var currentName;
 var isTvShow = false;
 var child;
+let info = undefined;
+
+var baseAddr = '162.208.8.88';
+
+function readInfo(){
+    const app = electron.remote.app;
+    let base = app.getAppPath();
+    fs.readFile(base + "/user.json", "utf8", (err, data) => {
+        if (err) {
+            console.log("doesn't exsist");
+        }
+        setTimeout(function(){
+            info = JSON.parse(data.toString());
+
+        }, 150)
+    });
+}
+
+readInfo();
+
+
 function noscroll() {
     window.scrollTo( 0, 0 );
 }
@@ -59,8 +80,6 @@ function sortAlgorithm(){
 
 }
 
-
-
 function registerDebug(){
     var control = false;
 
@@ -81,6 +100,13 @@ function registerDebug(){
 }
 var isDel = false;
 $(document).ready(function(){
+
+
+    setTimeout(function(){
+            $("#username").html("Welcome, " + info.Username + ". <a id='signout' href='login.html'>Sign out?</a>");
+            $("#username").slideDown();
+        }, 400);
+
 
     registerDebug();
     var audioElement = document.createElement('audio');
@@ -171,6 +197,17 @@ $(document).ready(function(){
         shown2 = false;
     });
 
+    $("#push").click(function(){
+        uploadMovie();
+    });
+
+
+    $("#pull").click(function(){
+        pullLibrary();
+    })
+
+
+
     $("#set-genre").click(function(){
         setGenre(currentName, $("#set-genre-text").val());
         setTimeout(function(){
@@ -236,6 +273,7 @@ function loadMin(){
             return console.error(err);
         }
         ;
+        uploadMovie();
         var file = JSON.parse(data.toString());
         var movies = [];
         var contains = false;
@@ -264,6 +302,7 @@ function writeMin(genre, value){
             return console.error(err);
         }
         ;
+        uploadMovie();
         var file = JSON.parse(data.toString());
         var movies = [];
         var contains = false;
@@ -461,6 +500,7 @@ io.on('connection', function(socket){
         $("#overlay").fadeOut();
         $(".lds-facebook").hide();
         enableScroll();
+
     });
 
     socket.on('bulkvideo', function(data){
@@ -479,7 +519,8 @@ io.on('connection', function(socket){
             $("#overlay").fadeOut();
             $(".lds-facebook").hide();
             enableScroll();
-        }, waitTime * 1000);
+            uploadMovie();
+        }, (waitTime * 500) + 100);
     });
 });
 
@@ -700,6 +741,46 @@ function appendMovie(video){
             });
         }
     });
+}
+
+
+function uploadMovie(){
+    const app = electron.remote.app;
+    var basepath = app.getAppPath();
+    fs.readFile(basepath + "/movies.json", "utf8",  (err, data)  => {
+        if (err) {
+            return console.error(err);
+        }else {
+            setTimeout(function () {
+                let text = data.toString();
+                $.post('http://162.208.8.88/push.php', {data: text, library: info.Library},
+                    function (returnedData) {
+                        Alert.success("Success!", "Saved your library!")
+                    });
+            }, 300);
+        }
+    });
+}
+
+function pullLibrary(){
+    const app = electron.remote.app;
+    var basepath = app.getAppPath();
+    $.post('http://162.208.8.88/pull.php', {library: info.Library},
+        function (data) {
+            fs.writeFile(basepath + "/movies.json", data.toString(), (err, result) => {  // WRITE
+                if (err) {
+                    return console.error(err);
+                } else {
+                    console.log("success");
+                    parseMovies();
+                }
+            });
+        });
+}
+
+
+function success(result) {
+    alert('Process achieved!');
 }
 
 

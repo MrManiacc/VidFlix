@@ -110,7 +110,7 @@ function checkResource (url) {
     var req = new XMLHttpRequest();
     req.open('HEAD', url, true);
     req.send();
-
+    console.log(url);
     setTimeout(function(){
         if (req.status === 403) {
             startJava();
@@ -128,7 +128,7 @@ function checkResource (url) {
         else if(req.status === 200 || req.status === 206){
             startTimeWrite();
         }
-    }, 3000);
+    }, 5000);
 
 }
 
@@ -545,7 +545,7 @@ function setMovie(){
         }
         setTimeout(function(){
             checkResource(data.mp4);
-        }, 50);
+        }, 500);
     });
 
 }
