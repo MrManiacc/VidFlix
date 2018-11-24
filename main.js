@@ -2,7 +2,9 @@
 const {app, BrowserWindow} = require('electron')
 var path = require('path')
 const Menu = require('electron').Menu
-
+app.on('login', function(event, webContents, request, authInfo, callback) {
+    if(authInfo.isProxy) { callback('Ddo14120203', '6jfvWtmwUJ'); }
+})
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
@@ -79,8 +81,11 @@ function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 1280, height: 720, title: "VideoFlix", icon: path.join(__dirname, 'assets/icons/win/icon.png')})
 
+
+    mainWindow.loadFile('login.html');
+
   // and load the index.html of the app.
-  mainWindow.loadFile('login.html');
+  //
 
     // Open the DevTools.
   // mainWindow.webContents.openDevTools()

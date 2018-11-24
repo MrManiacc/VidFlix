@@ -1,61 +1,59 @@
 {"movies":[
   {
-    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-DoG9JNP7/TNBA7bHYSeM77fgnamfEVsEw4i-s9ZkQl9Aj7CyFZNt02sIPWPqt5876q-jJqdx_AaEHHbRAfzKT4l-HKwQa-AXbVBY5pJ8GVZEGo_653xuhN01fxEpYl9bP4PTcfD4WU0a6kAHMJTp4q5ySlS_1uw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912146~exp=1542926546~acl=/*~hmac=c6f9d8c1d3ddf455d932d4e5ab4ae96905748d90447fe79cec478efd2bf5e946",
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-DoG9JNP7/TNBA7bHYSeM77fgnamfEVsEw4i-s9ZkQl9Aj7CyFZNt02sIPWPqt5876q-jJqdx_AaEHHbRAfzKT4l-HKwQa-AXbVBY5pJ8GVZEGo_653xuhN01fxEpYl9bP4PTcfD4WU0a6kAHMJTp4q5ySlS_1uw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543014994~exp=1543029394~acl=/*~hmac=2dc84846423f5bb932ee08d39876e4297388890ddaa3be38e4e5f3ee9270c5c8",
     "img": "https://solarmovie.id/all/img/movie/569cb9c8781ee05b/a3f2c6b9cd84431b/little.jpg",
     "genre": "Toy Story",
     "name": "Toy Story",
-    "baseUrl": "https://solarmovie.id/movie/toy-story/urbXXAtE",
-    "min": true
+    "time": 6.117526,
+    "baseUrl": "https://solarmovie.id/movie/toy-story/urbXXAtE"
   },
   {
-    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-WAtpMuy8/gvI9RqApYAqUoeECBJ_B06Lku1yl0Dw0zOwL7lPd_zmH4H3kcvzHqxZtR4JV1VEtWpahDJZjO9CYI01-ELMtdM41mFkaQ8fC1ZclAJA4nPMa2gKmqBpRKSlN5ja1YQIDfqDGV1CQSOMjfTFFXsiFfg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912131~exp=1542926531~acl=/*~hmac=9a605e867bff0a168fdc9513b1ce2624201d22162d6c3dd57d87ecd30b6ca347",
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-WAtpMuy8/gvI9RqApYAqUoeECBJ_B06Lku1yl0Dw0zOwL7lPd_zmH4H3kcvzHqxZtR4JV1VEtWpahDJZjO9CYI01-ELMtdM41mFkaQ8fC1ZclAJA4nPMa2gKmqBpRKSlN5ja1YQIDfqDGV1CQSOMjfTFFXsiFfg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543016105~exp=1543030505~acl=/*~hmac=a56b8a84ead4e4165c54ca0af0117e7a037ecb3663893435127136e504d3cfb1",
     "img": "https://solarmovie.id/all/img/movie/4e08bdc0ab81a3a2/6a5f585bc37bd154/little.jpg",
     "genre": "Toy Story",
     "name": "Toy Story 2",
-    "baseUrl": "https://solarmovie.id/movie/toy-story-2/6HpbUloL",
-    "min": true
+    "time": 4.206504,
+    "baseUrl": "https://solarmovie.id/movie/toy-story-2/6HpbUloL"
   },
   {
-    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-XkgMjUnD/PKoIeC2yVFq-0VT1RtUEqelzgwYlYE0YJdC1CXI2GCkmadt7BZdY8XpfNAhVc_S9wMcq72rH4UXoH2rcU-SHeP89jsuAaTtvSPBSEdK3fPFRgHAJMutOxivkWthXz3E9ru0M7uoNf1cNxkNN5VScXw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912130~exp=1542926530~acl=/*~hmac=a49432b554493f3f84960ca8faee294b7ce063669065a70cead55a90ac6550c1",
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-XkgMjUnD/PKoIeC2yVFq-0VT1RtUEqelzgwYlYE0YJdC1CXI2GCkmadt7BZdY8XpfNAhVc_S9wMcq72rH4UXoH2rcU-SHeP89jsuAaTtvSPBSEdK3fPFRgHAJMutOxivkWthXz3E9ru0M7uoNf1cNxkNN5VScXw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543016194~exp=1543030594~acl=/*~hmac=6e199a853fbd0d708da46a3de2cd9aae8db5120daba438e3e27dccfc66a51104",
     "img": "https://solarmovie.id/all/img/movie/db769a35fcd53b77/28869e8089991c3c/little.jpg",
     "genre": "Toy Story",
     "name": "Toy Story 3",
-    "baseUrl": "https://solarmovie.id/movie/toy-story-3/HVqnnV2A",
-    "min": true
+    "time": 2.802361,
+    "baseUrl": "https://solarmovie.id/movie/toy-story-3/HVqnnV2A"
   },
   {
-    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-i9tOtQG9/msmuFxVxiTh8-NUS-6d_evJu4bvuwO3keehihV9NvhLEMi6koCEGYV_wATfs2QdibP1kOHx_IdDNlkZTs727ebdvylFJHqWuOK8T4ShIFwAYv6Ju6c1pvJ9xyIzBLBdoZxuigYInBNGO1qHJ7yZIdQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912179~exp=1542926579~acl=/*~hmac=7ea7069254342a5ec63e9c07750f9af6cfd788107f4d078ab6c03b53b5a99a6a",
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-i9tOtQG9/msmuFxVxiTh8-NUS-6d_evJu4bvuwO3keehihV9NvhLEMi6koCEGYV_wATfs2QdibP1kOHx_IdDNlkZTs727ebdvylFJHqWuOK8T4ShIFwAYv6Ju6c1pvJ9xyIzBLBdoZxuigYInBNGO1qHJ7yZIdQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543016293~exp=1543030693~acl=/*~hmac=082c80a78d3d49429730a6659359f87f0a118d7fd6a01f8a83324fb5d6c37200",
     "img": "https://solarmovie.id/all/img/movie/c8091a1243522f43/7c54e968885a21e0/little.jpg",
     "genre": "Disney",
     "name": "Moana",
-    "baseUrl": "https://solarmovie.id/movie/moana/Uj1RXVNG",
-    "min": true
+    "time": 10.853984,
+    "baseUrl": "https://solarmovie.id/movie/moana/Uj1RXVNG"
   },
   {
-    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-TYMqhQR8/KyhudXE_S62OkwldMAwaUnYPKE_jSPy6XntFt2TKKhyq2SMJQX5sdE1ppU94IxjCP9pq83u6tMjZA1hcZ8Y1K0eMMd1KUJ63FYrGr5hK801_YirNFfRxxs-ekGTFI5PGr4hvGqf-UxkvzoMvB3hg5g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912210~exp=1542926610~acl=/*~hmac=decbe3115f32059a0c823782caa29560d008fff66a4df32323be0bec8c5d3d93",
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-TYMqhQR8/KyhudXE_S62OkwldMAwaUnYPKE_jSPy6XntFt2TKKhyq2SMJQX5sdE1ppU94IxjCP9pq83u6tMjZA1hcZ8Y1K0eMMd1KUJ63FYrGr5hK801_YirNFfRxxs-ekGTFI5PGr4hvGqf-UxkvzoMvB3hg5g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543016225~exp=1543030625~acl=/*~hmac=73235e3812853422d2cef1e0f6736282ccf66e64104aa99ec7612d00d0c9c2d3",
     "img": "https://solarmovie.id/all/img/movie/869f201e8ca55a6e/8ce03794f5d01386/little.jpg",
     "genre": "Disney",
     "name": "Mulan",
-    "baseUrl": "https://solarmovie.id/movie/mulan/MlB4Wmnx",
-    "min": true
+    "time": 2348.238728,
+    "baseUrl": "https://solarmovie.id/movie/mulan/MlB4Wmnx"
   },
   {
-    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-oi9PxSNY/E2v5ACQaJFGKcfOCPQBLL_Fyi0E-mJBOu0UAu8cTGCKpmcbg-Ud4y7iVx67QZ3EJ9kgOE4RwJEbHewZdpnjFFVTCQwFRpxjymC0IgJGZx5ETyAVoAkjRRzUulT7R0RvPn_4Cw6Gy5DFQL-ZmuH2OAw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912233~exp=1542926633~acl=/*~hmac=1dccba805ebc2ab02a2be11bb2a3e0191f86f6a57eb3ac58f8d01d8703eaf1f2",
+    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-oi9PxSNY/E2v5ACQaJFGKcfOCPQBLL_Fyi0E-mJBOu0UAu8cTGCKpmcbg-Ud4y7iVx67QZ3EJ9kgOE4RwJEbHewZdpnjFFVTCQwFRpxjymC0IgJGZx5ETyAVoAkjRRzUulT7R0RvPn_4Cw6Gy5DFQL-ZmuH2OAw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543015029~exp=1543029429~acl=/*~hmac=4955f7e447bc06f8f277719741278145df365a4671f5eccb5b5d4abad15a2776",
     "img": "https://solarmovie.id/all/img/movie/91fdf8a4cdff9c1a/7b68cf3fb39e666c/little.jpg",
     "genre": "Disney",
     "name": "Monsters Inc",
-    "time": 4454.487996,
-    "baseUrl": "https://solarmovie.id/movie/monsters-inc/yrZzR0t3",
-    "min": true
+    "time": 4459.249576,
+    "baseUrl": "https://solarmovie.id/movie/monsters-inc/yrZzR0t3"
   },
   {
-    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-1TRnKhBz/le0uv2N6YiAqndyCa__sq3fPiU21ud-Ot8IDVGVGwhLvHMUJCi8uyiofkPq-_VaN0yBvIu3EGEPZGLOW9n--Xft8UzvycYfd8f4fMUN6sK2WPKJ1N4uczCQgi-PvtfEzQhFS4rjGRJnYHDI4aca6nA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912309~exp=1542926709~acl=/*~hmac=8f955262826f19c9871043408f4f556b2c0a0527d40b22789380fd86522dc619",
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-1TRnKhBz/le0uv2N6YiAqndyCa__sq3fPiU21ud-Ot8IDVGVGwhLvHMUJCi8uyiofkPq-_VaN0yBvIu3EGEPZGLOW9n--Xft8UzvycYfd8f4fMUN6sK2WPKJ1N4uczCQgi-PvtfEzQhFS4rjGRJnYHDI4aca6nA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543016328~exp=1543030728~acl=/*~hmac=109b20ba0bff0d334fd5b441e1d2fb160aa76fb7b443247dc0bbbcbe2b5f7733",
     "img": "https://solarmovie.id/all/img/movie/fc266fc35c291a30/a7b16d0cef6d6aac/little.jpg",
     "genre": "Disney",
     "name": "The Lion King",
-    "time": 4185.777584,
-    "baseUrl": "https://solarmovie.id/movie/the-lion-king/zZFT24m8",
-    "min": true
+    "time": 4193.597365,
+    "baseUrl": "https://solarmovie.id/movie/the-lion-king/zZFT24m8"
   },
   {
     "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-r7xDIa6O/WTNOBi75iaBYOAMziesZW3KY028KIPTBnh0tN4FwW6UpmDrwzB_m-UqDGUtrFlX1BAiRe4tPhJb3q3J9W-BYSFyypj977UV_wqxityocGasm4I-1efGO5dX3SBzJxlFDhjOrQMxA7U7fblj2EDcaDA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912343~exp=1542926743~acl=/*~hmac=8d092c965b7e4569affb5445f61206d89c3edad5499e0dd0ae5d13341a34b8a5",
@@ -63,15 +61,15 @@
     "genre": "Disney",
     "name": "WALL-E",
     "baseUrl": "https://solarmovie.id/movie/wall-e/vLv97hni",
-    "min": true
+    "min": false
   },
   {
-    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-bmqAJzpk/qsMNGWr1FO52l6umFANheN4aO0JOSQkaLJg0iDnhuWbUVAufDpnaKlTKazhr3rRkeaUw5Zd8fdNzjd88AW_itkOiA-XwGFjaEPZ0thVcFZqJHnKxx0Fv7mjXUE49W65F0WX9SjAIq7LPONLaK9aNPw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912395~exp=1542926795~acl=/*~hmac=08999c4fa51affe0ddfe407b3e86ba06333349b197f815a9c38e8cec58abc447",
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-bmqAJzpk/qsMNGWr1FO52l6umFANheN4aO0JOSQkaLJg0iDnhuWbUVAufDpnaKlTKazhr3rRkeaUw5Zd8fdNzjd88AW_itkOiA-XwGFjaEPZ0thVcFZqJHnKxx0Fv7mjXUE49W65F0WX9SjAIq7LPONLaK9aNPw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543016149~exp=1543030549~acl=/*~hmac=2ebfc54902204da7d3b969a962d72041551bf3924a996c613ab9063dbbf5fe52",
     "img": "https://solarmovie.id/all/img/movie/71c6eff944ac76dc/17d66ac900aefb52/little.jpg",
     "genre": "Disney",
     "name": "Aladdin",
-    "baseUrl": "https://solarmovie.id/movie/aladdin/68Fb5va4",
-    "min": true
+    "time": 3377.72177,
+    "baseUrl": "https://solarmovie.id/movie/aladdin/68Fb5va4"
   },
   {
     "mp4": "https://stream-1-2.loadshare.org/stream2/VideoID-kaX6ulbK?p=Ly2EnuWqRPYqGQefXjT3HeklftFlD4xXm46zn6ZFhoFi0cFcJg8YJUNn_fQ4iy4alrQ8iTACV8dhQNVHjTtMCRfsFOpKZF2ZYceN89w5vV_4RyVNH97Met4g9IumA3R90yMXs33GOieuOzdGTnSlzzfjcrjAnfqDjtLZEoa79yfz2aXxNqQ9W0fWNPv5Bt7vdU9ULcXTFJGuETmi0gLFRgxBnG4xShN6dPPdUCq2RZ0FTzd5oX18qYoTU_c5QAEZpBfZwA4Xo_vUP0vLHfjZxEb_OmPkdolMWF9I_aukmXMWYdcgXeSagR2T3GMFeEyc2wKZ3TNAkps0hqDsYEwXBUUPzy83-vdjxdo_gKXUGYWa4WHYCXPyPEkSY7AV0Ds_YjD-QyPiLEwK0Kw8Q7kdvZMQ6B9_luowQMfxNUMAZylO_alP3gslvHvJJ6eWMw7dG0vbLbWYLhBNP9YcKt8fEw8kljob0DTsAwpsKwawK4a3pjW_P10LmMAsPRUeOa_QCd-czRFzMB7-qq1FKfKShX2x83x9W55-21CzTAzc5WMLxeNQuAEWP-8W5xdS5-UVCk7qboBezeJadwuYGs3LtqqKOCWUYh9NJhpCmPur3bpZ1nhI1NDx39IuGXYu8G5VmEtC29n8tpxwCMc0FAl3ooz8UEY7w1oWvJl3OyN8gF01-qbZAFqDdBCsiI6h_XkBDWI40Nh6xCkwP0xpODXnv_n5qZ6fE5-RSFceaMueCcP7ahew6PbN3Qs8PIywWlGFzndS7JAZFownLuSJk_ijcdBBtZ7UFcElkgi7A1IbtQZQDqKN0xSAYAC2R3m7eHmA-uMO5Jdmxot_eUgGWBUd68w50ZWO4LTrSOptcayJYUTLB59PHg9VYhy9p_i5gHC2bUpWd0-FlNycOAUEW36rYMWRc7rb6VfSCs_5moOpP1xQ0fq7Tfg8X2wpEMB-I2sredGL_5qU4gj2aOI6_NBMEFZnMjwxriva703JniK89s1vqtqzopWuXo8szMabgnLw&secure=Tr7PxIXPaPp7ydhxABwz9w&expires=3085839236",
@@ -80,7 +78,7 @@
     "name": "Bambi",
     "time": 1524.328247,
     "baseUrl": "https://solarmovie.id/movie/bambi/zjvzMp4m",
-    "min": true
+    "min": false
   },
   {
     "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-vs4QTmvd/Gymr0-MkNqiUrVo7zt05jVjdnEZnpNHMsNHgNVNxmPUoO3D3kSmvZcKcpPvtD7nnUSe8CZhWs-aJULbjj9slL5zamJ1xFmw0WBLPBMLvAZL8MbchjCIRxuxQHN5j9mPC9il1UlThZyLPdpfw8PXVdg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912735~exp=1542927135~acl=/*~hmac=25fbaed66ff57fce9772a01d9b997b5283705e52f35f1224b065fee2d49bacf6",
@@ -96,15 +94,16 @@
     "img": "https://solarmovie.id/all/img/movie/0793c76105a4a55f/a56334e344d63c87/little.jpg",
     "genre": "Comedy",
     "name": "Crazy Rich Asians",
-    "baseUrl": "https://solarmovie.id/movie/crazy-rich-asians/ntgCLJ7D",
-    "min": true
+    "time": 2761.259498,
+    "baseUrl": "https://solarmovie.id/movie/crazy-rich-asians/ntgCLJ7D"
   },
   {
-    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-nMLmOLMX/aTu56x7iQsd_vojFcZDaoA6VgpHKU5kzu6E4_zLeDZUJt3k2FuVygxTAuuBRFFJLu6TrYoPvGweskQTFCNADyACU5SIPWTHPJjggyvBAz2LtgcbVO-3ynwA2BFXEvCIEpDZyQqSzJ_TDta9TRXVO6g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912834~exp=1542927234~acl=/*~hmac=aae1634bd9cba5aca08d89120c0d7cccc5e121eaabb6fb6145ebaefbadeec907",
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-nMLmOLMX/aTu56x7iQsd_vojFcZDaoA6VgpHKU5kzu6E4_zLeDZUJt3k2FuVygxTAuuBRFFJLu6TrYoPvGweskQTFCNADyACU5SIPWTHPJjggyvBAz2LtgcbVO-3ynwA2BFXEvCIEpDZyQqSzJ_TDta9TRXVO6g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543013572~exp=1543027972~acl=/*~hmac=1015e4233c11c5f46a305a8e5b3d0204b3c080b2226b1a512179cf12451aa709",
     "img": "https://solarmovie.id/all/img/movie/eb42801e4e2f383c/0f4542b19754d16c/little.jpg",
-    "baseUrl": "https://solarmovie.id/movie/baywatch/xt3l3GrJ",
     "genre": "Drama",
-    "name": "Baywatch"
+    "name": "Baywatch",
+    "time": 0,
+    "baseUrl": "https://solarmovie.id/movie/baywatch/xt3l3GrJ"
   },
   {
     "mp4": "https://stream-1-2.loadshare.org/stream2/VideoID-LGy1TYTO?p=A9SNfbiVIa-Zy10i0JFQ7zQVrYPVNt0WlsUCjZrdCpAK9PkIvqgRk9rOyHm3vj_STYbO8kp0Xkv-qtXkoll8uSy87eugTP2VQimgFKLNLx7S2Gp4sS9TfKeRXVvXtH1guYXtLO9bOVcBGCmBWe3mbJZ1-j-XEme5trgiEVln1z5H420eUVOTeADA6UuttSLlaW6nhtfhpfPTYZGRIw-sk_nHpsGWW5YYbEA15LbwTIxk4rPCfqfhnB6oIyzfB1yrzipzti1FHyvLU_ceiCnZcpKCiOrJKXSsz0mQKiAfUH7UFw-q6lvLYLN_i2M2px3379OXmIT04tKrwv7l_-qpG65IAx5-kfFR7a1ZJRHuXnFOKTka07f92n7HXKIXRK6v13q9Vw92rkyax-ljQB_ApJk-AJb8IF8shI7QomZRjOOAljJjhX4IVTgp5Y5dz7397VmY5OseIX44h1Dp2WLtpcAiYxyXTRiIsJkiXRwXF1MIa84Y4pGrOY6zaNQEUJTr2vcgDgCv9mtgWgQqqrAyTKig-68Sg_OWSJjZ808A5Hs98lc6e0SYJm7z9t_gcSq_39AZPyQI7uS94DMHwz8Ch_pgbTHBK5sLN3_1R5Y2iPciLvl3j0XKOkD-9piuIOeutrRY-yB1vCCHmqcrKVW3OjnyA_qGboTR1KJRwkQJcRJ_Wq6738ZzlqOT_TsmTfX2Th7q-HzsXt4gXlZMrx9-KKYk_a8_KcWTKz32u1OwoYY-H8lt9TbxA8Sap8x1yKCP8SlDc0v77HYOxznD-YXZ379HWqylrpkRDRhp5xjKxZ563IfO27OpwmueX64lEg6C3e1P_RhjdoJ0Wbh5N5ulL9r6zNemloIAbcs75LVqyiJObhZVAUO_1EL_xQeBubs9GTWNs73Uvv2BQUDaNLeoA6Gg7sgz-ZO6AqllPpqSnisBpIRcDU5QI94tw2o1LkDq24xFwxP7CuX6x-vVPghxAubjdRMgqKl98kg5MHBCWHp455PAelXyZuQZQ7MZe9XI&secure=_vXY_bvAF7pkgifJSuQadw&expires=3085839728",
@@ -112,7 +111,7 @@
     "genre": "Comedy",
     "name": "The Campaign",
     "baseUrl": "https://solarmovie.id/movie/the-campaign/fI6VJmsj",
-    "min": true
+    "min": false
   },
   {
     "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-u5nJCOOk/KqJNGs9BO_yHW9BV-yU4H2Le_QX5A8Acd8_-cBSWo4QO7WCIdXD0KXzisw2hrKkfLLZgZXc3bdhtteem4dTDKzsqlljbVBg5HnvKC09vNP8eIKtekjFlaykrWWhXtjBZ-erYXjCi75VvjN4QNOa51w/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912936~exp=1542927336~acl=/*~hmac=126a54c13314cef0e88ddcec002f7cbf629c0a340cffc7bb9c1059084cb8e9f3",
@@ -120,7 +119,7 @@
     "genre": "Comedy",
     "name": "Elf",
     "baseUrl": "https://solarmovie.id/movie/elf/mjmQiOs7",
-    "min": true
+    "min": false
   },
   {
     "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-TrxXzYcA/g9gyH6jB-xgpC8oxvEiyPpe5x_OzHwPN2cpzPTuSgzC2hKH0Pw9stvgQ8362gbOH441jlLtC87ah-k-wi3PadIuCpY7YPpj6Wk2m4sJ-MFBojGSks6GVs-HQ-cAT61o0AUUg1vn62uJgu4YrxQLC8g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542912923~exp=1542927323~acl=/*~hmac=bfb75684b0a7bcb0208134ed2cf18f5e0a5552e0474a1ec2a74f289e07275add",
@@ -129,7 +128,7 @@
     "name": "Step Brothers",
     "time": 5055.24984,
     "baseUrl": "https://solarmovie.id/movie/step-brothers/Fp9GpLfW",
-    "min": true
+    "min": false
   },
   {
     "mp4": "https://stream-1-2.loadshare.org/stream2/VideoID-lLqqgSL4?p=3ipdiGwzpJxy0gLJhV9M-iBEk3KFS7jorzc45fgQtCvPbk1RQhbdslFgxs3wxUxfCppX9Ap-uHBofUZCZb-RjvNU0S_ZrSORpkLKBj79qUlbfF-Vh0E2xpztDYYxTxnyePQWuKdwGdT1JLJ38kIFxPzKICt_jiYnX7x9I99Id4XAdhO-5ZYB9arGr5fG1pDAv0-jTDWZmNMk2DzA7_yiSKr2KrpDRj0iSSPg52cxzas0_sx8z3mTcmgIne1YiLiu5_bh12lxswALFKt9j5Oh0zkXXuR1QdwX2WN5j84WLMe6FEppWst1P2_GOph1UoDtluNE6q0UBiaGL1pLBzseVhtxnTVGyj1If4CsVvhSa-dR9mxRiawXp2aEOMge1SiwYzCk0_P7FRBfZ3ajAgIv8dOojx-L0lNBY-6JVnuo3ZG1urhkKQ7eOH3m94gtkrIt9Fqv0g3Pa1_UC0FzkgT-3Bpy4hDUBYGKgnT6YVDGSuEY-Cu342NLxtzrA07-D0JLKzC-hGt0nL2q6TviPmilRk8BKfcmxx-3tRWmk9wg6Eez2BJaDj2oohsM2zwx8TzABBlbH3kmPqAiqaBZN7e4fb4UEbeKZMwBtn0DxISF16HXfLg5zLPuLKkKLtJPh__l64EnWY5tbnN9Yclb0jXB1Gp7ojn-CjRL9RcQEaAc3Qz1S303Y0d8aTbOaVYSHAyndekIQUyPDf1cehnt7VclVjulFWLyHrpnIc7RZa_NOZZocsvmwCy0EyDHvebFD2a_qSghNe3VdgNj7ai_hBEcaDzKGRT1kdvyZfTBNL47BQ3fGMoqe2mubGJ3SLF592qssQEETgchU90fVpv8uhpBO-cX_CSRmi6fopTq5vLtBQQNgWvVqgi1T4-BGFeTsRVcpY-bDoxAvULpQ_gmrbF7xO_SNIDVh3jlvUCW2YcCAieEJiPZAzjVwateV2PH9g_Em7Lp9Xy9DgDE4WVcoNTddhFimorpTqZKg5qDCSKDRM9BgzuEej8CqcTBkzPmhavS&secure=XD8aJjaNxv08eST9lck1FQ&expires=3085839836",
@@ -138,6 +137,38 @@
     "name": "Talladega Nights: The Ballad Of Ricky Bobby",
     "time": 6494.45799,
     "baseUrl": "https://solarmovie.id/movie/talladega-nights-the-ballad-of-ricky-bobby/4KyoYIQB",
-    "min": true
+    "min": false
+  },
+  {
+    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-l6IcXTXn/0kWEW1AXfpn2Z42wPiUIyc3bayTcoPTrKbsZ35QnrLinuO_SQGRwbAN1zai2ysdPKi7GXq9j3D3XGjqEqY97bbk8JC44hQzEz5Bdg7VahWK8uTnkVlChVfqCTe4bKlDAQW3D2Nao4eqErsYPlO2p7A/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1542913278~exp=1542927678~acl=/*~hmac=fa7e305bbb8f94f1c249699ba1c63444847cac40f808cd8444f669b776a0840f",
+    "img": "https://solarmovie.id/all/img/movie/17ba905cb1ee23ec/fdc84e0d6aa0903e/little.jpg",
+    "genre": "Incredibles",
+    "name": "The Incredibles",
+    "baseUrl": "https://solarmovie.id/movie/the-incredibles/AjIY3S1H",
+    "min": false
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-ZONczz1H/UfnoTWqFfhOYGWqxh0Uq_9u39BQ_x8GPIpiySBrfDaebe5SN5_-WQC44Vl5pG1F9V8A1w16c1Di1xaaGzWgTKdM-kIPhrhPjw2kob_qVambRAt_xMXhNUHFgNluM6ZKo844cVltNXWLNhnk07jENCg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543016264~exp=1543030664~acl=/*~hmac=3f5941849994fd83ac2d51c62987225056ce6c8391dffeaf9eb61e622ca8c703",
+    "img": "https://solarmovie.id/all/img/movie/e1eb33cca8761c90/f64213bd103ad56e/little.jpg",
+    "genre": "Incredibles",
+    "name": "Incredibles 2 (Les indestructibles 2)",
+    "time": 31.407715,
+    "baseUrl": "https://solarmovie.id/movie/incredibles-2-les-indestructibles-2/adz2ypXe"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-k2fjFEIw/0G66CKjYePlMP3OPWR_Vwg_x063ibf1WraKs0WKlHnx4N4gvTiPb_zQlghrqVKrIzJsL2lZ7O5t3NVNkmB7E_1sRg35u6JutB6tR8OdGp2eOmc89H9IWnW8qA4ym-MYaLk6rFouXi_VwiBi-4Xz7_Q/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543015937~exp=1543030337~acl=/*~hmac=4203be95cccbf6a0157d65edf410fe3ff39d9b3cfb5714ee13bad3966167fd16",
+    "img": "https://solarmovie.id/all/img/movie/23ff2ef045d345a8/e91e7c631bb986cc/little.jpg",
+    "genre": "Action",
+    "name": "Avatar",
+    "time": 5127.693044,
+    "baseUrl": "https://solarmovie.id/movie/avatar/DZEYImlY"
+  },
+  {
+    "mp4": "https://stream-1-2.loadshare.org/stream2/VideoID-aQ4GwNJT?p=wBn_juIhoGxqtFF-iBDN_7mj_w6QsZmol1vpjNcjFcKVv6JOPea0VhN0VwDNV34EIDQODAoI2ApbKYZlQ_3lGT7WHPITAhgPVA32pHDVx-gMYVs1c3jjf19yc4eXvWyHiElMJl7WRXU3zVeOKKXSzH3JGVBkn_Qyx8qLTA8zDRK9Qa1VS1guTEGSTsTY5pI8ijP-m4bWJRf2hWiI0UhZbP04hXyO_hcLKFzU2Zzwx-SLgPR4AWrePJQze3-JrX9w3n6EyO4pEqqtAmJyvK3suMyLmfiDMnwLIe99b-ufm2WMcHFslAG_EAkj3m9xwrf_HjsNlZrxtJblUZI8XsBdsA5UdCwcuxSDMaa1Fl8RPpJMrdRtL7okRTmTe33sT1spGwhYJ6yaK9kCBLqylDcw-G7v7moRpI5thv4ynpRDmFbJ-nShBRxaaMG85_kdbIO-qUY0KVJGtuEASMAYS8loXNbygywQaNvUbWy7PDuuSdH63FAtBgfCYfpC84u9LAN6G5silv_7D_gj4z2_zO2NhKjfRPKwWAGjaP8VhvlcOvNT9YVuBWpGwRel9_0-IVNAkQpx6-XnB64ScNUT4CPVE1pyzLRpICT5vFZ-HaS0C68u3hFqZS2XlmSy9nrjkMMrYNALMdU50NhMP0HtcPfXCqcp-QcGPtNdAJHFs6VLoZSMfJnwjl-IerERX-C4XheK_jAEpmlLX_J3-H1hFOyNLAM3iGPECaYJaY-agE6vhZKPbskBgJeVSA_9l9Qwym_1GOjo-dierqsBfhf44qKYG2ezwPsuyPG0wUvuBq3NvkMDEZIfTm2gGkx9w_cFW3ixkwKV-6bvTs7IAJ_OarpywIXFNaj4Ml1hV_AvtG1lg9deyCRJz1useTAQvPnr-UxuNZXTS_9QvZK0HaQQvfE4k-zMzbAgxpwW8y2NQYrnBMHXyKpE6N8nxAa4l9oA6amWLRe9_bhIX__DGvSylB4ClAp2UV04tBpK8B7Y9-DdlnuP1yc6TdcQcRq2JdIMABzO&secure=nWa3XPVnP7W1BCfMwg9i_A&expires=3086041250",
+    "img": "https://solarmovie.id/all/img/movie/42e3a04266da5d99/ec7d3bfabe1d8de4/little.jpg",
+    "genre": "Action",
+    "name": "Kim Possible So the Drama",
+    "time": 822.054137,
+    "baseUrl": "https://solarmovie.id/movie/kim-possible-so-the-drama/v3JGgKUu"
   }
 ]}

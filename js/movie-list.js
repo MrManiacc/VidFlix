@@ -564,7 +564,7 @@ function startJava(){
 
 
     var spawn = require('child_process').spawn;
-    child = spawn('java', ['-jar', executablePath, gecko, bin]);
+    child = spawn('java', ['-jar', executablePath,"-" , gecko, bin]);
     var shown2 = false;
     child.stdout.on('data', function (data) {
         console.log('stdout: ' + data.toString());

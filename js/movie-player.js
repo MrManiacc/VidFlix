@@ -127,6 +127,23 @@ function checkResource (url) {
         }
         else if(req.status === 200 || req.status === 206){
             startTimeWrite();
+            if(currentMp4.includes("stream2")){
+                $("#source").attr("src", currentMp4);
+                videojs("video-player", {}, function(){
+                    this.load();
+                    this.play();
+                });
+            }else{
+                var player = videojs('video-player');
+                player.ready(function() {
+                    this.src({
+                        src: currentMp4,
+                        type: 'application/x-mpegURL',
+                    });
+                    player.play();
+                });
+            }
+
         }
     }, 2500);
 
@@ -521,7 +538,6 @@ function setMovie(){
         if (error) throw error;
         checkResource(data.mp4);
 
-
         currentName = data.name;
         currentMp4 = data.mp4;
         console.log(data);
@@ -529,24 +545,6 @@ function setMovie(){
         $("#video-title").text(data.name);
         $("#video-title").show();
         readTime(data.name);
-
-        if(currentMp4.includes("stream2")){
-            $("#source").attr("src", currentMp4);
-            videojs("video-player", {}, function(){
-                this.load();
-                this.play();
-            });
-        }else{
-            var player = videojs('video-player');
-            player.ready(function() {
-                this.src({
-                    src: currentMp4,
-                    type: 'application/x-mpegURL',
-                });
-                player.play();
-            });
-        }
-
     });
 
 }
