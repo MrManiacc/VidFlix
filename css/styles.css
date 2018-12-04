@@ -657,12 +657,13 @@ input#set-genre-text:focus::-webkit-input-placeholder {
 
 #signout{
     color: var(--color-3);
-    transition: color 500ms;
+    transition: all 200ms;
+    cursor: pointer;
  }
 
 #signout:hover{
-    color: var(--color-3);
-
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--color-3);
 }
 
 

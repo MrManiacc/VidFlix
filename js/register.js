@@ -4,8 +4,6 @@ const win = electron.remote.getCurrentWindow();
 let username;
 let password;
 
-checkUserInfo();
-
 $(document).ready(function(){
     $( ".btn" ).click(function( ) {
         username = $("#username").val();
@@ -34,25 +32,6 @@ function processData(type, data){
     }
 }
 
-function checkUserInfo(){
-    const app = electron.remote.app;
-    let base = app.getAppPath();
-    fs.readFile(base + "/user.json", "utf8", (err, data) => {
-        if (err) {
-            console.log("doesn't exsist");
-        }
-        let user = JSON.parse(data.toString());
-        setTimeout(function(){
-            $.get( "http://162.208.8.88/log.php", { Username: user.Username, Password: user.Password } )
-                .done(function( data ) {
-                    if(data.logged){
-                        console.log("logged in");
-
-                    }
-                });
-        }, 500)
-    });
-}
 
 
 function writeUserInfo(info){

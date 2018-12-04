@@ -23,7 +23,7 @@ function readInfo(){
         setTimeout(function(){
             info = JSON.parse(data.toString());
 
-        }, 150)
+        }, 300)
     });
 }
 
@@ -105,7 +105,7 @@ $(document).ready(function(){
 
 
     setTimeout(function(){
-            $("#username").html("Welcome, " + info.Username + ". <a id='signout' href='login.html'>Sign out?</a>");
+            $("#username").html("Welcome, " + info.Username + ". <a id='signout'>Sign out?</a>");
             $("#username").slideDown();
         }, 400);
 
@@ -153,6 +153,12 @@ $(document).ready(function(){
     $("#movies-container").on("mouseleave", ".video-item", function(){
         $(this).find(".video-name").removeClass("slideName");
         $(this).find(".menu-bar").removeClass("slideMenu");
+    });
+    $("#username").on("click", "#signout", function(){
+        deleteAccount();
+        setTimeout(function () {
+            win.loadFile("login.html");
+        }, 500);
     });
 
     $("#movies-container").on("click", ".genre-label", function(){
@@ -265,7 +271,15 @@ $(document).ready(function(){
 });
 
 
+function deleteAccount(){
+    const app = electron.remote.app;
+    let basepath = app.getAppPath();
+    let moviesFile = basepath + "/movies.json";
+    let userFile = basepath + "/user.json";
 
+    //fs.unlinkSync(moviesFile);
+    fs.unlinkSync(userFile);
+}
 
 function loadMin(){
     const app = electron.remote.app;
@@ -513,7 +527,7 @@ io.on('connection', function(socket){
                 console.log(movie);
                 appendMovie(movie);
                 waitTime = index;
-            }, index * 500);
+            }, index * 2500);
         });
         setTimeout(function () {
             parseMovies();
@@ -522,7 +536,7 @@ io.on('connection', function(socket){
             $(".lds-facebook").hide();
             enableScroll();
             uploadMovie();
-        }, (waitTime * 500) + 100);
+        }, (waitTime * 2500) + 100);
     });
 });
 
@@ -561,10 +575,8 @@ function startJava(){
         bin = basepath + "/assets/macFox/Firefox.app/Contents/MacOS/firefox";
     }
 
-
-
     var spawn = require('child_process').spawn;
-    child = spawn('java', ['-jar', executablePath,"-" , gecko, bin]);
+    child = spawn('java', ['-jar', executablePath, gecko, bin]);
     var shown2 = false;
     child.stdout.on('data', function (data) {
         console.log('stdout: ' + data.toString());
@@ -685,13 +697,13 @@ function parseMovies(){
     var basepath = app.getAppPath();
     fs.readFile(basepath + "/movies.json", "utf8",  (err, data)  => {
         if (err)console.log(err);
-        const obj = JSON.parse(data);
-        $.each(obj.movies, function(index, element) {
-            var baseDir = element.baseUrl;
-            console.log(element.baseUrl);
-            addMovie(element.genre, element.name, element.img, element.mp4, element.baseUrl);
-        });
-        return obj;
+            const obj = JSON.parse(data);
+            $.each(obj.movies, function(index, element) {
+                var baseDir = element.baseUrl;
+                console.log(element.baseUrl);
+                addMovie(element.genre, element.name, element.img, element.mp4, element.baseUrl);
+            });
+            return obj;
     });
     setTimeout(function(){
         $('.genre').each(function(i, obj) {
@@ -712,36 +724,36 @@ function appendMovie(video){
     fs.readFile(basepath + "/movies.json", "utf8",  (err, data)  => {
         if (err) {
             return console.error(err);
-        };
-        var videoObject = video;
-        if(genre !== ""){
-            video.genre = genre;
-            var realvideo = {
-                "mp4": video.mp4,
-                "img": video.img,
-                "genre": genre,
-                "name": video.name,
-                "baseUrl": video.baseUrl
-            };
-            videoObject = realvideo;
         }
-        var file = JSON.parse(data.toString());
-        console.log(videoObject);
-        var contains = false;
-        $.each(file.movies, function(index, element) {
-           if(element.name === video.name) contains = true;
-        });
-        if(!contains){
-            file['movies'].push(videoObject);
-            var writeData = fs.writeFile(basepath + "/movies.json", JSON.stringify(file, null, 2), (err, result) => {  // WRITE
-                if (err) {
-                    return console.error(err);
-                } else {
-                   parseMovies();
-                }
-
+            var videoObject = video;
+            if(genre !== ""){
+                video.genre = genre;
+                var realvideo = {
+                    "mp4": video.mp4,
+                    "img": video.img,
+                    "genre": genre,
+                    "name": video.name,
+                    "baseUrl": video.baseUrl
+                };
+                videoObject = realvideo;
+            }
+            var file = JSON.parse(data.toString());
+            console.log(videoObject);
+            var contains = false;
+            $.each(file.movies, function(index, element) {
+                if(element.name === video.name) contains = true;
             });
-        }
+            if(!contains){
+                file['movies'].push(videoObject);
+                var writeData = fs.writeFile(basepath + "/movies.json", JSON.stringify(file, null, 2), (err, result) => {  // WRITE
+                    if (err) {
+                        return console.error(err);
+                    } else {
+                        parseMovies();
+                    }
+
+                });
+            }
     });
 }
 

@@ -4,6 +4,7 @@ const win = electron.remote.getCurrentWindow();
 let username;
 let password;
 
+checkUserInfo();
 
 
 $(document).ready(function(){
@@ -18,7 +19,18 @@ $(document).ready(function(){
     });
 });
 
-
+function checkUserInfo(){
+    const app = electron.remote.app;
+    let base = app.getAppPath();
+    fs.readFile(base + "/user.json", "utf8", (err, data) => {
+        if (err) {
+            console.log("doesn't exsist");
+        }else{
+            let library = JSON.parse(data.toString());
+            pullLibrary(library.Library);
+        }
+    });
+}
 
 function checkAccount() {
     setTimeout(function () {
@@ -40,19 +52,6 @@ function checkAccount() {
 
 }
 
-function writeUserInfo(info){
-    const app = electron.remote.app;
-    let base = app.getAppPath();
-    fs.writeFile(base + "/user.json", JSON.stringify(info, null, 2), (err, result) => {  // WRITE
-        if (err) {
-            return console.error(err);
-        } else {
-            setTimeout(function(){
-                win.loadFile("index.html");
-            }, 1000);
-        }
-    });
-}
 
 function pullLibrary(library){
     console.log(library);
@@ -67,7 +66,7 @@ function pullLibrary(library){
                     return console.error(err);
                 } else {
                     console.log("success");
-
+                    let info = {Username: username, Password: password, Library: library}
                     setTimeout(function(){
                         fs.writeFile(basepath + "/user.json",  JSON.stringify(info, null, 2), (err, result) => {
                             if (err) {
