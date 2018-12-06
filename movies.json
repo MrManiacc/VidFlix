@@ -1,46 +1,48 @@
 {"movies":[
   {
-    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-KuvSyOb6/pKzOlO83q2f6gOFvk5oemkQU-w7-rcqtgo9IFkmXxYjZFWeGHdQvbUqg2WzAJo6JDwjNzGrU9VTZU-z9MwNv5TTQWiwoKbJm-Hg33xtB2XbbTGVslWXtU7kFyu0zxeDq7Nv2mP6I5ZhMqD58ISjMag/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543342186~exp=1543356586~acl=/*~hmac=32f61649b4cc1f0409687d15e682c632553a3f733cf64b0d4f27e0f3bb98264d",
+    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-KuvSyOb6/pKzOlO83q2f6gOFvk5oemkQU-w7-rcqtgo9IFkmXxYjZFWeGHdQvbUqg2WzAJo6JDwjNzGrU9VTZU-z9MwNv5TTQWiwoKbJm-Hg33xtB2XbbTGVslWXtU7kFyu0zxeDq7Nv2mP6I5ZhMqD58ISjMag/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543888900~exp=1543903300~acl=/*~hmac=142af0cdfe545df7c25ba7dd130c82f5383bb6db27451e34e94f05b5ba34ded7",
     "img": "https://solarmovie.id/all/img/series/c3ee5a4744dfef0f/f3e730475a3f759f/little.jpg",
     "genre": "Game Of Thrones - Season 4",
     "name": "Game Of Thrones - Season 4 Episode 01: Two Swords",
-    "time": 3493.256393,
+    "time": 3493.214783,
     "baseUrl": "https://solarmovie.id/tv-series/game-of-thrones-season-4/WxfCG6vo/Ae0kgmoP",
-    "min": false
+    "timeLength": 3493.214783
   },
   {
-    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-YG4So2bK/0H9ngiAlKEdR806tVBp4l0WBBGmisftxx_ivZlB5mMENWwCnREhMkyOssaD48mWAfHV3W2wr5dTXd1gNSInM_XBAibEm9ZAuaKUJScG-zKu92fHsm-2L4nXyblwB0_I4tRDa6UIn_a0Zuf-Uo8712Q/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543342179~exp=1543356579~acl=/*~hmac=6e8cd55439d050a12519fd2130d11f96dff96d23824f4e6671d45cb1277f6728",
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-YG4So2bK/0H9ngiAlKEdR806tVBp4l0WBBGmisftxx_ivZlB5mMENWwCnREhMkyOssaD48mWAfHV3W2wr5dTXd1gNSInM_XBAibEm9ZAuaKUJScG-zKu92fHsm-2L4nXyblwB0_I4tRDa6UIn_a0Zuf-Uo8712Q/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889338~exp=1543903738~acl=/*~hmac=69431fb627b84a262370eb05076b39b0cb7a5094ce8f85a2ad0d06bbe6dccd6b",
     "img": "https://solarmovie.id/all/img/series/c3ee5a4744dfef0f/f3e730475a3f759f/little.jpg",
     "genre": "Game Of Thrones - Season 4",
     "name": "Game Of Thrones - Season 4 Episode 02: The Lion and the Rose",
-    "time": 3154.291495,
+    "time": 3154.287912,
     "baseUrl": "https://solarmovie.id/tv-series/game-of-thrones-season-4/WxfCG6vo/6gItpPJd",
-    "min": false
+    "timeLength": 3154.287912
   },
   {
-    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-g8jrRS49/aat3I4W_rIJ63beDOOzXbpEnQ9PmhJ5yyQcFetzlAANDk_EhCHe89aVWZXORr1EvLkRxIVQB0XWNSdj-oM4l5xArtgPMSHloifppi7iA79L-lFePLwPYCFO2Vl2mtqS8skPKtIqzwickgMfIYyhecA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543342172~exp=1543356572~acl=/*~hmac=12e19bf961fdf36b242a21b9f21b82e70b5615e61b0a33e6ed7235dd1901e12c",
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-g8jrRS49/aat3I4W_rIJ63beDOOzXbpEnQ9PmhJ5yyQcFetzlAANDk_EhCHe89aVWZXORr1EvLkRxIVQB0XWNSdj-oM4l5xArtgPMSHloifppi7iA79L-lFePLwPYCFO2Vl2mtqS8skPKtIqzwickgMfIYyhecA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543888269~exp=1543902669~acl=/*~hmac=2196ac05821a8ea188cea40f58a18bf2459a507d6507d21f82410378868cd787",
     "img": "https://solarmovie.id/all/img/series/c3ee5a4744dfef0f/f3e730475a3f759f/little.jpg",
     "genre": "Game Of Thrones - Season 4",
     "name": "Game Of Thrones - Season 4 Episode 03: Breaker of Chains",
     "time": 3413.913808,
     "baseUrl": "https://solarmovie.id/tv-series/game-of-thrones-season-4/WxfCG6vo/1IAqApBu",
-    "min": false
+    "timeLength": 3413.913808
   },
   {
-    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-0y7gqtvt/mKVotkX14pNppC10l2F3S3Aj71oouJ6vhM5SJ8tNxzUwJquJCkYurOXRT8qPp39BAAfWEOy_i9Kf-Z_j_t5iRjTNxq4SQpeUs8i5-wzepVzo2tDEZJxyQQL0cR2xSwB0gkyZ9A4Gq3FyiixqD9huzg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543370219~exp=1543384619~acl=/*~hmac=57ffc4290e5370980cb3ee1bdd98d8cf20ba362b41bf5b95b788b210e965ca78",
+    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-0y7gqtvt/mKVotkX14pNppC10l2F3S3Aj71oouJ6vhM5SJ8tNxzUwJquJCkYurOXRT8qPp39BAAfWEOy_i9Kf-Z_j_t5iRjTNxq4SQpeUs8i5-wzepVzo2tDEZJxyQQL0cR2xSwB0gkyZ9A4Gq3FyiixqD9huzg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889375~exp=1543903775~acl=/*~hmac=53662fc04176295a18d9f5335c06d9e5ec9b5b7e295a3feb435acfc5109c75aa",
     "img": "https://solarmovie.id/all/img/series/c3ee5a4744dfef0f/f3e730475a3f759f/little.jpg",
     "genre": "Game Of Thrones - Season 4",
     "name": "Game Of Thrones - Season 4 Episode 04: Oathkeeper",
-    "time": 2906.110151,
-    "baseUrl": "https://solarmovie.id/tv-series/game-of-thrones-season-4/WxfCG6vo/bOefnX8g"
+    "time": 2977.730136,
+    "baseUrl": "https://solarmovie.id/tv-series/game-of-thrones-season-4/WxfCG6vo/bOefnX8g",
+    "timeLength": 3304.432
   },
   {
-    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-XI0rK5nY/WOYcYxQzRu7cAA5893VAXOvTwsMwkgG_Zk0t9-iXO5Gbkwc2ws8fz3uq3C7zfCXqUNRn-Q8i4EW9QfLltCO9aK22YMWq1bFbE2IoTMmwFRPfGm8aWDhREWXAO7SgC3srWf4a2DYqaLnc7LNKGaSsDw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543342156~exp=1543356556~acl=/*~hmac=8aaf04103fffd2e4e3947057d03b0ce3eccb611720f73fe89269d15c68b35837",
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-XI0rK5nY/WOYcYxQzRu7cAA5893VAXOvTwsMwkgG_Zk0t9-iXO5Gbkwc2ws8fz3uq3C7zfCXqUNRn-Q8i4EW9QfLltCO9aK22YMWq1bFbE2IoTMmwFRPfGm8aWDhREWXAO7SgC3srWf4a2DYqaLnc7LNKGaSsDw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889443~exp=1543903843~acl=/*~hmac=fb266a5a063098926554635d8b418b6613c997a0473f6e71ea07a1e91bf646a6",
     "img": "https://solarmovie.id/all/img/series/c3ee5a4744dfef0f/f3e730475a3f759f/little.jpg",
     "genre": "Game Of Thrones - Season 4",
     "name": "Game Of Thrones - Season 4 Episode 05: First of His Name",
+    "time": 8.131633,
     "baseUrl": "https://solarmovie.id/tv-series/game-of-thrones-season-4/WxfCG6vo/XtyAWOr4",
-    "min": false
+    "timeLength": 3192.163
   },
   {
     "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-cKxJjRmE/7GgAs2B3tokZ0AXegOxEHNNlpyI48Ro-tWQ4eaQtBMZBslRpe0jpFZQmSJSO26E7tIlnwUw-KhWVE83RYaPEqJuo6znIMJk8Kuo4kEeUZh474z4YV6gcuWvch7BCoyUYAw-6SjqF-ASoWkpVSPXq0g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543342150~exp=1543356550~acl=/*~hmac=c917af46f06706c11ebf4cf36dd08da3a696560264f12f5943abbcfe9c4292aa",
@@ -51,10 +53,11 @@
     "min": false
   },
   {
-    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-WupYUots/dvvGescr3ykhoS01beblmgmEOxF_RhOsZGZppd479vu_MzXzjUfvkqFjfwIr6Ue-10ltEnmiqBi9e896fTXrMgP6QRqORtl59WBFOGe2ec4uiJT7MUyzCmOpn4JGsPHjRxVthI0harJrYs_K50W5RQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543342139~exp=1543356539~acl=/*~hmac=ac2de7dfe53c77bf51e590cca4aa99f4f6448544341ff5462e5bc498ab73fd1a",
+    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-WupYUots/dvvGescr3ykhoS01beblmgmEOxF_RhOsZGZppd479vu_MzXzjUfvkqFjfwIr6Ue-10ltEnmiqBi9e896fTXrMgP6QRqORtl59WBFOGe2ec4uiJT7MUyzCmOpn4JGsPHjRxVthI0harJrYs_K50W5RQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543888309~exp=1543902709~acl=/*~hmac=6062cf44c5abb278bfc113ffa75cef41bd39847100d59a4ba832847dae5d54a8",
     "img": "https://solarmovie.id/all/img/series/c3ee5a4744dfef0f/f3e730475a3f759f/little.jpg",
     "genre": "Game Of Thrones - Season 4",
     "name": "Game Of Thrones - Season 4 Episode 07: Mockingbird",
+    "time": 0,
     "baseUrl": "https://solarmovie.id/tv-series/game-of-thrones-season-4/WxfCG6vo/PLzQis38",
     "min": false
   },
@@ -81,5 +84,449 @@
     "name": "Game Of Thrones - Season 4 Episode 10: The Children",
     "baseUrl": "https://solarmovie.id/tv-series/game-of-thrones-season-4/WxfCG6vo/8S44eJS2",
     "min": false
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-NWjT22H6/2euD1zdsyjOIfVF12BbXH-Hh3l5CAJfsIMlxOc_e1ROAiGVcVEhf8rYojyRWDejZddS_zsv9gckoaTnCyH5POQMXrXx_bqWKx_3Fb8y4E-hgySVk0MHGW4QddzXkHsip28yJP0mwP4OrXzAwYQRxaA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889621~exp=1543904021~acl=/*~hmac=1d9a4eec1a4f69208dbc07286c26682fcb7eb7ae5ae14d966afde80d1f1d6ff2",
+    "img": "https://solarmovie.id/all/img/series/affb374c3463a426/c874a45c954697df/little.jpg",
+    "genre": "Narcos",
+    "name": "Narcos: Mexico - Season 1 Episode 01: Camelot",
+    "time": 3473.821314,
+    "baseUrl": "https://solarmovie.id/tv-series/narcos-mexico-season-1/qLrxnrcr/twCmpjPK",
+    "timeLength": 3473.821314
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-ZbAsK0gu/J5doopfiX61O4CciaJJtIOIxcJHFInn-zJvacL2Sws2xbgBkyYEwh8onuhzql7jdOv_Ow0sGZmWV9wQ_dujVu4BM1fVo2iKpZQH10GE__T3Qmi2TLY3vSHBgeGytEoUMMlLYFkPUGkO2DhflaGxx8g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889617~exp=1543904017~acl=/*~hmac=708ad844a47afaa9d746d2a045ef367d3c5147effe19f186f6722a3e0f043d20",
+    "img": "https://solarmovie.id/all/img/series/affb374c3463a426/c874a45c954697df/little.jpg",
+    "genre": "Narcos",
+    "name": "Narcos: Mexico - Season 1 Episode 02: The Plaza System",
+    "time": 3537.885169,
+    "baseUrl": "https://solarmovie.id/tv-series/narcos-mexico-season-1/qLrxnrcr/hzyWh3cI",
+    "timeLength": 3537.885169
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-e8LrzAmz/gaCZVJmGbOw7i148Cal6uNRaohnVSmYI98N1CYQouw8JRPKu8CIGm5AJYnGa826HQwLEZwsLPSuv1Xt8g-OiaxK6b7WX6KkHx_EMJpP_tjD4b0_vvyLTC3mch3SATQ95nxuQHRm42FkgFyGFzzfIdA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889609~exp=1543904009~acl=/*~hmac=e3a4a45a861942e7cb5d1f20b402eeb6b0525624b7dc73924127a7e62b9baf86",
+    "img": "https://solarmovie.id/all/img/series/affb374c3463a426/c874a45c954697df/little.jpg",
+    "genre": "Narcos",
+    "name": "Narcos: Mexico - Season 1 Episode 03: El Padrino",
+    "time": 4068.41467,
+    "baseUrl": "https://solarmovie.id/tv-series/narcos-mexico-season-1/qLrxnrcr/M4OJQsqa",
+    "timeLength": 4068.41467
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-SnOVrB9n/rF71SZ23elks22Q0Z9Grhv3WXLx6UP_JfMVNm-1udBTxsdN_y3qViyVjyNr-1QAKLRy1EuBT8QFAVVOI3AlnT8XmFOa7UsZLd27FpX3vvMPWvEBwRkYKoMajrSeO-OreWoyIFJ_x8z_rs1378unebQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889604~exp=1543904004~acl=/*~hmac=7ad26c19b8e2b9ae70ae8eaa8b09d21ea2d827dcaaabf9f3881efabd437d8d6c",
+    "img": "https://solarmovie.id/all/img/series/affb374c3463a426/c874a45c954697df/little.jpg",
+    "genre": "Narcos",
+    "name": "Narcos: Mexico - Season 1 Episode 04: Rafa, Rafa, Rafa!",
+    "time": 3303.642266,
+    "baseUrl": "https://solarmovie.id/tv-series/narcos-mexico-season-1/qLrxnrcr/5NlnIh8v",
+    "timeLength": 3303.642266
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-4DKd1gxl/yz1xG3290f4KTpuogvSU2j73G_Q1Wn9xJ4_3iC8VF3-KMmmfQxfb3H_Od0XqlhFxL8FensNPLdRGHeoZgXM7uEK8d6maTjAdGDGpfb6KpjdFBsM9ZhyWgn86OBPT9ASjwFiQi1cFRL1bWN1l-TWMog/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889594~exp=1543903994~acl=/*~hmac=bca011461defa21cc2e43adcbb255b7c2e52c604719dbe2f699a40ce9c2b59ed",
+    "img": "https://solarmovie.id/all/img/series/affb374c3463a426/c874a45c954697df/little.jpg",
+    "genre": "Narcos",
+    "name": "Narcos: Mexico - Season 1 Episode 05: The Colombian Connection",
+    "time": 4058.406869,
+    "baseUrl": "https://solarmovie.id/tv-series/narcos-mexico-season-1/qLrxnrcr/qvuvBYRC",
+    "timeLength": 4058.406869
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-O44y0v8g/AeJBRySsGuF-2AlIZCFWk4YkLgU8WJ-pul7dFXeDb3UHMlI-DHGwVOHr_L-ycVzJM9OCpQQ2lQfON0CuiA4UsKKxweT82ALwrBDs_2AL0tVOLaY9HI_6OtaOLFfoKOZoVHQqUvRSoZbZy3vwejhuYA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889592~exp=1543903992~acl=/*~hmac=8f8123be4845a1069e4fff71550cf2edaf06754f8c3ff9ca767e2e8d0d1b6981",
+    "img": "https://solarmovie.id/all/img/series/affb374c3463a426/c874a45c954697df/little.jpg",
+    "genre": "Narcos",
+    "name": "Narcos: Mexico - Season 1 Episode 06: La Última Frontera",
+    "time": 3333.665645,
+    "baseUrl": "https://solarmovie.id/tv-series/narcos-mexico-season-1/qLrxnrcr/AEHBFk2M",
+    "timeLength": 3333.665645
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-4YqhGhCC/dfLo4hY5hWtPAhEIcMnrOs109OBL7WYTjkOHyZU00al8RA2we9qN5XDEtLh8_kp9PdSz8r8GG80pjY4TosAoL6XfZpzd6L0o1gKIp6YHrEBmREXzx7VGJdRBaCEPhenGvUXqUQ8go-rWCyZPYNnpyg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889580~exp=1543903980~acl=/*~hmac=808bfa67996da9fc659ec334a90802fdc0f7e3c9b821c12fd8c83f1f49143e56",
+    "img": "https://solarmovie.id/all/img/series/affb374c3463a426/c874a45c954697df/little.jpg",
+    "genre": "Narcos",
+    "name": "Narcos: Mexico - Season 1 Episode 07: Jefe de Jefes",
+    "time": 881.706083,
+    "baseUrl": "https://solarmovie.id/tv-series/narcos-mexico-season-1/qLrxnrcr/8tt50INy",
+    "timeLength": 3784.133
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-UDZEstzt/8zDQP3envT1cT9wADRdJfOwh4_CGKqg9VDh9ByeVezg3pQGfnn67knP0L975I0e3hrkzSratIvmoW4nTiflcNf7h-3miqV8fK8ya_2Ar6fJAIp2TWyq_2bjp2kwieBIm7hm8cdY-egKPYcTw3u9T3w/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889576~exp=1543903976~acl=/*~hmac=0ed9c21132a6df8acd7997081e0cf4c25fbf80e6a6b0a4f03a2ebac183ca6191",
+    "img": "https://solarmovie.id/all/img/series/affb374c3463a426/c874a45c954697df/little.jpg",
+    "genre": "Narcos",
+    "name": "Narcos: Mexico - Season 1 Episode 08: Just Say No",
+    "baseUrl": "https://solarmovie.id/tv-series/narcos-mexico-season-1/qLrxnrcr/JWSKssdp"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-naJC2aE4/jzMe-MB30LbeBEvwcZw0HVnAo0EsA3gOd-O2glOdlKteNToM_Q-clAFzoW4cZwNl8pIK4aF6HTrzonyMXGrMO8qKtBZzbMXDWJ4zE0IDE7tYPL-IyU027EAb-5hWKxHy60wjKBsWe7lxXTj0QoGb0g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889565~exp=1543903965~acl=/*~hmac=36cbd5ac778d069dff4f21f336daf5d35a08f1d415f2f9245f26f487f0b2272a",
+    "img": "https://solarmovie.id/all/img/series/affb374c3463a426/c874a45c954697df/little.jpg",
+    "genre": "Narcos",
+    "name": "Narcos: Mexico - Season 1 Episode 09: 881 Lope de Vega",
+    "baseUrl": "https://solarmovie.id/tv-series/narcos-mexico-season-1/qLrxnrcr/XljxJhEm"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-jizNgRkg/ySU_ZCBkjuBR8SBd9STfBIfUI7QLoGYaqfDYaYf-OnpkqQozDF8BmW2rk6VKPYSBRlqPIsmZPu_LWSak_IUdgXmkc5MCI3pEHF40fbc8w7qWAU-BwMxLEBYTwJZrzpFDGq5CR9Ymm-LIEzkZxx3JyQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889563~exp=1543903963~acl=/*~hmac=e0435b05ad2ba7df0e831f5ae183567a21234a433fa6da5662923fdc0583cb3d",
+    "img": "https://solarmovie.id/all/img/series/affb374c3463a426/c874a45c954697df/little.jpg",
+    "genre": "Narcos",
+    "name": "Narcos: Mexico - Season 1 Episode 10: Leyenda",
+    "baseUrl": "https://solarmovie.id/tv-series/narcos-mexico-season-1/qLrxnrcr/EZN7Xq7k"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-gq3hBm5O/jzzwa0cgWvGjD3f6yd6rtwy_85Oi-NNtrGkHOaVpR5NNC9-CwSIlgY5nuCGc1gikcA6suPjH94i5TJ0Ztrt3xmUpNfCZ8WZIXAYQIDfOJQMNbSvsnAA_cUeHQbb14YGHNI3Bwou1OyceVof9GJznBw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889931~exp=1543904331~acl=/*~hmac=e5f41c689bf461f39fa9f2b7849a57b9933b60c10096abc61fa251d6d61e24da",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 01: Santa, Schmanta",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/HmlOSOpL"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-5HE6Vpre/Mh6GOdhqVX1Ckx3cs0ePlC-ZUpoGbSWo5QRdWkBvm4-TLSoNdT2Def7pUOR37HJeV9zcQaVuNE0e3GyhqHY43tvXglyKY9_EwzIEjhnQZvxV-GhwqhSkuhcWq0-zaVchWClINcxbZjed9iDabRT6cw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889920~exp=1543904320~acl=/*~hmac=6aa8f841fb84cd536ecb515f21e419349d7582b2597af69ecd9f371faddb6b72",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 02: Paranoid Frandroid",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/zKhhxOjm"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-Nq1ZUSjy/k0y1Zg07_z0nCdUJXcf83DKAO2PihjWc-1EwCRvLLfDdFUjYJryq4nSgZ1UjZEftc9QtillWT1iSeU-MCGTAwly5euAN6PfckAyfxsLAlY4OCMh5TM5_IUVwbgpyk8qPJYywZbkgM_tjaQprPbRVjg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889917~exp=1543904317~acl=/*~hmac=3ab3976d4b521306fd38bcbe72e79ab728550837f5b318e0d10e1cf906471083",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 03: The Census of the Lambs",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/xvFIJMgm"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-SN5Re1Nz/hqiljAK7HnTSSjy-lBGSJQUT3d7g3qGmLhWRFEhR-ijRjjMHGZXq6vT5GltVpMs4hL8eyvNvdsGmLcgR7RmhWrwJXquKn1ZZUq9HrKs9L3UuPQJaEBZqfa-Ap72TFc9M-44SMQKCpZKUpMrc3E4bCg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889907~exp=1543904307~acl=/*~hmac=b3035693ada33e65e4a93a07094c12ad7b079803587260e638f78eab7ea38eb9",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 04: The Mural of the Story",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/SEnT9saz"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-6JyjJTM1/QklCPXr0D3TK16cDqx5u_8ZkOxRyjNGij0dRlY2Jf_r2PkDoWfwM_alrIpBp0WeHbyx4tj5yZERpWm0tp3AqiEXzRN0W9aiGnIWENoyjX-JS6Ng8OStBxQM5_2Yan9nS5A7XCx9IOgxtvxgkY4VGmQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889899~exp=1543904299~acl=/*~hmac=c285d971d808f2249dc003441e64be56e0008cf0bce50cf773ea64f78a260f8f",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 05: (You Gotta) Strike for Your Right",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/pPRlDZkZ"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-pRZuLSJe/D3nVjQRHxc5kO_F44YqlYFi-T_6YwKq35jpWYDddhAWU__PxR2DqL6OayKzzfUv1_Ifm9yA5e5kqVY2QchYhlGLP3ChMHNRWOmhqpywC9JZdFb1boVyV7fU4ksMhKZApmQOWbsm8pCJNBtkTYhuL9w/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889894~exp=1543904294~acl=/*~hmac=98a98c234c6a52d858fe90892e19407c1aeafa372617fca88a5ca943095483bc",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 06: Klaustastrophe.tv",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/w2gjFhwR"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-Y1yKNEWh/Vu3o0alFMUSjGhNJofj6i9ldWAjbaWUPFJCnr_XtEr9Op5ObUQrRXo795GCSsEuKS4I7JgFbzV-7r3KuDJLhFU574S3qdVT-J_PwX-i9bpPQECN3sPI7pYwqgwxNnaG3JJGdR4SWCGRWqEEGzHZFhw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889886~exp=1543904286~acl=/*~hmac=9cef1c0f82345eb63231863d3fecf0225b0469b7471072be5076600622f0ae4f",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 07: Death by Dinner Party",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/Tf7cAEhe"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-UEEKiN5Q/a85N4CgwUhCSJOXrWnJAhM5gHpNHlMI1IO0iAw5C-hIE1H047f-f8RiqS_w6YelqcAyISRJf8XuWiGM5-77bWaG3zybNJ9uAsHnh4cQZ3-3wMkBw7pS7l0_VT2dywX9XxH3mLEoMmrOnK3a8bBVmAA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889880~exp=1543904280~acl=/*~hmac=9f5446f76816cf3269a7d62c05cabc962ea0337ab37160f6b0850b1761ab8be5",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 08: The Never-Ending Stories",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/uC2MoClN"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-o6ALxuTI/zIdL9P-CfxekMr1myJ9LfIgToa9wmnFjR1N2a-zBlkc1rhu6icxehWaCcSjqPOfX5otwUDnaVphXgi5mZux1cLDsuTv420JRmY6YyOxwaUnNMngpQVF75__hlBbj8pDAti0IVIiSpoUXzOZV1PYWdQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889870~exp=1543904270~acl=/*~hmac=1cf2f5698adde3bbc7515baf79e27e8b973440e655011d561750dc721f666e7d",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 09: Railroaded",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/hW24YfzR"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-CagoZLDR/UhEivEmMCwdKl8aKkjLTFVnvV_3gy6HAE4Y035LIjSD2kXMhFM6M_8CbcACBAqNb1xSmVmplteF4fRh4myXNNzznAcw5Gm9tbNif0Kdj0Co8pgAe1PAWIPra6jIMjiS5oT8DfzydsKnd76yt9HUqBg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889866~exp=1543904266~acl=/*~hmac=10bf1d04346fe3fa7ef9f22182e2137d1f993db0ae40e9a183ef23f5afcae50d",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 10: My Purity Ball and Chain",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/pyA1O5dJ"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-7xZvU1sr/zXXBXFd8fSXVMmT-rEx2-JTmxOSSF3oS3Qa107lz3hd6TUn7wBmphZAnk5Bizro2RdWmi1XkJ8Rvl5zVyZcup1lG3yNCIznMs6xd6-yOFCxJYYafxN1NUC0K9US2jzgmwoEE3ES18-T3FNnPhjI6FA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889856~exp=1543904256~acl=/*~hmac=8b2fc02ccc352c64475cebdc08dc1a125053e1b7bdb25681a4ea14ffc6f30527",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 11: OreTron Trail",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/ziU5sDyt"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-JvX2BANC/v-O0M9vV-FWMwBdRDMa5Zd-0x2xMEGpwgNz6IcAbjd9Ud6lcGi6poNwLasLf2u4cioZWZNO7MdTjNgvJ1fLGAurBeWXueUymZ0vgUtZKD3X_Wm2b7rLdOXjh-pn5Snpb0PnktLIbTdwb1pQqfZiwPg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1543889854~exp=1543904254~acl=/*~hmac=a89ff4a43cf0cdc0fe90a9263f411e86dfa34acf5b782a34f1443d63c32dc4a4",
+    "img": "https://solarmovie.id/all/img/series/7c3bbe1244e6e940/7da9df9bf32a41e7/little.jpg",
+    "genre": "American Dad",
+    "name": "American Dad - Season 15 Episode 12: Mean Francine",
+    "baseUrl": "https://solarmovie.id/tv-series/american-dad-season-15/e5pPOq9B/y9Hnty49"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-L7OwV6PJ/o8SIF_6FFSRUk67MqdSRloJbweK6nb5XZuffqR1v3AP-wBJfLXqxO8yzTrliIlSmNHnmA-HeMX14SFpGWP7EMeq8mrwx8L9jBdEyGkPOKxtcnWSwwSUihOZ3iNcAeX3y/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047698~exp=1544062098~acl=/*~hmac=ceafb1a2e54c76addc1bfd0acdae90a5ff5c7fd898c86f35070f0dd8b4747cbe",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 1 : The Secret of the Dragon Ball",
+    "time": 1243.451767,
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/9c2W1D0t",
+    "timeLength": 1243.451767
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-jLZEHOqr/xlEhO7ciwIO7YAnQiPqsGRuzFW4UnMvhZuK6d-wdd08Lnr1f_GvCOg0eodkFg-VYZjPXoFVEux1VWqXInVI4ammJAAzbWFqcz_6n8BZT9MP1IHcRHMBwcstS_JXsoQzp/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047692~exp=1544062092~acl=/*~hmac=00b4ea680f10a6d130d8c1e50c31442529d293c187b8e67d4a4768c482ae1963",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 10 : The Dragon Balls are Stolen!",
+    "time": 27.298888,
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/ueHmvOjv",
+    "timeLength": 1242.964
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-P7QT1usa/UnVNjE3XlHAqK-tnNNR-eBCShg6R657BjYeqZoxdk_pzB5qOoa1nC7-rE8LhYC8FzF1OPnnZQaAWVCoVG9zF1EuMR_LMWNOmrX717gXHCKgVIu82A-swVhdAWk7-vNas/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047683~exp=1544062083~acl=/*~hmac=376863a452938e3858193eba3adb7d8aeededc79da50015872912270309e0277",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 11 : The Penalty is Pinball",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/t2hvDXBV"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-TNN7CMB8/q259DfL1ZL8TdjeNy7cR_r9EBwz4XhuWijZ5hVehkzsntxC62BKEuMY4chfORiFZzui0eM2sqNf7bPpilqDQ18EN3MlCRPwM3EBdw2KUVnzAVTDLxIx6jPkwTN1tgxf4/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047678~exp=1544062078~acl=/*~hmac=e16ac6e4420aa00494b926d1a0e6b1f6e7c578a22289e824d84e600fdf82f05d",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 12 : A Wish to the Eternal Dragon",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/i7oMUPxG"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-bhvRI0XJ/GnHd8kOwi0PPaqStw_XwDBf0v9VDeM7BGAKb7AyhI7Z9uAFjFk5zftHo53WcL_KpWQUJF9bH50higsFfhpMc9mo14Xylt1Yvas3yqSF2DibckHeACV0Y8sEXjU_z_OV6/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047670~exp=1544062070~acl=/*~hmac=7a5be04015dc18450019d47a89600ba569e43d465297ec8f57d98989c4e7698d",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 13 : The Legend of Goku",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/S4VJIzwW"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-bsvOEAjL/eVc30Pa-PB24nza9l6I-UEOmmhE_Zy27h4I0ik8SNBuwkqyAsZxaFxRS5tiXJyzW5UTWmoUDewdBf8EPr-jTrRJLbnNwqbzJ3QHaNP1IvSfFRaXTjlVkV2VFNLxid2xv/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047664~exp=1544062064~acl=/*~hmac=870c35e42647ae335bcc8994c40e5697c3c4e23ed46dbb1a0c9476e2a001e91c",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 14 : Goku's Rival",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/F2zw2qg6"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-WMRFjd2V/Rr1JvvANoA4CFjdgblZkKBoJQKcp1hVTjZDJnfxdOLAncLwK8SITbmzcrOBxYd0CWLwI-o6V73Y__NVnKC_0IBWN0tfioenBKwZjwonsf4fnxo-fEYirlmmLBnQSoL7K/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047656~exp=1544062056~acl=/*~hmac=c29622d2f64a25215ad3c6757bde53c040ad5ab7db0c93f640d385507e522f02",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 15 : Look Out for Launch",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/PHlW1ONW"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-Mf4fceAO/EoYtx-up5OGbWZzoON4XERX7aVjaT6qBp0hGLQZFnIey0vFoUjfzjEFoy_inwAZcH_P1Hvsl7qLXyFZeFqPJGTp4ciTetvrjpyTtCQSkNT_4CesXO5urHoshObJCaJXg/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047650~exp=1544062050~acl=/*~hmac=be5e61d8888e0ade8a5546299e832608f3404704c11769c200fbb60b254a392a",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 16 : Find That Stone!",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/Irz1091U"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-Cm6h4S5p/0bLmj4-k6Gdqe2azg-HbQDeXxMGxCu8BXrTpKBci2AXuFPLj0-d0aDJpU_Dx200Sz02q2mhSAJKUYQUZPJfaRrrKPVSjPkrC7IuzWSp12xfwdWBEiwB268LP75ycnqbj/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047642~exp=1544062042~acl=/*~hmac=d12cfd62165b43b02f8fe29db671ce053834491251ae15c4101455f1a1030007",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 17 : Milk DeliveryEpisode 17 : Milk Delivery",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/TxUhu1IC"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-nKU5xkY9/jxK42qGdgCxTe1hgvw0nTJ_7m7KDivezG7N__uCIDMWve_g8W8hIN3xIBiuE90kMpRT31PGqYRR1YWEziMCsmdVkhjqWsO7ZttGPJC8xy4L7gkHP341PPiryCRzzr94p/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047636~exp=1544062036~acl=/*~hmac=de125a4fe1f1ce054edbb29cf964eef45ee18383d2aa38f64b6d1d56d0600ecc",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 18 : The Turtle Hermit Way",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/S99Fh3AS"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-WQrFoWzL/9JxWltXTu9YQSCyNPRq-NwtA-PmUFq-PNL29C3zN0f_na4QdHYBQEhlkDpcHU0d3MkVrLBxgFCSF0vmDFeuATexuAu6zhzzr-fd7JvBsqGHMIy1BDRZxmaUiTUYKI-pq/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047628~exp=1544062028~acl=/*~hmac=b5314e96934eb28a084eb82727151c35029806e304c8fa8cbfbb441b3560b8b6",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 19 : The Tournament Begins",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/UZT2TkKF"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-AelKWACC/-5BvNVnHvT0HqW9QH1Mi0EB-LEiUyNiP00T_Tw3AoT-BFELfk9eQCS5lRvNCg8NkWpq-BVnpkwHRsggxKhWhi-t_4gTyw2mqJhtAcIdBllkPE9Z4oLD-0r7IS9JX_aQo/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047622~exp=1544062022~acl=/*~hmac=3eeb415df885dc3c6c4cdbfd1235a285d95fbd4a23f7936b4801252aa8ad8e41",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 2 : The Emperor's Quest",
+    "time": 1243.800067,
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/tulqUDiB",
+    "timeLength": 1243.800067
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-4kWi48Gp/8vHkIIjeB3e-9DhVtzxGi_xwpxwZT35OJb5dwOAGVIW_FoywShQ1NZf2fiZYxDvWwUEaTkg0X4IkXUAyKonwsIWVNrDAjIr5XAAKcfAUu07btNOdYlyQwKPn5ORA-M8D/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047615~exp=1544062015~acl=/*~hmac=e5b3f8b116d803746d034b3c1c6d757bddc1ea90ebe59367aa9e98c699aa0ec1",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 20 : Elimination Round",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/VsMjcKPg"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-TETGHEhc/Poe3wknOX0yNUZISmE1qU2ceRFvsvIj3jAPIi_CI6nySTUHIajPdUULpT_4NCyXV4P_ZcDsN0QN9H9qlDpVFINi11pOvry9QHUDJckmAxECkZ8NknHESrfjBkksGYVLg/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047609~exp=1544062009~acl=/*~hmac=bbe502f8d2c3b76e6de6133c94c924d226d6cf6980d30427cdd846b11f8e51dc",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 21 : Smells Like Trouble",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/X5qiWZKe"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-D95xogL3/Mb7MuO_avJbqqiGFDybw5q4CKyjuRP52x5zIT0iEGmWEiKH_JzpoAIFztehuDoOr2rZ0ayG4d5Hh96kNnlUKksyvD26xg3AXT34QTvDWmm7b0aMW5VTcfDCf4KLP-uTq/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047600~exp=1544062000~acl=/*~hmac=d270a3c2fd163680236133b100b666846c7703a45b2d23bb577062188821bdc8",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 22 : Yamcha vs. Jackie Chun",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/vqJWZ79r"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-j6JKvxjL/_oAl9OR_btuFaj9ZmxL_fHq849tj08k_qfTRmrTM7UT-4MIG-w8DghMziFy7CqUam2BVxRhdz8j6LR0IV6G-R_J4HnbD8Fiy-WPzW7sNTmfwmwGnfucfrJKtyo1_LGzp/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047594~exp=1544061994~acl=/*~hmac=cdb5adabc106f6cb123f547435af06711061004e5ca80ea270fb33c861e4cd30",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 23 : Monster Beast Giran",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/vHnse1Rv"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-LtH5rjSc/RfCkvylbecbVJ7bt7bwoiJt7P2R92clbkkx5QuNExYktrFqlhB_TeIWGRyLpJytvIxxoonyj6A_NSwLBAxe9DblilrUVJIvcE0zvcVCpMgzLcUGpM0cJguOWaKw8iGOh/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047586~exp=1544061986~acl=/*~hmac=eaa4c7a206aaeb8d9f1dab637c16991dfbb9f330c7e1789a40ab61977d455f1c",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 24 : Krillin's Frantic Attack!",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/zG74Wi45"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-hIqmDbXp/fvIIlxpPKcrsOcDeyt7ztNkPItwqPbD78GispQbSrLzAnwt3l3g21F8g-HbB5J5zB3rHPWNtHpDt7Vme1ZKtlH-cyCjIR_M1moO3O3IGk5v5CBXKWMVnpnYkzxGLgfxM/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047581~exp=1544061981~acl=/*~hmac=304201e57727b74abd1563bf9a1322f4194901ee92b47cf39c5e7236ee9e7784",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 25 : Danger from Above",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/BKegJHlC"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-WC58Zv3u/stCU4kbFqXrYzdbSUshbvjgaTFtYIz2_HjMRm5UdY5ML6VBQgnvZvN1OZeIvkN84f-CNwXJkAAWigKXcSmW05Zwkcas_FNbXLy1yBPblaI5M5o3xQu6eBJlp7DDd9dsz/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047571~exp=1544061971~acl=/*~hmac=536b4464173c0f9e36d5b363fa540b02b0f890eed05270a095ab9d186a448ad2",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 26 : The Grand Finals",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/hUl1AIxn"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-gTKsxNxB/m8okrwR9o6IUW_VcRrrC-TzLsSWBHuOKmyQ5rmpse8LytkJFj_TYw24-qUn0Pd2dcjOpee4vdPEocP2Fl0PZAJ6IhD_Qwx1o-pMh9WDpM-t0wZc8qwaRG3TYXjLt8klC/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047567~exp=1544061967~acl=/*~hmac=bd4ccb026aaa9cf727b9719474352740c4be9e81d2728eff5b16ac47beca42fa",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 27 : Number One Under the Moon",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/44YPy7gA"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-kR79w35f/So9_hEh9mDQrkHJcy8BfbXOJ3jzEuvKmpoTZCvQ65FdAtFqxY18Kk0GSEc8meg-dI9CmgZboz71jIi7MRMTHbGfeGURMQVzi9G9OS2yZXjk8Yif8xLOQeo9aVWu5tmXc/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047557~exp=1544061957~acl=/*~hmac=ba6e5cae79672241de92ab5f46e0fc8a1390637ea21d37cb96e5da153c29bb5f",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 28 : The Final Blow",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/x5BCWiY9"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-AgpA84iX/Sf8SANCeb0XoTlQu1EFJEcYXFDIvUyjg7irBQ6ZLnzFhKnyROAVw5kvp3Np5ypOc2VsvUvqHu-3OPYoJpe_VzzwFz13H9S9jIJT3Qjp9-2zclSfW06fLFOWQZLXh-3MA/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047553~exp=1544061953~acl=/*~hmac=817e98712f0adeaccf39ab6abc13c2106c56071003541c8dad022ef6285cf21c",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 3 : The Nimbus Cloud of Roshi",
+    "time": 1238.583295,
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/50IFxU7G"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-ZfmCnrtr/f50ssNV_yeIuUkTNXHuKjtzUa4VZ-FNDXQY7o2pJHNgMXi7_Yb3LVE1Qdzv1PE3Ko00Xf5zlmNRcXBzwOeGDD4QrYDrJ_UcI6-mGrRsNFstS1VJ8fDjtInJw6NI5HVGr/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047543~exp=1544061943~acl=/*~hmac=bbefaa08b1bc1c0bc9f4814a764134d198b6e390cabbc32c21739c135c79747e",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 4 : Oolong the Terrible",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/ywClFql9"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-IHnhan2m/Bocw3OGIemmdcyYLhabLiEffsIAZ_0iW0UOfnTVcPInaNXpYOjHSEAlnFu5uiFZjOIqJ8zW0PtQWq2dFSckklL-1An9Jyap0mk4B-6Ennn6OH7EIAGkVDui0BSr6lpTl/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047539~exp=1544061939~acl=/*~hmac=cea9e79a62b98a7a17854c31e0c3d85d55a702ce80898ef3daf250181bd55230",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 5 : Yamcha the Desert Bandit",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/9HfSSQov"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-ZroZuC5z/UoAO6BhgNAiLiRrVGyylneA-NXE78TbJ2ErFwjxnruILH5nVym0AT156mTxWu3mfKjoZbvNyeCAcNuKxidjo2X3ynGxOGzX6CTpfcpvolol0WGyqaQOjcP4Xl9gDL3yZ/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047530~exp=1544061930~acl=/*~hmac=948a45db6d70a750a157f7cd6c16a258748f9d4824b3ac67208a538d47291f95",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 6 : Keep an Eye on the Dragon Balls",
+    "time": 257.934696,
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/vjulgtD1",
+    "timeLength": 1243.963
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-MlJG84aS/jd-XGeDB4hl4U5Ta_h0-QHW5ltrher4RQxpI4_9by5UdJqBl0Sc9Ym7Rq0sHuM1OXmw_nX5HQI-kScPysM50MDakrqbowTczR-Kcsqq3jlp82r_4YF7fM-oO9dafRdq5/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047525~exp=1544061925~acl=/*~hmac=dfc0fb7cc15d6112259691182ceef9bd1bcc783016d8b247fe21ba19f03bec91",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 7 : The Ox-King on Fire Mountain",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/Wa0hO9Cf"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-FDcLrnrS/B2k4irfOUln2Nzk53onP5dF7JHF9TtRlEYlCtmz39ypzWNfEaL6yb2liSmhJopa4e7hvRNgN4SL2917KrjMPU3EOphE2HOBAQancoHUSGTUteWx5udkiuukGbLtty8iZ/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047513~exp=1544061913~acl=/*~hmac=2a070bb575a392ab7eb6afeffaa26a5027f1b9d9564c9bedde96abe044aa0814",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 8 : The Kamehameha Wave",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/H1vr6Ar2"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-nPmCBYq3/AbCMwKm1EY4PAN1nLY2njp5lKkrSeZdPoJl2dJ6T7_ecVru1T1X2XxYVDm8iGK6Q6PDiPLkFSY1xZNsFUJeFvyzKynd7c6yw3IxCtyy0Ywr41dt5Yj4xa2q6Z09K_5FT/index-v1-a1.m3u8?token=ip=72.218.90.151~st=1544047512~exp=1544061912~acl=/*~hmac=ac2ae312ebdcd3b28335417cbd5cfa661f016d5329b459356a04e6d316277c2a",
+    "img": "https://solarmovie.id/all/img/series/af248b0789461fbd/f784c6af9830d546/little.jpg",
+    "genre": "Dragon Ball",
+    "name": "Dragon Ball - Season 1 Episode 9 : Boss Rabbit's Magic Touch",
+    "baseUrl": "https://solarmovie.id/tv-series/dragon-ball-season-1/uxVofgj4/bd0TUffa"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-XdPvvWcK/_kg25TqDOiDRSyz2Sqpsk6XHmQPL7OnBFeJoXZerlwxLU9IFc8DtToxfPjrXZEHVHGB97_r_dkJBYc5yxdC3l3-pP5MtiNK_nCfGGLcKJ0iMi8RZerRf8CLFkmH4hnR2UcGPFDmAjnGCnWmym1kqjA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1544052781~exp=1544067181~acl=/*~hmac=2cf2672afe53bd0fa19cab2042484432b4c5120742941efe3b99ba19fb0c899b",
+    "img": "https://solarmovie.id/all/img/series/8ba7a8a795663b52/33a695bc10eb175c/little.jpg",
+    "genre": "Doctor who",
+    "name": "Doctor Who - Season 11 Episode 00: Twice Upon a Time",
+    "baseUrl": "https://solarmovie.id/tv-series/doctor-who-season-11/HkzY3FiP/IyUjB7YL"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-E3noEsgm/Zp7CKEWlWSM03hAIaPKo1ErPY4Cvq4r4gBo9-xHyQF_8FLXGNSVSEdQCF9HPqUsvsPspVKx2lmByL4bdmHUMJyUm07rsjIInN3SSMZLUsJ5UDUdp2CgNBAv-mecX_e5FFdd8QWM0KfQS6bVe10cgCg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1544052774~exp=1544067174~acl=/*~hmac=4f12bd456f2203417f2e94cc7e3334fba050dd128eb11ff511aac882e4d115b8",
+    "img": "https://solarmovie.id/all/img/series/8ba7a8a795663b52/33a695bc10eb175c/little.jpg",
+    "genre": "Doctor who",
+    "name": "Doctor Who - Season 11 Episode 01: The Woman Who Fell to Earth",
+    "baseUrl": "https://solarmovie.id/tv-series/doctor-who-season-11/HkzY3FiP/AMJoapQH"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-M6QXptNZ/LeohxJQh16Csx3beKkYiYuCpqsKbj8AvYYQ5OVy1OUcEEMCvQl7s_LYYYlW91abGkZ5mWWhSI9cekc_MiChX3W54F3Q0dPOzxznRr9ts2IK49ypheQqiP46ZwI3Fdo0kzK6i6ig97mUJaj7gSnQ8vQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1544052768~exp=1544067168~acl=/*~hmac=ae939a148d72bbede9a2405f92b6219025e28ba05046f674a54c9d28ed14052a",
+    "img": "https://solarmovie.id/all/img/series/8ba7a8a795663b52/33a695bc10eb175c/little.jpg",
+    "genre": "Doctor who",
+    "name": "Doctor Who - Season 11 Episode 02: The Ghost Monument",
+    "baseUrl": "https://solarmovie.id/tv-series/doctor-who-season-11/HkzY3FiP/I4gnlR12"
+  },
+  {
+    "mp4": "https://stream-1-1.loadshare.org/stream/VideoID-8scq9IAk/LmhoTISKE8Ly7Odqa7RJ0D-gAr_qPtalXP2nsduOH4Q_VfGhUF3QEoePJYwjGdjm7Y0v_c6kjl-F-eFudXOubKJ5x9MzROO2vWQXbkNCYAL-odQLPAt1zAZ5kHEgoi4WYjvWmJuJcKToay6m69-sZA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1544052762~exp=1544067162~acl=/*~hmac=ece5c71a1517251bc538a20782bdf3fe7bedca767a074e530772b2ca147ea091",
+    "img": "https://solarmovie.id/all/img/series/8ba7a8a795663b52/33a695bc10eb175c/little.jpg",
+    "genre": "Doctor who",
+    "name": "Doctor Who - Season 11 Episode 03: Rosa",
+    "baseUrl": "https://solarmovie.id/tv-series/doctor-who-season-11/HkzY3FiP/ahjDv6Kt"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-5u8eS1P7/Mv6JmqaedN5wfIXGJniKnwbVrrGt_hUI5Br-aGQIph3NSs7048fhhyjiSoX88kl2KiMhXh8tcI9y8vEw0An-kb43vYuQeb3LOBIxM5fSyD6xAxSI6R_YBzGGC32lL7YYAm71tVj4KfyJtDg8wYiTZg/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1544052753~exp=1544067153~acl=/*~hmac=1ac33933e4f8ec6990155a1a9e408b1b646b3186819f1aae8592f9c09d4d7e23",
+    "img": "https://solarmovie.id/all/img/series/8ba7a8a795663b52/33a695bc10eb175c/little.jpg",
+    "genre": "Doctor who",
+    "name": "Doctor Who - Season 11 Episode 04: Arachnids in the UK",
+    "baseUrl": "https://solarmovie.id/tv-series/doctor-who-season-11/HkzY3FiP/jBfhfdLy"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-1CHfCyKZ/uZLEVZioohCzKPaxWnAm5uLsYjLNdSzFrB6PZTyCySf4XY4cTF04Z6ymtzBDOQmGOr8nv32dKpNrH5XUGctVIYkke2tk1ABEw0dw8OjqYPGkuDjxY_oKRetGEVC06IlG7ADpMMLW-eBxFMMi6C3lnw/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1544052748~exp=1544067148~acl=/*~hmac=eb26e9ac557060c745fc49729aa78309cb5ddf2c7658146412c84c9aae9e353b",
+    "img": "https://solarmovie.id/all/img/series/8ba7a8a795663b52/33a695bc10eb175c/little.jpg",
+    "genre": "Doctor who",
+    "name": "Doctor Who - Season 11 Episode 05: The Tsuranga Conundrum",
+    "baseUrl": "https://solarmovie.id/tv-series/doctor-who-season-11/HkzY3FiP/H9riuEzQ"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-r8ATOTBJ/4xe60JfHFnZf5ZfAJp9ye1GI0i50NAEGKj6xYKcsHieNn88NS2Qm4Z_DRu3dezVYD9PvDf_usLIwOJ6Cm05Ag8kQU_WcWPBae5rqkqFZoqq-jYLklO8zyODaI9W1ULXB1JcNyYPdsQ3bPNlnHTob9g/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1544052739~exp=1544067139~acl=/*~hmac=49ead7cad00ac84e232a3d383a878afaa1a586b61d0740cff37ea61d91265b39",
+    "img": "https://solarmovie.id/all/img/series/8ba7a8a795663b52/33a695bc10eb175c/little.jpg",
+    "genre": "Doctor who",
+    "name": "Doctor Who - Season 11 Episode 06: Demons of the Punjab",
+    "baseUrl": "https://solarmovie.id/tv-series/doctor-who-season-11/HkzY3FiP/KtcseR69"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-PgXjbvtk/hT0b2D7qDpOiti8y4HV9vvlSF-4qBL0APudAx3DDSuQaVOI3j5yf9vknKvmY9xYu6eZAt2UnB-1yHzlRjGsy_9nZK5kOcxrirxEc3VZLw4xg53fjr3vo-oICc1MUe9BR_NDisH6nqXSGDcI584rpyQ/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1544052734~exp=1544067134~acl=/*~hmac=237ff55f489551ff16218761c73c9eeb29025ecffcc080ee1dc34f5c294e8e40",
+    "img": "https://solarmovie.id/all/img/series/8ba7a8a795663b52/33a695bc10eb175c/little.jpg",
+    "genre": "Doctor who",
+    "name": "Doctor Who - Season 11 Episode 07: Kerblam!",
+    "baseUrl": "https://solarmovie.id/tv-series/doctor-who-season-11/HkzY3FiP/AJB3uStP"
+  },
+  {
+    "mp4": "https://stream-3-1.loadshare.org/stream/VideoID-SLIygrHv/Q8O-X6yNurFMqgRBKEEsaBfVmsV5ECo3vsDRIZaH-VtD8VClBDAK6gptnSgvAd-0OjrMG9dq684tMZrLsEk13otD0qPSFt3aqDmqH-Nyy_zVjF9yVseW0fmdZ6F07Jw99M9pgRCvNosmqaM3TYY0gA/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1544052723~exp=1544067123~acl=/*~hmac=4602756fd5747898a2bca0f465d84dc22d664865332e59afcb2a5c1c3a2ee2cd",
+    "img": "https://solarmovie.id/all/img/series/8ba7a8a795663b52/33a695bc10eb175c/little.jpg",
+    "genre": "Doctor who",
+    "name": "Doctor Who - Season 11 Episode 08: The Witchfinders",
+    "baseUrl": "https://solarmovie.id/tv-series/doctor-who-season-11/HkzY3FiP/LHp2L7nf"
+  },
+  {
+    "mp4": "https://stream-2-1.loadshare.org/stream/VideoID-bCZYJ3zw/g6VIb06Fxj25F8FjBZQfSdB0_WrtuY8FthNfvdvARhE8-3FLEXjFtKt20OadfACxAAwTcCDic3DImAzeESa46X7N3xADXfw6Dj4FyymvMrAD1PcP3uVovFdE5lWQ57fHK4XEX13HBF95oxS03lx7ug/index-f1-v1-a1.m3u8?token=ip=72.218.90.151~st=1544052721~exp=1544067121~acl=/*~hmac=0fe74b76b6e4717ce6e89bea34c6979cfde99aaa23dc2816445214a780c0e9b2",
+    "img": "https://solarmovie.id/all/img/series/8ba7a8a795663b52/33a695bc10eb175c/little.jpg",
+    "genre": "Doctor who",
+    "name": "Doctor Who - Season 11 Episode 09: It Takes You Away",
+    "time": 881.786519,
+    "baseUrl": "https://solarmovie.id/tv-series/doctor-who-season-11/HkzY3FiP/ZRYrdsKi"
   }
 ]}

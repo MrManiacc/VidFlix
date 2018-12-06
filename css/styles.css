@@ -793,3 +793,13 @@ input#set-genre-text:focus::-webkit-input-placeholder {
     background-color: var(--color-1);
 }
 
+.time{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Jura', sans-serif;
+    top: 30px;
+    color: white;
+    right: 0;
+    background-color: var(--color-1);
+
+}

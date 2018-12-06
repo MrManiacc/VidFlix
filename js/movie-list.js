@@ -541,6 +541,10 @@ io.on('connection', function(socket){
 });
 
 
+function addTimes(){
+
+}
+
 
 
 function stopJava(){
@@ -701,7 +705,7 @@ function parseMovies(){
             $.each(obj.movies, function(index, element) {
                 var baseDir = element.baseUrl;
                 console.log(element.baseUrl);
-                addMovie(element.genre, element.name, element.img, element.mp4, element.baseUrl);
+                addMovie(element.genre, element.name, element.img, element.mp4, element.baseUrl, element.time, element.timeLength);
             });
             return obj;
     });
@@ -820,7 +824,8 @@ function setGenre(name, genre){
                     "genre": genre,
                     "name": element.name,
                     "time": element.time,
-                    "baseUrl": element.baseUrl
+                    "baseUrl": element.baseUrl,
+                    "timeLength": element.timeLength
                 };
             }else{
                 movies.push(element);
@@ -876,14 +881,14 @@ function deleteVideo(vidName) {
 
 
 
-function addMovie(genre, name, img, mp4, baseUrl){
+function addMovie(genre, name, img, mp4, baseUrl, time, length){
     var added = false;
     $('.genre').each(function(i, obj) {
         var genreName = $(obj).data("genre");
         if(genre === genreName){
             var selectedGenre = $(obj);
             console.log(baseUrl);
-            selectedGenre.append(getMovieObject(name, img, mp4, baseUrl));
+            selectedGenre.append(getMovieObject(name, img, mp4, baseUrl, time, length));
             added = true;
         }
     });
@@ -891,7 +896,7 @@ function addMovie(genre, name, img, mp4, baseUrl){
 
     if(!added){
         addGenre(genre);
-        addMovie(genre, name, img, mp4, baseUrl);
+        addMovie(genre, name, img, mp4, baseUrl, time, length);
     }
 }
 
@@ -909,10 +914,30 @@ function getGenreObject(name){
 
 
 
-function getMovieObject(name, img, mp4, baseUrl){
-    return '<div class="video-item" data-mp4="' + mp4 + '" + data-name="' + name + '" + data-baseUrl="' + baseUrl + '">' +
-        '<img class="video-img" src="' + img + '">' +
-        '<h2 class="video-name">' + name + '</h2>' +
-        '<div class="menu-bar"><button class="genre-btn">genre</button><button class="del-btn">delete</button></div>' +
-        '</div>';
+function getMovieObject(name, img, mp4, baseUrl, time, timeLength){
+
+    if(time ===  undefined || timeLength === undefined || time === "undefined" || timeLength === "undefined"){
+        return '<div class="video-item" data-mp4="' + mp4 + '" + data-name="' + name + '" + data-baseUrl="' + baseUrl + '">' +
+            '<img class="video-img" src="' + img + '">' +
+            '<h2 class="video-name">' + name + '</h2>' +
+            '<div class="menu-bar"><button class="genre-btn">genre</button><button class="del-btn">delete</button></div>' +
+            '</div>';
+    }else{
+        var date = new Date(null);
+        date.setSeconds(time); // specify value for SECONDS here
+        var result = date.toISOString().substr(11, 8);
+        var date2 = new Date(null);
+        date2.setSeconds(timeLength); // specify value for SECONDS here
+        var result2 = date2.toISOString().substr(11, 8);
+
+
+
+
+        return '<div class="video-item" data-mp4="' + mp4 + '" + data-name="' + name + '" + data-baseUrl="' + baseUrl + '">' +
+            '<img class="video-img" src="' + img + '">' +
+            '<h2 class="video-name">' + name + '</h2>' +
+            '<div class="menu-bar"><h1 class="time">' + result + '/' + result2 + '</h1><button class="genre-btn">genre</button><button class="del-btn">delete</button></div>' +
+            '</div>';
+    }
+
 }

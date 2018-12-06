@@ -384,6 +384,8 @@ function writeTime(name, time){
             return console.error(err);
         }
         ;
+        var myPlayer = videojs('video-player');
+        var length = myPlayer.duration();
         var file = JSON.parse(data.toString());
         var movies = [];
         var contains = false;
@@ -395,7 +397,8 @@ function writeTime(name, time){
                     "genre": element.genre,
                     "name": element.name,
                     "time": time,
-                    "baseUrl": element.baseUrl
+                    "baseUrl": element.baseUrl,
+                    "timeLength": length
                 };
                 movies.push(realvideo);
             }else{
@@ -435,7 +438,8 @@ function writeMp4(name){
                     "genre": element.genre,
                     "name": element.name,
                     "time": element.time,
-                    "baseUrl": element.baseUrl
+                    "baseUrl": element.baseUrl,
+                    "timeLength": element.timeLength
                 };
                 currertTime = element.time;
 
